@@ -14,90 +14,86 @@
 
     <!-- Include chapters -->
     <xi:include href="./ch-chapter-title.ptx" />
+    
+      <chapter xml:id="ch-intro">
+        <title>Introduction: What is this for?</title>
+        <p>
+          The goal for this textbook is that it be different.
+          Though many familiar topics will be explored, the person thinking along with this book
+          will, with luck and commitment, work their way towards a different view of the world
+          as it now exists. Ideally, the person thinking along with this book will find themselves
+          committed to radical restructuring of the existing world order, which, in the opinion of this
+          book<rsq/>s author, is monstrously wasteful of human potential, ecocidal towards human and
+          nonhuman life, disruptive of unique and fascinating natural processes, stiflingly unfree and 
+          cramped in its practices and beliefs.        
+          Mathematics and its associated fields (statistics, data science, computer science,
+          and so on) are often used to describe or predict the world. This is no longer enough. 
+          The point is to change the world. The hope, and the wager, is that an approach to 
+          some basic and fundamental mathematical ideas can equip and energize the reader, that is, you, 
+          for that beautiful, important, and ennobling task.
+        </p>
+        <axiom xml:id="axiom-recognition-with-math">
+          <statement>
+            <p>
+              Quantitative reasoning, often called mathematics, is a 
+              millennia-spanning human project across radically different
+              cultures aimed at describing, predicting, and changing the
+              world.
+            </p>
+          </statement>
+        </axiom>
 
-
-
-      <chapter xml:id="ch-intro">
-        <title>Introduction: What is this for?</title>
-        <p>
-          The goal for this textbook is that it be different.
-          Though many familiar topics will be explored, the person thinking along with this book
-          will, with luck and commitment, work their way towards a different view of the world
-          as it now exists. Ideally, the person thinking along with this book will find themselves
-          committed to radical restructuring of the existing world order, which, in the opinion of this
-          book<rsq/>s author, is monstrously wasteful of human potential, ecocidal towards human and
-          nonhuman life, disruptive of unique and fascinating natural processes, stiflingly unfree and
-          cramped in its practices and beliefs.       
-          Mathematics and its associated fields (statistics, data science, computer science,
-          and so on) are often used to describe or predict the world. This is no longer enough.
-          The point is to change the world. The hope, and the wager, is that an approach to
-          some basic and fundamental mathematical ideas can equip and energize the reader, that is, you,
-          for that beautiful, important, and ennobling task.
-        </p>
-        <axiom xml:id="axiom-recognition-with-math">
-          <statement>
-            <p>
-              Quantitative reasoning, often called mathematics, is a
-              millennia-spanning human project across radically different
-              cultures aimed at describing, predicting, and changing the
-              world.
-            </p>
-          </statement>
-        </axiom>
- 
-        <p>
-          The French thinker Jacques Ranciere wrote a fascinating book,
-          <pubtitle>The Ignorant Schoolmaster</pubtitle> about the
-          French educator Joseph Jacotot. To radically oversimplify the point:
-          Jacotot believed that all humans are equally intelligent and that
-          explanation and lecture could often serve the purpose of
-          <q>stultifying</q>. That is, there is real cost in striving to skip
-          past the struggle to understand by way of an explanation from a
-          so-called authority in the subject. A powerful and challenging thought!
-          Though this author will not now cease writing, and thus will be in
-          some violation of Jacotot<rsq/>s ideas (or at least Ranciere<rsq/>s
-          rendering of Jacotot<rsq/>s ideas). Still:
-        <axiom xml:id="axiom-learning">
-          <statement>
-            <p>
-              The learner must do the learning.
-            </p>
-          </statement>
-        </axiom>
-        <axiom xml:id="axiom-teacher">
-          <statement>
-            <p>
-              The only teacher is the learner.
-            </p>
-          </statement>
-        </axiom>       
-        <axiom xml:id="axiom-teacher-other-learners">
-          <statement>
-            <p>
-              The learner-who-is-also-the-teacher will often benefit by
-              learning with other learners.
-            </p>
-          </statement>
-        </axiom>       
-        <axiom xml:id="axiom-intuition-supplement">
-          <statement>
-            <p>
-              Mathematical thinking is a powerful supplement to human intuition.
-            </p>
-          </statement>
-        </axiom>       
-        <axiom xml:id="axiom-intuitive-math">
-          <statement>
-            <p>
-              Wherever possible, mathematical ideas should be grounded in human
-              intuition.
-            </p>
-          </statement>
-        </axiom>
-        </p>
-      </chapter>
-
-
+        <p>
+          The French thinker Jacques Ranciere wrote a fascinating book,
+          <pubtitle>The Ignorant Schoolmaster</pubtitle> about the
+          French educator Joseph Jacotot. To radically oversimplify the point:
+          Jacotot believed that all humans are equally intelligent and that
+          explanation and lecture could often serve the purpose of 
+          <q>stultifying</q>. That is, there is real cost in striving to skip
+          past the struggle to understand by way of an explanation from a
+          so-called authority in the subject. A powerful and challenging thought!
+          Though this author will not now cease writing, and thus will be in 
+          some violation of Jacotot<rsq/>s ideas (or at least Ranciere<rsp/>s
+          rendering of Jacotot<rsq/>s ideas). Still:
+        <axiom xml:id="axiom-learning">
+          <statement>
+            <p>
+              The learner must do the learning.
+            </p>
+          </statement>
+        </axiom>
+        <axiom xml:id="axiom-teacher">
+          <statement>
+            <p>
+              The only teacher is the learner.
+            </p>
+          </statement>
+        </axiom>        
+        <axiom xml:id="axiom-teacher-other-learners">
+          <statement>
+            <p>
+              The learner-who-is-also-the-teacher will often benefit by 
+              learning with other learners.
+            </p>
+          </statement>
+        </axiom>        
+        <axiom xml:id="axiom-intuition-supplement">
+          <statement>
+            <p>
+              Mathematical thinking is a powerful supplement to human intuition.
+            </p>
+          </statement>
+        </axiom>        
+        <axiom xml:id="axiom-intuitive-math">
+          <statement>
+            <p>
+              Wherever possible, mathematical ideas should be grounded in human 
+              intuition.
+            </p>
+          </statement>
+        </axiom>
+        </p>
+      </chapter>      
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
