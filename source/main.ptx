@@ -95,6 +95,260 @@
         </p>
       </chapter>      
 
+
+      <chapter xml:id="ch-percent-proportion">
+        <title>Percentages and Proportionality</title>
+        <introduction>
+          <p>
+            We will open with a consideration of fractions, proportions, and percentages.
+            These ideas are deeply interrelated and, what is more, incredibly tied
+            to a lot of intuitive ideas about fairness.
+          </p>
+        </introduction>
+        <section xml:id="sec-proportion">
+          <title>Proportion</title>
+          
+            <p>
+              We begin with a very simple sort of idea, one that you have probably seen before. 
+              It is the idea of proportion or fraction. In what we might optimistically
+              interpret as a hopeful sign, this concept is often introduced using the idea 
+              of fair division of resources. If there are four bottles of water and four
+              thirsty people, then we might easily decide that each thirsty person should
+              get one bottle of water. That is, we divide the four bottles four ways, which 
+              allows one bottle in each group. We indicate this by 
+              <me>
+                4 \div 4 = 1  
+              </me>
+              or
+              <me>
+                \dfrac{4}{4} = 1
+              </me>.
+              If we have eight bottles of water and four thirsty people, then:
+              <me>
+                \dfrac{8}{4}=2
+              </me>
+              and we conclude that we can give each person two bottles of water.
+            </p>
+            <p>
+              Note that this rests on an assumption that each person has equal need 
+              for water. This assumption is extremely time- and situation-dependent.
+              If one of the people has just been rescued from the desert or one of 
+              the people is a child, we may need to adjust our use of mathematics.
+              This may seem very obvious, yet many of our analyses of real-life 
+              situations will show how often this assumption is ignored or abused, 
+              usually when it favors the rich and/or powerful.
+            </p>
+            <p>
+              This idea is easily extended beyond whole numbers into fractions, 
+              though it is possible you have not thought about this aspect of fractions
+              for some time. (Much of this text will be seeking to render visible 
+              the assumptions and initial intuitive notions that may have been 
+              introduced to you so long ago that you have forgotten why they are 
+              intuitive.) But if we have six cookies and 12 children (all of whom 
+              can safely eat all the ingredients in the cookies) we can, once more,
+              use division to determine how many cookies each child may have. It 
+              should be evident that there aren't enough cookies even for each 
+              child to have a whole one to themselves.
+              <me>
+                \dfrac{6}{12}=0.5
+              </me>
+              This tells us that each child can have 0.5 of a cookie, which we tend to 
+              call half a cookie, or <m>\dfrac{1}{2}</m> a cookie. You probably 
+              understand the concept of <q>half</q>.
+              But what if two of the children suddenly announce that they do not like
+              this sort of cookie and would prefer not to have any. Now we have ten children
+              and six cookies, which yields the situation:
+              <me>
+                \dfrac{6}{10}=0.6
+              </me>
+              This tells us that each child gets 0.6 of a cookie. What does this mean?
+              We know it is less than a cookie and more than half a cookie. But how
+              do we say anything more carefully and more explicit than this?
+            </p>
+            <p>
+              If you found yourself saying, <q>That means 60% of a cookie,</q> then 
+              congratulations. You just introduced us to the topic of the next section.
+            </p>
+            <p>
+              Before we move on, we can recognize here the first instance of
+              an important pattern. Many mathematical learners find themselves 
+              impatient with memorization and formulas. This is quite understandable,
+              especially when these have been used in place of building intuition 
+              about why something works, why something does what we claim that it 
+              does. This reflects our commitment to <xref ref="axiom-intuitive-math"/>. 
+              In this case, the pattern to notice is that the number in the numerator
+              (the top of the fraction) represents the number of objects we are 
+              intending to share, while the denominator is the number of people we are 
+              intending to share the objects amongst.
+              <men>
+                \dfrac{\text{# of objects to distribute}}
+                {\text{# of objects that will receive what we distribute}}
+              </men>
+              We will, many times, find ourselves creating a template like this forming
+              a simple fraction which will, nevertheless, provide us with powerful tools
+              for supplementing our human intutiion.
+            </p>
+            <p>
+              In fact, we have a technical name for the description of a 
+              process that allows us to compute
+              or understand some situation: <term>algorithm</term>. This name is one of
+              many that derive from Arabic or Islamic sources, a creative and
+              vibrant piece of mathematical
+              history that was ignored or de-emphasized by
+              so-called <q>Western</q> historians and mathematicians
+              for far too long. You can find out
+              more in Berggren's
+              <pubtitle>
+                Episodes in the Mathematics of Medieval Islam
+              </pubtitle>. 
+              The word <q>algorithm</q> itself comes from the
+              name of the Islamic mathematician Al-Khwarizmi, about whom you can read
+              from the venerable St Andrews site on the history of math.
+              <algorithm xml:id="alg-proportional-distribution">
+                <statement>
+                  <p>
+                    Suppose we have <m>m</m> objects to distribute to <m>n</m> recipients.
+                  </p>
+                </statement>
+                <statement>
+                  <p>
+                    Divide each of the <m>m</m> objects into <m>n</m> equal pieces.
+                  </p>
+                </statement>
+              </algorithm>
+            </p>
+          
+
+            <exercises xml:id="exercises-proportions">
+              <exercise>
+                
+              </exercise>
+              
+              <exercise>
+                
+              </exercise>
+              
+              <exercise>
+                
+              </exercise>
+              
+              <exercise>
+                
+              </exercise>
+            </exercises>
+        </section>
+
+        <section xml:id="sec-percent">
+          <title>Percent</title>
+            <p>
+              Once we have the idea of a fraction, there is a benefit to introducing
+              a sort of general format for a fraction. This is what a percent is. 
+              It is even right there in the name, <em>percent</em>, from Latin. 
+              The English language is filled with all sorts of fragments from other
+              languages. Think of how you have heard <q>per</q> used. 60 miles per hour.
+              45,000 dollars per year. 2000 calories per day. One dollar per taco.
+              In each case, we are being
+              informed of a certain amount of things for each of another object.
+              So what does <q>cent</q> stand for then? If you think of the word 
+              century, which is 100 years, maybe you will realize it stands for 100.
+              So if we say <q>60 percent</q> we are really saying, <q>60 for each
+              100</q>. So if we say, <q>60 percent of those children over there
+              would like to eat
+              some candy,</q> what we are actually expressing is that <q>if there 
+              were 100 children like those children over there, then 60 of them
+              would like to eat some candy.</q>
+            </p>
+            <p>
+              Do you see how this is a sort of standardized form of a fraction?
+              We could say <m>\dfrac{1}{4}</m> or a quarter, but if we want a percent?
+              We would say <q>25 percent.</q> Note also that we have a familiar
+              notation for percent, which looks like this: %. So we could also just
+              write: 25%. 
+            </p>
+            <subsection xml:id="subsec-general-fact">
+              <title>A Useful General Fact about Percents and Proportions</title>
+              <p>
+                None of this would probably be worth learning, if not for what follows.
+                Let us think about the situation with 12 children and six cookies.
+                What if one of those children goes home and realizes that they would
+                like to share their portion of a cookie, which we can recall was
+                half a cookie, with their two other siblings. But then how much cookie
+                does each sibling receive, if we assume that all three of them get
+                the same amount? We are now dividing half the cookie into three equal
+                pieces. If we think from the start of the process we can see:
+                <me>
+                  \dfrac{\left(\dfrac{6}{12}\right)}{3}=\dfrac{1}{6} \approx 0.167.
+                </me>
+                Note that this means we could say that each child gets approximately
+                16.7% of a cookie. Or one-sixth of a cookie. Perhaps you recall that the 
+                process above can also be accomplished by multiplication:
+                <me>
+                  \left(\dfrac{6}{12}\right)\times\left(\dfrac{1}{3}\right)
+                  =\dfrac{6}{36}=\dfrac{1}{6}\approx 0.167=16.7\%
+                </me>
+                We can think of this as first dividing the six cookies into 12 pieces,
+                then dividing one of those smaller pieces into three equal pieces.
+                This process is carried out by successive applications of taking some
+                percentage.
+              </p>
+              <p>
+                But let us emphasize this point: We may learn what percent of a cookie
+                we are left with if we start with 50% of a cookie and then take 33% of it
+                by multiplying the two decimal forms of these percents:
+                <me>
+                  (0.50)\times(0.3\overline{3})=0.16\overline{6}
+                </me>
+                Note that we should always be careful when moving from fractions to 
+                decimal approximations of numbers or percentages. (This is a nice
+                example of how moving between modes of implementation can sometimes
+                mislead us.)
+              </p>
+            
+            </subsection>
+
+            <exercises xml:id="exercises-percent">
+              <exercise>
+                <p>
+                  Zendaya has 30 cookies to give away. There are 10 children who are
+                  interested in eating cookies.
+                  If Zendaya wants to distribute the cookies equally, how much cookie
+                  does each child get? (Alternatively, what percent
+                  of a cookie does each child get? Why would using percent be
+                  somewhat strange here (though not wrong)?)
+                </p>
+              </exercise>
+              
+              <exercise>
+                <p>
+                  Yarvin has 10 cookies to give away. There are 30 children who are
+                  interested in eating cookies.
+                  If Yarvin wants to distribute the cookies equally, how much cookie
+                  does each child get?
+                </p>
+              </exercise>
+              
+              <exercise>
+                <p>
+                  Xerxes has 20 cookies to give away. There are 10 children who are
+                  interested in eating cookies.
+                  Xerxes distributes the cookies equally. Then Wendy, one of the children
+                  takes her amount of cookie home and shares the cookie substance
+                  equally among herself and her three 
+                  younger siblings. Vera, the youngest sibling of Wendy, 
+                  wants to share her amount of cookie with her 
+                  pet turtle (who can safely eat the cookie ingredients).
+                  How much cookie does the turtle get to eat?
+                </p>
+              </exercise>
+              
+              <exercise>
+                
+              </exercise>
+            </exercises>
+        </section>
+      </chapter>
+
+
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
 
