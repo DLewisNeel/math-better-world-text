@@ -345,6 +345,157 @@
         </section>
       </chapter>
 
+      <chapter xml:id="ch-democracy-representation">
+        <title>Democracy and Representation</title>
+          <introduction>
+            <p>
+              Regardless of how deeply unjust and violent the current state 
+              of the USA might be, and has arguably
+              always been, at its founding it was based in certain principles, 
+              including which was an idea about
+              proportionality in decision making. In particular, an idea that 
+              if states were to be represented in a legislative body, then
+              those states should (sometimes) have that representation
+              scaled by the population of that state. From the start, this 
+              was a contested idea for many reasons, both because there 
+              was no agreement on who counted as part of population and 
+              related questions of how to handle the enslaved population. 
+              If enslaved persons were counted as part of the population
+              even though they had no practical voice in decision-making, then
+              those who enslaved them would be granted extra power within
+              the decision-making bodies of the young nation. 
+            </p>
+            <p>
+              The idea of a representative legislative body itself offers a 
+              good lens on the idea of democracy itself. If we have a state with
+              100,000 people, we could make decisions by allowing each person to
+              vote directly on every decision. You can see that this might be
+              rather unwieldy in practice, but there would be, in a sense,
+              no distortion at all. Every person is directly represented in
+              the decision-making process; each person represents themself. 
+              At the other extreme, we could select (by vote or by lottery) 
+              one person to make the decisions for all 100,000 people. This
+              allows the one person to swiftly make decisions, but we might 
+              be disturbed that this person is now a dictator, at least until
+              a new person is selected. So all representative bodies in between 
+              are aimed at greater efficiency than everyone voting directly and
+              more nuance and less total control than the one-person-in-charge
+              version. But how do we do this in a fair and reasonable way?
+            </p>
+            <p>
+              You can find official 
+              descriptions of the four methods at the US 
+              Census Bureau. 
+            </p>
+            <p>
+              Suppose you have four states<mdash/>Mardi, Omoo, Pierre, 
+              Redburn<mdash/>who wish to form a representative 
+              legislative body with the number of representatives proportional
+              to the states' populations. The populations are 30,000 in Mardi,
+              40,000 in Omoo, 
+              50,000 in Pierre, 
+              and 70,000 in Redburn. The legislative body is to have 101
+              representatives. (Perhaps the odd number was chosen 
+              to avoid ties.) How would
+              you suggest that this country go about doing this?
+            </p>
+            <p>
+              A reasonable way to start is to consider proportions. Keep in mind
+              the ways we have attempted to think about fairness previously. 
+              What would it mean to match proportions in this case? We 
+              need to recognize what proportion of population each state has.
+              For that we also need total population and then we can use the 
+              pattern or template we noted above.     
+            </p>
+            <p>
+              <em>First idea: representatives are cookies to distribute to 
+                population.</em>
+              Let us put it another way: we want to distribute 101 cookies to 190,000
+              people. In this view, we are trying to understand how much of a
+              representative does each person get representing them in the
+              legislative body? 
+              <question>
+                <p>
+                  If we find this number, what would be the
+                  next logical step for finding how many representatives each
+                  state should have in the legislature?
+                </p>
+              </question>
+              <answer>
+                <p>
+                  If we have determined how much of a <q>cookie</q> each person
+                  gets, then we can just see how many people are in a state and
+                  add up all the (parts of) cookies that should be in that state.
+                  That is, if we have determined how much of a <q>representative</q> 
+                  each person is represented by,
+                  then we can just see how many people are in a state and
+                  add up all the (parts of) a representative that should be
+                  in the legislature from that state.
+                </p>
+              </answer>
+            </p>
+            <p>
+              <em>Second idea: people are cookies to distribute to 
+                representatives.</em>
+              Let us put it another way: we want to distribute 190,000 people to
+              101 representatives. In this view, we are trying to understand how
+              many people should each representative represent. 
+              Question: if we find this number, what would be the
+              next logical step for finding how many representatives each
+              state should have in the legislature?
+            </p>
+          </introduction>
+          <section xml:id="sec-hamilton-jefferson">
+            <title>The Hamilton and Jefferson Methods of Apportionment</title>
+            <p>
+              
+            </p>
+            <exercises xml:id="exercises-hamilton-jefferson">
+              <exercise>
+                
+              </exercise>
+              
+              <exercise>
+                
+              </exercise>
+              
+              <exercise>
+                
+              </exercise>
+              
+              <exercise>
+                
+              </exercise>
+            </exercises>
+          </section>
+
+          <section xml:id="sec-webster-huntington">
+            <title>The Webster and Huntington-Hill Methods of Apportionment</title>
+            <p>
+              
+            </p>
+            <exercises xml:id="exercises-webster-huntington">
+              <exercise>
+                
+              </exercise>
+              
+              <exercise>
+                
+              </exercise>
+              
+              <exercise>
+                
+              </exercise>
+              
+              <exercise>
+                
+              </exercise>
+            </exercises>
+          </section>
+      </chapter>
+
+
+
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
