@@ -494,6 +494,63 @@
           </section>
       </chapter>
 
+      <chapter xml:id="ch-weighted-voting">
+        <title>Power in Weighted Voting Systems</title>
+        <p>
+          All of the effort put into the systems described in the previous chapter were premised upon an
+          intuitive idea: that if a state has, for example, twice the representatives, then it will have
+          twice the power in the House of Representatives. But remember: one of the overarching themes of
+          this book is that we want to be able to use mathematics and its related fields to investigate 
+          whether our intuitive ideas about how things work are, in fact, accurate. We have already seen
+          some examples of how this can happen. But the belief related to this idea of power is quite
+          surprising and can be motivated with a relatively simple example.
+        </p>
+        <example>
+          <title>Intuition Misleading Us?</title>
+          <p>
+            Suppose there were three states in the nation with populations such that, in the 100-member House
+            of Representatives, one state had 49 representatives, one state had 47 representatives, and a third
+            state had four representatives. 
+            Let us further assume that these numbers of representatives are
+            proportional to population. 
+            (For example, this would be exactly true if the populations were 49,000, 
+            47,000, and 4000, respectively.) 
+            So according to the intuition we have
+            been basing our work on up until now, this system has been constructed 
+            in a way that is fair. It has explicitly and exactly matched the proportion of 
+            numbers of representatives to the proportion of the number of people in the
+            population for each state. (If you look back at examples and exercises from 
+            <xref ref="ch-democracy-representation"/> you will notice that in practice
+            it will almost never happen that these proportions match so exactly. We have, 
+            in a sense, imagined what seems to be a rather ideal situation for fairness
+            in the proportional representation of these states in this legislative body.)
+          </p>
+          <p>
+            Before we proceed further, if you were to guess how powerful each state was
+            in the legislature, what would you say? Is the state with 49,000 people twice
+            as powerful as the state with 4000 people? Five times as powerful? (Note: you
+            should not feel bad if you have only a vague sense of this. <q>Power</q> is
+            a concept that we have not carefully defined. Indeed, that is the point of this
+            section, to develop a coherent approach to thinking mathematically about 
+            how power might be quantified in such situations.)
+          </p>
+          <p>
+            So let us suppose that these states have quite distinct populations and, further,
+            let us suppose that each state delegation is disciplined and loyal and always
+            votes together as a group. 
+          </p>
+
+        </example>
+        <example>
+          <p>
+            Suppose a decade passes, and during that time
+            1500 people move from State 2 to State 1 and 
+            500 from State 3 to State 1. Now what?
+          </p>
+        </example>
+
+        
+      </chapter>
 
 
 
