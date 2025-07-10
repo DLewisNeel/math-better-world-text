@@ -53,7 +53,7 @@
           past the struggle to understand by way of an explanation from a
           so-called authority in the subject. A powerful and challenging thought!
           Though this author will not now cease writing, and thus will be in 
-          some violation of Jacotot<rsq/>s ideas (or at least Ranciere<rsp/>s
+          some violation of Jacotot<rsq/>s ideas (or at least Ranciere<rsq/>s
           rendering of Jacotot<rsq/>s ideas). Still:
         <axiom xml:id="axiom-learning">
           <statement>
@@ -475,13 +475,49 @@
                   </li>
                   <li>
                     <p>
-                      
+                      Now take each state<rsq/>s population and divide it by the divisor,
+                      keeping only the whole number part which we call the
+                      <term>initial quota</term>. Note that each state must 
+                      be given at least one representative, even if the number computed 
+                      above is smaller than 1.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      If the sum of these initial quotas is equal to the size of the
+                      legislature, then we have determined the proper representation for
+                      each state. If it is fewer representatives than the total (this is
+                      the most common occurrence) then you look at the decimal portion
+                      from each initial quota and award another representative 
+                      to the state with largest decimal part. Continue awarding 
+                      additional representatives to the next largest decimal part
+                      until the total number of representatives is equal to the
+                      size of the legislature. This is the <term>final quota</term>
+                      for each state.
                     </p>
                   </li>
                 </ol>
               </p>
               <example>
-                <p></p>
+                <p>
+                  It is often important to think about what limitations there might
+                  be on how an algorithm might function. In this case, the insistence
+                  (which seems relatively innocent) that every state receive at least one
+                  representative could potentially cause a breakdown. Consider a seven-state 
+                  country with one state with 30,000 people and the other six states all
+                  the same size of 500 people. If we had a 30-representative legislature, 
+                  then the algorithm above would give 27 representatives to the large state
+                  and one representative each to the other six states, for a total of 33
+                  representatives. But this is too many for the legislature! This
+                  requires a sort of addendum to the process, of the sort we generally like
+                  to avoid in algorithms like this. We could just say, well, the large state
+                  only gets 24 and that fixes the problem, but might this also happen with
+                  two large states and 12 small states? Then where do the spare representatives
+                  come from? And if the two large states aren't quite the same size? You can 
+                  see how quickly things become complicated. Consideration of these <q>edge</q> or
+                  <q>extreme</q> cases is important in any exploration of the mathematical
+                  behavior of such systems.
+                </p>
               </example>
               
             </subsection>
