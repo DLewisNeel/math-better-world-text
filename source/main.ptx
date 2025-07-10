@@ -519,7 +519,25 @@
                   behavior of such systems.
                 </p>
               </example>
-              
+            </subsection>
+            <subsection xml:id="subsec-jefferson">
+              <title>Jefferson's Competing Method</title>
+              <p>
+                The slave-owner Thomas Jefferson, who systematically sexually assaulted 
+                some of the people he enslaved, objected to the Hamilton Method. This was
+                perhaps partially based on the fact that
+                the apportionment that it produced violated a specific numerical insistence
+                in the Constitution, that no representative should represent more than 30,000
+                people. We shall see he may also have had some ulterior motives for a 
+                different method of apportionment. He suggested the following approach:
+                <ol>
+                  <li>
+                    <p>
+                      Compute the initial quota as in the Hamilton Method.
+                    </p>
+                  </li>
+                </ol>
+              </p>
             </subsection>
             <exercises xml:id="exercises-hamilton-jefferson">
               <exercise>
