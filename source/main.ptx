@@ -317,9 +317,9 @@
               
               <exercise>
                 <p>
-                  Yarvin has 10 cookies to give away. There are 30 children who are
+                  Yavin has 10 cookies to give away. There are 30 children who are
                   interested in eating cookies.
-                  If Yarvin wants to distribute the cookies equally, how much cookie
+                  If Yavin wants to distribute the cookies equally, how much cookie
                   does each child get?
                 </p>
               </exercise>
@@ -450,8 +450,29 @@
             <p>
               Two early methods are labeled by names that will be familiar to you
               if you have brought into yourself historical knowledge of the forming
-              of the United States of America. Let us begin with the
+              of the United States of America. Let us begin with the <em>Hamilton Method</em>.
             </p>
+            <subsection xml:id="subsec-hamilton">
+              <title>Hamilton Method</title>
+              <p>
+                The challenge for the so-called <q>Founding Fathers</q> was that in 
+                most situations where the population of states was different from each 
+                other, and with most numbers of representatives in the legislative body,
+                there would be the need to determine how to round off answers. Hamilton
+                suggested the following approach:
+                <ol>
+                  <li>
+                    <p>
+                      Find the number of people each representative should represent.
+                    </p>
+                  </li>
+                </ol>
+              </p>
+              <example>
+                <p></p>
+              </example>
+              
+            </subsection>
             <exercises xml:id="exercises-hamilton-jefferson">
               <exercise>
                 
