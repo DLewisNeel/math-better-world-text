@@ -463,7 +463,19 @@
                 <ol>
                   <li>
                     <p>
-                      Find the number of people each representative should represent.
+                      Find the number of people each representative should represent,
+                      if only the division could be accomplished perfectly.
+                      We call this the <term>divisor</term>. How should it be computed? 
+                      Take the full population and divide it by the number of representatives
+                      in the legislature. So, 
+                      <m>
+                        d=\frac{\text{total population}}{\text{number of legislators}}
+                      </m>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      
                     </p>
                   </li>
                 </ol>
