@@ -451,11 +451,13 @@
           </introduction>
           <section xml:id="sec-hamilton-jefferson">
             <title>The Hamilton and Jefferson Methods of Apportionment</title>
-            <p>
-              Two early methods are labeled by names that will be familiar to you
-              if you have brought into yourself historical knowledge of the forming
-              of the United States of America. Let us begin with the <em>Hamilton Method</em>.
-            </p>
+            <introduction>
+              <p>  
+                Two early methods are labeled by names that will be familiar to you
+                if you have brought into yourself historical knowledge of the forming
+                of the United States of America. Let us begin with the <em>Hamilton Method</em>.
+              </p>
+            </introduction>
             <subsection xml:id="subsec-hamilton">
               <title>The Hamilton Method</title>
               <p>
