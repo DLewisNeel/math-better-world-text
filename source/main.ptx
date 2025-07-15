@@ -580,6 +580,11 @@
                 <em>that</em> different).
               </p>
               <p>
+                <example>
+                  SHOW DIFFERENT OUTCOMES FOR LARGER VS SMALLER STATES. DISCUSS JEFF METHOD.
+                </example>
+              </p>
+              <p>
                 You can read a shortened description of these methods at the 
                 US government website, 
                 <url href="https://www.census.gov/about/history/historical-censuses-and-surveys/census-programs-surveys/decennial-census/methods.html">Methods of Apportionment</url>
@@ -609,11 +614,58 @@
             </exercises>
           </section>
 
+          <section xml:id="sec-representation-paradoxes">
+            <title>Paradoxes</title>
+            <introduction>
+              <p>
+                We will explore two more methods of apportionment. But why? Are not
+                two methods already one more than we need? This is another occasion
+                where we can learn from unexpected behaviors of complex systems.
+                What if we designed a system, using our intuition, to accomplish
+                a task, but then we find that in practice, despite our care in 
+                designing the system, we find unexpected possible outcomes, possibly
+                even outcomes that offend our intuition about how the system behaves?
+                This sort of behavior is sometimes called a <term>paradox</term>. 
+                Though the use of this term in cases like this is slightly at odds with 
+                its technical and historical meaning in logic and philosophy, we will 
+                retain it to mean, for us, 
+                <q>
+                  behaviors that our system exhibit but which offend our sense of
+                  how the system ought, based on our intended design, to behave
+                </q>.
+              </p>
+              <p>
+                We will consider three examples from US history: 
+                The Alabama Paradox, the Population Paradox, and the New State Paradox.
+              </p>
+            </introduction>
+            <subsection xml:id="subsec-alabama-paradox">
+              <title>The Alabama Paradox</title>
+              <p>
+                
+              </p>
+            </subsection>
+
+            <subsection xml:id="subsec-population-paradox">
+              <title>The Population Paradox</title>
+              <p>
+                
+              </p>
+            </subsection>
+            <subsection xml:id="subsec-new-state-paradox">
+              <title>The New State Paradox</title>
+              <p>
+                
+              </p>
+            </subsection>
+
+          </section>
+
+
+
           <section xml:id="sec-webster-huntington">
             <title>The Webster and Huntington-Hill Methods of Apportionment</title>
-            <p>
-              
-            </p>
+
             <exercises xml:id="exercises-webster-huntington">
               <exercise>
                 
@@ -699,9 +751,10 @@
         <introduction>
           <p>
             You are enmeshed in a system that insists upon your compliance
-            in order for you to continue to eat. Only willful subjects to
-            this system are afforded the calories and nutrients that will
-            allow their physical and biological substrate to continue to function.
+            in order for you to continue to eat. Only willing subjects to
+            this system are afforded the calories and nutrients that
+            allow their physical and biological substrate to continue to 
+            function. If this sounds coercive, you are correct. It is.
           </p>
         </introduction>
         <section xml:id="sec-interest">
