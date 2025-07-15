@@ -648,8 +648,10 @@
         <example>
           <title>Intuition Misleading Us?</title>
           <p>
-            Suppose there were three states in the nation with populations such that, in the 100-member House
-            of Representatives, one state had 49 representatives, one state had 47 representatives, and a third
+            Suppose there were three states in the nation with populations such that, 
+            in the 100-member House
+            of Representatives, one state had 49 representatives, 
+            one state had 47 representatives, and a third
             state had four representatives. 
             Let us further assume that these numbers of representatives are
             proportional to population. 
@@ -692,6 +694,24 @@
         
       </chapter>
 
+      <chapter xml:id="ch-financial-math">
+        <title>Financial Mathematics</title>
+        <introduction>
+          <p>
+            You are enmeshed in a system that insists upon your compliance
+            in order for you to continue to eat. Only willful subjects to
+            this system are afforded the calories and nutrients that will
+            allow their physical and biological substrate to continue to function.
+          </p>
+        </introduction>
+        <section xml:id="sec-interest">
+          <title>Interest and Time</title>
+          <p>
+            
+          </p>
+        </section>
+      </chapter>
+
       <chapter xml:id="ch-probability">
         <title>How Likely is Some Occurrence?</title>
         <p>
@@ -715,13 +735,20 @@
           insight for himself and understanding for others. 
         </p>
         <p>
-          Marx was faced with a problem: he saw the dynamic creative potential within capitalism, yet he also clearly saw
-          (in a way that far too many self-interested capital boosters now do not) the enormous violence 
-          this economic system visited upon those who performed the vast majority of the hazardous and back-breaking
-          labor within it. In the face of many theorists before and since, Marx sought a mode of analysis that would
-          not only explain the movement of capital and the deployment of labor power, but also might generate
-          insights about instability within the system and long-term tendencies. All of this, he is carrying out very 
-          near the birth of capitalism and in the context of its early working out of its principles and practices.
+          Marx was faced with a problem: he saw the dynamic creative potential 
+          within capitalism, yet he also clearly saw
+          (in a way that far too many self-interested capital boosters now do not) 
+          the enormous violence 
+          this economic system visited upon those who performed the vast 
+          majority of the hazardous and back-breaking
+          labor within it. In the face of many theorists before and since, 
+          Marx sought a mode of analysis that would
+          not only explain the movement of capital and the deployment 
+          of labor power, but also might generate
+          insights about instability within the system and long-term tendencies. 
+          All of this, he is carrying out very 
+          near the birth of capitalism and in the context of its early 
+          working out of its principles and practices.
         </p>
       </chapter>
 
