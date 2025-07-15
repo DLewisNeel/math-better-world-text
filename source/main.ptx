@@ -200,6 +200,7 @@
               more in Berggren's <pubtitle>Episodes in the Mathematics of Medieval Islam</pubtitle>. 
               The word <q>algorithm</q> itself comes from the
               name of the Islamic mathematician Al-Khwarizmi, about whom you can read
+              <url href="https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/">here</url>,
               from the venerable St Andrews site on the history of math.
               <algorithm xml:id="alg-proportional-distribution">
                 <statement>
@@ -583,7 +584,7 @@
                 US government website, 
                 <url href="https://www.census.gov/about/history/historical-censuses-and-surveys/census-programs-surveys/decennial-census/methods.html">Methods of Apportionment</url>
                 or
-                <url href="https://web.archive.org/web/20250403120813/https://www.census.gov/about/history/historical-censuses-and-surveys/census-programs-surveys/decennial-census/methods.html">archived copy of the previous link</url>.
+                <url href="https://web.archive.org/web/20250403120813/https://www.census.gov/about/history/historical-censuses-and-surveys/census-programs-surveys/decennial-census/methods.html">this archived copy of the previous link</url>.
                 It may be a useful exercise for you to read through
                 the description there and the descriptions above and make sure you
                 understand how they are describing the same process.
