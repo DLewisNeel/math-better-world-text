@@ -238,6 +238,7 @@
 
         <section xml:id="sec-percent">
           <title>Percent</title>
+          <introduction>
             <p>
               Once we have the idea of a fraction, there is a benefit to introducing
               a sort of general format for a fraction. This is what a percent is. 
@@ -263,6 +264,8 @@
               notation for percent, which looks like this: %. So we could also just
               write: 25%. 
             </p>
+          </introduction>
+
             <subsection xml:id="subsec-general-fact">
               <title>A Useful General Fact about Percents and Proportions</title>
               <p>
