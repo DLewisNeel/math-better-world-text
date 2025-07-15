@@ -453,7 +453,7 @@
               of the United States of America. Let us begin with the <em>Hamilton Method</em>.
             </p>
             <subsection xml:id="subsec-hamilton">
-              <title>Hamilton Method</title>
+              <title>The Hamilton Method</title>
               <p>
                 The challenge for the so-called <q>Founding Fathers</q> was that in 
                 most situations where the population of states was different from each 
@@ -521,9 +521,9 @@
               </example>
             </subsection>
             <subsection xml:id="subsec-jefferson">
-              <title>Jefferson's Competing Method</title>
+              <title>The Jefferson Method</title>
               <p>
-                The slave-owner Thomas Jefferson, who systematically sexually assaulted 
+                The enslaver Thomas Jefferson, who systematically sexually assaulted 
                 some of the people he enslaved, objected to the Hamilton Method. This was
                 perhaps partially based on the fact that
                 the apportionment that it produced violated a specific numerical insistence
@@ -533,10 +533,50 @@
                 <ol>
                   <li>
                     <p>
-                      Compute the initial quota as in the Hamilton Method.
+                      Compute the divisor and then the initial quota as in the Hamilton Method.
+                      If the initial quota provides the correct number of representatives, then
+                      you are done.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      If there are too few representatives, we will try a smaller divisor.
+                      A smaller divisor has the potential to increase one or more of the
+                      states<rsq/> quotas. (Once again you keep only the whole number portion.)
+                      If the sum of the resulting quotas is equal to the required number
+                      of representatives, then the process is concluded.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      If there are too many representatives, we will try a larger divisor. 
+                      A larger divisor has the potential to decrease one or more of the 
+                      states<rsq/> quotas. If the sum of the resulting quotas is equal to the
+                      required number of representatives then the process is concluded.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      The process may need to iterate a few times to conclude. Keeping a list
+                      of attempted divisors and whether they resulted in too many or too few 
+                      representatives will help to avoid extra work. (Why?)
                     </p>
                   </li>
                 </ol>
+              </p>
+              <p>
+                You will notice that the Jefferson Method, unlike the Hamilton Method, has
+                a more open-ended process. You might have heard the sort of process required
+                in the latter phase as <q>guess-and-check</q>. We have tried to include 
+                enough rationale and intuitive description so that we might at least hope
+                it to be, for you, <q>educated-guess-and-check</q>. If you look at your list
+                of attempted divisors, what you should see is a sequence of numbers that is
+                progressively working its way in towards the final divisor that worked, often
+                from both above and below. Note also that this <q>final divisor</q> isn't 
+                unique. If you and a friend work through the process and check your answer
+                at the end, you should both find the same final quota for each state, but 
+                your final divisor might be different (though probably not all
+                <em>that</em> different).
               </p>
             </subsection>
             <exercises xml:id="exercises-hamilton-jefferson">
