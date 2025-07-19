@@ -596,7 +596,7 @@
                 or
                 <url href="https://web.archive.org/web/20250403120813/https://www.census.gov/about/history/historical-censuses-and-surveys/census-programs-surveys/decennial-census/methods.html">this archived copy of the previous link</url>.
                 It may be a useful exercise for you to read through
-                the description there and the descriptions above and make sure you
+                the descriptions there and the descriptions above and make sure you
                 understand how they are describing the same process.
               </p>
             </subsection>
@@ -670,6 +670,43 @@
 
           <section xml:id="sec-webster-huntington">
             <title>The Webster and Huntington-Hill Methods of Apportionment</title>
+            <introduction>
+              <p>
+                We may proceed through the remaining methods of apportionment
+                more quickly. The fundamental concepts in place above are 
+                only slightly altered in the following approaches. With both
+                Hamilton and Jefferson methods, the driving idea was finding 
+                the divisor, then finding a way to apportion the remaining
+                representatives after whole numbers have been given. For the
+                remaining two methods, the Webster Method and the Huntington-Hill
+                Method, the second of which is still (as of 2025) being used 
+                by the USA, the approach involves adjustment of the divisor,
+                similar to the Jefferson Method, combined with a system of 
+                rounding to whole numbers. In both Hamilton and Jefferson 
+                methods, recall that we round down (or <term>truncate</term>)
+                the result of dividing the population by the divisor. For
+                the Webster Method, we simply round to the nearest whole 
+                number in the usual way: by rounding down if the fractional
+                portion is less than 0.5 and rounding up if the fractional
+                portion is larger than 0.5. (In the unlikely event that the
+                fractional portion is exactly 0.5, the usual rule is to round
+                up.) For Huntington-Hill Method, the boundary for rounding
+                up is made more generous. We will explore this in detail
+                in examples.
+              </p>
+            </introduction>
+            <subsection xml:id="subsec-webster">
+              <title>The Webster Method</title>
+              <p>
+                METHOD HERE
+              </p>
+            </subsection>            
+            <subsection xml:id="subsec-huntington-hill">
+              <title>The Huntington-Hill Method</title>
+              <p>
+                METHOD HERE
+              </p>
+            </subsection>
 
             <exercises xml:id="exercises-webster-huntington">
               <exercise>
