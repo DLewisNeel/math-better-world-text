@@ -744,9 +744,9 @@
           <p>
             Suppose there were three states in the nation with populations such that, 
             in the 100-member House
-            of Representatives, one state had 49 representatives, 
-            one state had 47 representatives, and a third
-            state had four representatives. 
+            of Representatives, one state, Alsaka, had 49 representatives, 
+            one state, Bartleby, had 47 representatives, and a third
+            state, Cropland, had four representatives. 
             Let us further assume that these numbers of representatives are
             proportional to population. 
             (For example, this would be exactly true if the populations were 49,000, 
@@ -755,15 +755,27 @@
             been basing our work on up until now, this system has been constructed 
             in a way that is fair. It has explicitly and exactly matched the proportion of 
             numbers of representatives to the proportion of the number of people in the
-            population for each state. (If you look back at examples and exercises from 
+            population for each state. The state that has 49% of the population has
+            49% of the representatives, the state that has 47% of the population has 47% of
+            the representatives, and the state that has 4% of the population has 4% of 
+            the representatives.
+            (If you look back at examples and exercises from 
             <xref ref="ch-democracy-representation"/> you will notice that in practice
             it will almost never happen that these proportions match so exactly. We have, 
             in a sense, imagined what seems to be a rather ideal situation for fairness
             in the proportional representation of these states in this legislative body.)
+            Our intuition has told us and our justification for all
+            the work in <xref ref="ch-democracy-representation"/> is based on the idea that
+            this should preserve those proportions, as well, in terms of decision-making
+            power. That is, if you have 49% of the representatives, you should have
+            roughly 49% of the decision-making power, similarly 47% of the representatives
+            should give you 47% of the decision-making power, and 4% of the representatives
+            should give you 4% of the decision-making power.
           </p>
           <p>
             Before we proceed further, if you were to guess how powerful each state was
-            in the legislature, what would you say? Is the state with 49,000 people twice
+            in the legislature, what would you say? Does it match the percentages
+            described above? Or is the state with 49,000 people twice
             as powerful as the state with 4000 people? Five times as powerful? (Note: you
             should not feel bad if you have only a vague sense of this. <q>Power</q> is
             a concept that we have not carefully defined. Indeed, that is the point of this
@@ -773,15 +785,31 @@
           <p>
             So let us suppose that these states have quite distinct populations and, further,
             let us suppose that each state delegation is disciplined and loyal and always
-            votes together as a group. 
+            votes together as a group. (If you think this changes your idea of the power of
+            each state, that seems reasonable to me. Interesting how quickly assumptions
+            and constraints change our ideas about how a system works, no?)
+          </p>
+          <p>
+            How do things play out? Well let us think it through: Suppose the proposed
+            measure that this legislative body is deliberating upon is whether to 
+            locate a toxic
+            waste dump in Cropland. We might expect this to be approved by the 49
+            representatives from Alsaka and the 47 from Bartleby, which would allow
+            the measure to pass by majority vote. (Note that there is another assumption
+            here, one we might do well to consider later, namely that simple majority,
+            which in this case would be 51 out of 100, is all that is needed to
+            pass a measure.) Obviously 96 votes will suffice to pass the measure.
+            That is to say: if both Alsaka and Bartleby favor a measure, then that 
+            measure will be approved by the legislative body. 
           </p>
 
         </example>
         <example>
           <p>
             Suppose a decade passes, and during that time
-            1500 people move from State 2 to State 1 and 
-            500 from State 3 to State 1. Now what?
+            1500 people move from State Bartleby to Alsaka and 
+            500 from Cropland to Alsaka (but all other births and deaths
+            cancel out so the only changes are these relocations). Now what?
           </p>
         </example>
 
