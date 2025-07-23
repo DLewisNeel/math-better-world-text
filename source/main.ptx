@@ -893,13 +893,41 @@
             and Cropland with weight 4. The quota in that example is 51. We 
             always require that the quota exceed half the total weight of the 
             system. (Why must we insist on this? How would the system potentially
-            break down if we failed to require this?) 
+            break down if we failed to require this?) Our notation for such a
+            system will be: 
+            <me>
+              [51:49,47,4]  
+            </me>
+            We will always write the weights in descending order after the colon.
+            More generally if we have <m>n</m> players, <m>P_1, P_2, \dots, P_n</m>
+            with weights (in descending order)  <m>w_1, w_2, \dots, w_n</m> and 
+            quota <m>q</m>, we will denote this weighted voting system as:
+            <me>
+              [q:w_1,w_2,\dots,w_n]
+            </me>
           </p>
         </introduction>
         <section xml:id="sec-no-power">
           <title>The Power of No</title>
           <p>
-            POWER OF NO
+            Our purpose in this section is to explore how we might measure
+            power in a weighted voting system by the ability to say 
+            <q>No!</q> to a measure and for that <q>No!</q> to matter. An 
+            easy first step is to say that if it were impossible that a 
+            <q>No!</q> from some player could matter, then this player
+            has no power in the system. We might also say that player has
+            zero power. We call such a player a <term>dummy</term>.          
+          </p>
+          <p>
+            At the other end of this spectrum, if there is some player
+            with so much weight that if they say <q>No!</q> to a measure
+            then that measure can never pass, we say this player has
+            <term>veto power</term> in the system. You may think that
+            such a player must have all the power in the system, but 
+            this is actually not the case.
+            <example>
+              
+            </example>
           </p>
         </section>
         <section xml:id="sec-yes-power">
