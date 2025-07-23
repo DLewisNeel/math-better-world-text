@@ -740,7 +740,7 @@
             some examples of how this can happen. But the belief related to this idea of power is quite
             surprising and can be motivated with a relatively simple example.
           </p>
-          <example>
+          <example xml:id="3-state-weighted">
             <title>Intuition Misleading Us?</title>
             <p>
               Suppose there were three states in the nation with populations such that, 
@@ -876,6 +876,24 @@
             way, which we will summarize as the power in saying no and the 
             power in saying yes.
           </p>
+          <p>
+            One final task before we begin: the terminology and assumptions
+            we will use throughout the following analysis. To achieve a sort 
+            of generality of application, we will abstract slightly from the 
+            descriptions above. Rather than states we will think of 
+            <term>players</term> in a <term>weighted voting system</term>. 
+            Each player will have a <term>weight</term>, and the system
+            itself will have a <term>quota</term>, which is the required
+            total weight of players required to pass a measure.
+          </p>
+          <p>
+            To make this clear, in <xref ref="3-state-weighted"/>, there are
+            three players, Alsaka with weight 49, Bartleby with weight 47, 
+            and Cropland with weight 4. The quota in that example is 51. We 
+            always require that the quota exceed half the total weight of the 
+            system. (Why must we insist on this? How would the system potentially
+            break down if we failed to require this?) 
+          </p>
         </introduction>
         <section xml:id="sec-no-power">
           <title>The Power of No</title>
@@ -920,8 +938,7 @@
           proportion of the time that something happens? It isn't that different, conceptually, to say that 65%
           of some group of 100 people have brown eyes as it is to say that 65% of the 100 days from February 14
           to May 25 have some rain that falls on Seattle at some point during that day.
-        </p>
-        
+        </p> 
       </chapter>
 
 
