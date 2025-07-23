@@ -938,6 +938,18 @@
                 this question.)
               </p>
             </example>
+            <example xml:id="ex-veto-multiple">
+              <p>
+                Consider the weighted voting system <m>[6:4,3,1]</m>. If
+                we think about what is required to pass a measure in this 
+                system, we see that Player 1 is needed, but so is Player 2.
+                Player 1 and Player 3, even if they agree, do not reach
+                the total weight required by the quota <m>q=6</m>. Thus,
+                both Player 1 and Player 2 have veto power in this system.
+                (It may be the case, now, that Player 3 is indeed a dummy.
+                We will develop our tools to be able to explore this.)
+              </p>
+            </example>
           </p>
         </section>
         <section xml:id="sec-yes-power">
