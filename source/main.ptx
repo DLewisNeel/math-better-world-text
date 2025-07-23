@@ -854,6 +854,11 @@
               </aside>
             </p>
           </example>
+          <p>
+            Before we move on to a more systematic approach to computing power
+            within a system like this, let us first notice how sensitive such 
+            a system might be to changes in the conditions of the population.
+          </p>
           <example>
             <p>
               Suppose a decade passes, and during that time
@@ -862,8 +867,28 @@
               cancel out so the only changes are these relocations). Now what?
             </p>
           </example>
+          <p>
+            In a rather beautiful demonstration of the fact that math and
+            quantitative reasoning are creative processes, there are two 
+            main approaches to computing the power available to each state
+            in a system like this. The numbers they produce are sometimes the
+            same but often are not. Each conceives of what matters in a different
+            way, which we will summarize as the power in saying no and the 
+            power in saying yes.
+          </p>
         </introduction>
-        
+        <section xml:id="sec-no-power">
+          <title>The Power of No</title>
+          <p>
+            POWER OF NO
+          </p>
+        </section>
+        <section xml:id="sec-yes-power">
+          <title>The Power of Yes</title>
+          <p>
+            POWER OF YES
+          </p>
+        </section>
       </chapter>
 
       <chapter xml:id="ch-financial-math">
