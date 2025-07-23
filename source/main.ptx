@@ -730,139 +730,139 @@
 
       <chapter xml:id="ch-weighted-voting">
         <title>Power in Weighted Voting Systems</title>
-        <p>
-          All of the effort put into the systems described in the previous chapter were premised upon an
-          intuitive idea: that if a state has, for example, twice the representatives, then it will have
-          twice the power in the House of Representatives. But remember: one of the overarching themes of
-          this book is that we want to be able to use mathematics and its related fields to investigate 
-          whether our intuitive ideas about how things work are, in fact, accurate. We have already seen
-          some examples of how this can happen. But the belief related to this idea of power is quite
-          surprising and can be motivated with a relatively simple example.
-        </p>
-        <example>
-          <title>Intuition Misleading Us?</title>
+        <introduction>
           <p>
-            Suppose there were three states in the nation with populations such that, 
-            in the 100-member House
-            of Representatives, one state, Alsaka, had 49 representatives, 
-            one state, Bartleby, had 47 representatives, and a third
-            state, Cropland, had four representatives. 
-            Let us further assume that these numbers of representatives are
-            proportional to population. 
-            (For example, this would be exactly true if the populations were 49,000, 
-            47,000, and 4000, respectively.) 
-            So according to the intuition we have
-            been basing our work on up until now, this system has been constructed 
-            in a way that is fair. It has explicitly and exactly matched the proportion of 
-            numbers of representatives to the proportion of the number of people in the
-            population for each state. The state that has 49% of the population has
-            49% of the representatives, the state that has 47% of the population has 47% of
-            the representatives, and the state that has 4% of the population has 4% of 
-            the representatives.
-            (If you look back at examples and exercises from 
-            <xref ref="ch-democracy-representation"/> you will notice that in practice
-            it will almost never happen that these proportions match so exactly. We have, 
-            in a sense, imagined what seems to be a rather ideal situation for fairness
-            in the proportional representation of these states in this legislative body.)
-            Our intuition has told us and our justification for all
-            the work in <xref ref="ch-democracy-representation"/> is based on the idea that
-            this should preserve those proportions, as well, in terms of decision-making
-            power. That is, if you have 49% of the representatives, you should have
-            roughly 49% of the decision-making power, similarly 47% of the representatives
-            should give you 47% of the decision-making power, and 4% of the representatives
-            should give you 4% of the decision-making power.
+            All of the effort put into the systems described in the previous chapter were premised upon an
+            intuitive idea: that if a state has, for example, twice the representatives, then it will have
+            twice the power in the House of Representatives. But remember: one of the overarching themes of
+            this book is that we want to be able to use mathematics and its related fields to investigate 
+            whether our intuitive ideas about how things work are, in fact, accurate. We have already seen
+            some examples of how this can happen. But the belief related to this idea of power is quite
+            surprising and can be motivated with a relatively simple example.
           </p>
-          <p>
-            Before we proceed further, if you were to guess how powerful each state was
-            in the legislature, what would you say? Does it match the percentages
-            described above? Or is the state with 49,000 people twice
-            as powerful as the state with 4000 people? Five times as powerful? (Note: you
-            should not feel bad if you have only a vague sense of this. <q>Power</q> is
-            a concept that we have not carefully defined. Indeed, that is the point of this
-            section, to develop a coherent approach to thinking mathematically about 
-            how power might be quantified in such situations.)
-          </p>
-          <p>
-            So let us suppose that these states have quite distinct populations and, further,
-            let us suppose that each state delegation is disciplined and loyal and always
-            votes together as a group. (If you think this changes your idea of the power of
-            each state, that seems reasonable to me. Interesting how quickly assumptions
-            and constraints change our ideas about how a system works, no?)
-          </p>
-          <p>
-            How do things play out? Well let us think it through: Suppose the proposed
-            measure that this legislative body is deliberating upon is whether to 
-            locate a (necessary?) toxic
-            waste dump in Cropland. We might expect this to be approved by the 49
-            representatives from Alsaka and the 47 from Bartleby, which would allow
-            the measure to pass by majority vote. (Note that there is another assumption
-            here, one we might do well to (re)consider later, namely that simple majority,
-            which in this case would be 51 out of 100, is all that is needed to
-            pass a measure.) Obviously 96 votes will suffice to pass the measure.
-            That is to say: if both Alsaka and Bartleby favor a measure, then that 
-            measure will be approved by the legislative body. 
-          </p>
-          <p>
-            But suppose, instead, that a measure were introduced to place the 
-            waste dump in Alsaka? Why, then we might expect that Bartleby and
-            Cropland could agree to vote in favor of this measure, which would
-            thus pass by a 51 to 49 count. A measure passed by 51 to 49 is just as
-            binding as a measure passed by 96 to 4. This fact turns out to have
-            a rather interesting consequence. In fact, we can now notice the 
-            following key fact: 
-            <em>
-              If two of the three states are in favor of a measure, then
-              the measure will pass.
-            </em>
-            This may be quite surprising, even disturbing. Especially since
-            it shows that our intuition about the scaling of representatives
-            to population might completely fail to scale the decision-making
-            power in the way we had hoped. Alsaka has the same amount of 
-            power in this system as Cropland does, despite the fact that its
-            population is over 12 times bigger. A citizen of Alsaka has 
-            less than 
-            <m>
-              \frac{1}{12}
-            </m>
-            the amount of power as a citizen of Cropland. It is not unreasonable
-            to think that over time this sort of distortion away from 
-            <q>equal representation</q> might have rather significant effects
-            upon the views citizens might have of the legitimacy of the 
-            political system.
-          </p>
-          <p>
-            Note that we have different ways we might think of the power
-            in this system and how it is distributed. Based on previous
-            ways we have been thinking about such things, we might
-            choose to think of there being 100% of power that must be 
-            distributed. Then in this case we would say that each 
-            state has roughly 33% of the power. We could similarly 
-            declare that all the power adds to 1 and say that each
-            state has power measured at 0.33. 
-            <aside>
-              There is nothing preventing us from declaring there to be
-              any amount of power which must be distributed. We might 
-              set up our analysis such that 45 <q>power units</q> are 
-              available to be distributed in the system. Then our analysis
-              would conclude in this case that each state has 15 power
-              units. But can you see how this is really just introducing a
-              rather arbitrary additional number into the process? Is this
-              not rather slightly illuminating to say that Cropland has 15
-              of the 45 power units? It is easier just to say it has 33.3%
-              of the power or 0.333 of the power.
-            </aside>
-          </p>
-
-        </example>
-        <example>
-          <p>
-            Suppose a decade passes, and during that time
-            1500 people move from State Bartleby to Alsaka and 
-            500 from Cropland to Alsaka (but all other births and deaths
-            cancel out so the only changes are these relocations). Now what?
-          </p>
-        </example>
-
+          <example>
+            <title>Intuition Misleading Us?</title>
+            <p>
+              Suppose there were three states in the nation with populations such that, 
+              in the 100-member House
+              of Representatives, one state, Alsaka, had 49 representatives, 
+              one state, Bartleby, had 47 representatives, and a third
+              state, Cropland, had four representatives. 
+              Let us further assume that these numbers of representatives are
+              proportional to population. 
+              (For example, this would be exactly true if the populations were 49,000, 
+              47,000, and 4000, respectively.) 
+              So according to the intuition we have
+              been basing our work on up until now, this system has been constructed 
+              in a way that is fair. It has explicitly and exactly matched the proportion of 
+              numbers of representatives to the proportion of the number of people in the
+              population for each state. The state that has 49% of the population has
+              49% of the representatives, the state that has 47% of the population has 47% of
+              the representatives, and the state that has 4% of the population has 4% of 
+              the representatives.
+              (If you look back at examples and exercises from 
+              <xref ref="ch-democracy-representation"/> you will notice that in practice
+              it will almost never happen that these proportions match so exactly. We have, 
+              in a sense, imagined what seems to be a rather ideal situation for fairness
+              in the proportional representation of these states in this legislative body.)
+              Our intuition has told us and our justification for all
+              the work in <xref ref="ch-democracy-representation"/> is based on the idea that
+              this should preserve those proportions, as well, in terms of decision-making
+              power. That is, if you have 49% of the representatives, you should have
+              roughly 49% of the decision-making power, similarly 47% of the representatives
+              should give you 47% of the decision-making power, and 4% of the representatives
+              should give you 4% of the decision-making power.
+            </p>
+            <p>
+              Before we proceed further, if you were to guess how powerful each state was
+              in the legislature, what would you say? Does it match the percentages
+              described above? Or is the state with 49,000 people twice
+              as powerful as the state with 4000 people? Five times as powerful? (Note: you
+              should not feel bad if you have only a vague sense of this. <q>Power</q> is
+              a concept that we have not carefully defined. Indeed, that is the point of this
+              section, to develop a coherent approach to thinking mathematically about 
+              how power might be quantified in such situations.)
+            </p>
+            <p>
+              So let us suppose that these states have quite distinct populations and, further,
+              let us suppose that each state delegation is disciplined and loyal and always
+              votes together as a group. (If you think this changes your idea of the power of
+              each state, that seems reasonable to me. Interesting how quickly assumptions
+              and constraints change our ideas about how a system works, no?)
+            </p>
+            <p>
+              How do things play out? Well let us think it through: Suppose the proposed
+              measure that this legislative body is deliberating upon is whether to 
+              locate a (necessary?) toxic
+              waste dump in Cropland. We might expect this to be approved by the 49
+              representatives from Alsaka and the 47 from Bartleby, which would allow
+              the measure to pass by majority vote. (Note that there is another assumption
+              here, one we might do well to (re)consider later, namely that simple majority,
+              which in this case would be 51 out of 100, is all that is needed to
+              pass a measure.) Obviously 96 votes will suffice to pass the measure.
+              That is to say: if both Alsaka and Bartleby favor a measure, then that 
+              measure will be approved by the legislative body. 
+            </p>
+            <p>
+              But suppose, instead, that a measure were introduced to place the 
+              waste dump in Alsaka? Why, then we might expect that Bartleby and
+              Cropland could agree to vote in favor of this measure, which would
+              thus pass by a 51 to 49 count. A measure passed by 51 to 49 is just as
+              binding as a measure passed by 96 to 4. This fact turns out to have
+              a rather interesting consequence. In fact, we can now notice the 
+              following key fact: 
+              <em>
+                If two of the three states are in favor of a measure, then
+                the measure will pass.
+              </em>
+              This may be quite surprising, even disturbing. Especially since
+              it shows that our intuition about the scaling of representatives
+              to population might completely fail to scale the decision-making
+              power in the way we had hoped. Alsaka has the same amount of 
+              power in this system as Cropland does, despite the fact that its
+              population is over 12 times bigger. A citizen of Alsaka has 
+              less than 
+              <m>
+                \frac{1}{12}
+              </m>
+              the amount of power as a citizen of Cropland. It is not unreasonable
+              to think that over time this sort of distortion away from 
+              <q>equal representation</q> might have rather significant effects
+              upon the views citizens might have of the legitimacy of the 
+              political system.
+            </p>
+            <p>
+              Note that we have different ways we might think of the power
+              in this system and how it is distributed. Based on previous
+              ways we have been thinking about such things, we might
+              choose to think of there being 100% of power that must be 
+              distributed. Then in this case we would say that each 
+              state has roughly 33% of the power. We could similarly 
+              declare that all the power adds to 1 and say that each
+              state has power measured at 0.33. 
+              <aside>
+                There is nothing preventing us from declaring there to be
+                any amount of power which must be distributed. We might 
+                set up our analysis such that 45 <q>power units</q> are 
+                available to be distributed in the system. Then our analysis
+                would conclude in this case that each state has 15 power
+                units. But can you see how this is really just introducing a
+                rather arbitrary additional number into the process? Is this
+                not rather slightly illuminating to say that Cropland has 15
+                of the 45 power units? It is easier just to say it has 33.3%
+                of the power or 0.333 of the power.
+              </aside>
+            </p>
+          </example>
+          <example>
+            <p>
+              Suppose a decade passes, and during that time
+              1500 people move from State Bartleby to Alsaka and 
+              500 from Cropland to Alsaka (but all other births and deaths
+              cancel out so the only changes are these relocations). Now what?
+            </p>
+          </example>
+        </introduction>
         
       </chapter>
 
@@ -875,6 +875,9 @@
             this system are afforded the calories and nutrients that
             allow their physical and biological substrate to continue to 
             function. If this sounds coercive, you are correct. It is.
+          </p>
+          <p>
+            
           </p>
         </introduction>
         <section xml:id="sec-interest">
