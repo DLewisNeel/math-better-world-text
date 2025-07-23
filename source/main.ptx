@@ -740,7 +740,7 @@
             some examples of how this can happen. But the belief related to this idea of power is quite
             surprising and can be motivated with a relatively simple example.
           </p>
-          <example>
+          <example xml:id="ex-weighted-intuition">
             <title>Intuition Misleading Us?</title>
             <p>
               Suppose there were three states in the nation with populations such that, 
