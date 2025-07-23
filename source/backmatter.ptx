@@ -7,14 +7,14 @@
 <!-- with all notation generated, and finally the index. -->
 <backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
   <title>Backmatter</title>
-  <appendix>
+  <appendix xml:id="app-counting">
     <title>Counting Techniques</title>
     <p>
       TESTING
     </p>    
   </appendix>
 
-  <appendix>
+  <appendix xml:id="app-set-theory">
     <title>The Idea of a Set</title>
     <p>
       TESTING
