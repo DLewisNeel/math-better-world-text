@@ -925,8 +925,18 @@
             <term>veto power</term> in the system. You may think that
             such a player must have all the power in the system, but 
             this is actually not the case.
-            <example>
-              
+            <example xml:id="ex-veto">
+              <p>
+                Consider the weighted voting system <m>[4:3,2,1]</m>.
+                Since Player 2 and Player 3 only add to a total weight of 3, 
+                this means they cannot pass a measure without Player 1. 
+                Thus, Player 1 has veto power. But notice that Player 1 cannot
+                pass a measure on their own, because their weight is also
+                3, which is less than the quota, <m>q=4</m>. Neither Player 2
+                nor Player 3 have veto power. But it also seems they may not
+                be a dummies. (We will develop our abilities further to explore
+                this question.)
+              </p>
             </example>
           </p>
         </section>
