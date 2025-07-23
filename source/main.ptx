@@ -792,15 +792,43 @@
           <p>
             How do things play out? Well let us think it through: Suppose the proposed
             measure that this legislative body is deliberating upon is whether to 
-            locate a toxic
+            locate a (necessary?) toxic
             waste dump in Cropland. We might expect this to be approved by the 49
             representatives from Alsaka and the 47 from Bartleby, which would allow
             the measure to pass by majority vote. (Note that there is another assumption
-            here, one we might do well to consider later, namely that simple majority,
+            here, one we might do well to (re)consider later, namely that simple majority,
             which in this case would be 51 out of 100, is all that is needed to
             pass a measure.) Obviously 96 votes will suffice to pass the measure.
             That is to say: if both Alsaka and Bartleby favor a measure, then that 
             measure will be approved by the legislative body. 
+          </p>
+          <p>
+            But suppose, instead, that a measure were introduced to place the 
+            waste dump in Alsaka? Why, then we might expect that Bartleby and
+            Cropland could agree to vote in favor of this measure, which would
+            thus pass by a 51 to 49 count. A measure passed by 51 to 49 is just as
+            binding as a measure passed by 96 to 4. This fact turns out to have
+            a rather interesting consequence. In fact, we can now notice the 
+            following key fact: 
+            <em>
+              If two of the three states are in favor of a measure, then
+              the measure will pass.
+            </em>
+            This may be quite surprising, even disturbing. Especially since
+            it shows that our intuition about the scaling of representatives
+            to population might completely fail to scale the decision-making
+            power in the way we had hoped. Alsaka has the same amount of 
+            power in this system as Cropland does, despite the fact that its
+            population is over 12 times bigger. A citizen of Alsaka has 
+            less than 
+            <me>
+              \frac{1}{12}
+            </me>
+            the amount of power as a citizen of Cropland. It is not unreasonable
+            to think that over time this sort of distortion away from 
+            <q>equal representation</q> might have rather significant effects
+            upon the views citizens might have of the legitimacy of the 
+            political system.
           </p>
 
         </example>
