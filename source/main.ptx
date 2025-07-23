@@ -740,7 +740,7 @@
             some examples of how this can happen. But the belief related to this idea of power is quite
             surprising and can be motivated with a relatively simple example.
           </p>
-          <example xml:id="3-state-weighted">
+          <example>
             <title>Intuition Misleading Us?</title>
             <p>
               Suppose there were three states in the nation with populations such that, 
@@ -887,7 +887,7 @@
             total weight of players required to pass a measure.
           </p>
           <p>
-            To make this clear, in <xref ref="3-state-weighted"/>, there are
+            To make this clear, in our first example above, there are
             three players, Alsaka with weight 49, Bartleby with weight 47, 
             and Cropland with weight 4. The quota in that example is 51. We 
             always require that the quota exceed half the total weight of the 
