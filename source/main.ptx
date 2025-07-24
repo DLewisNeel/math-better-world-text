@@ -1046,7 +1046,7 @@
           </p>
           <p>
             Once money is posited as part of the system, as a sort of 
-            universal unit of exchange that can provide access too
+            universal unit of exchange that can provide access to
             goods and services, necessary and frivolous alike, the issue
             of time also presents itself. Specifically, how does (or 
             should?) time and money interact. One way is that you do 
@@ -1123,8 +1123,28 @@
           </p>
           <p>
             <example xml:id="ex-time-interest">
+              <title>Interest: Borrowing and Repaying</title>              
               <p>
-                
+                Mary needs $100 to buy food for her four children. 
+                Richard has $100 he is not using and will not need for a 
+                month. He agrees to loan Mary money to feed her 
+                children as long as she will pay him back an extra 
+                10% at the end of the month. Mary has little choice 
+                but to agree.
+              </p>
+              <p>
+                How much does Mary pay at the end of the month? We
+                know from what we learned in 
+                <xref ref="ch-percent-proportion"/>
+                that 10% of $100 is: 
+                <me>
+                  (0.10)(100)=10
+                </me>
+                So Mary will repay the original $100 plus the 
+                extra $10 for a total of $110. We call the
+                $10 the <term>interest</term>. We call the 10% 
+                the <term>interest rate</term> for the period of
+                one month.
               </p>
             </example>
           </p>
