@@ -1039,7 +1039,94 @@
         <section xml:id="sec-interest">
           <title>Interest and Time</title>
           <p>
-            
+            We will take the idea of money as given, though, again, 
+            one must keep in mind that it is only a contingent set
+            of human practices that allow it to so thoroughly organize
+            our lives.
+          </p>
+          <p>
+            Once money is posited as part of the system, as a sort of 
+            universal unit of exchange that can provide access too
+            goods and services, necessary and frivolous alike, the issue
+            of time also presents itself. Specifically, how does (or 
+            should?) time and money interact. One way is that you do 
+            or will eventually trade away part of your life to your
+            boss, a portion of each of your finite number of days, in 
+            exchange for money. This money can, in theory, then be 
+            used to provide food and shelter and medical care to you
+            and those you love.
+          </p>
+          <p>
+            Throughout this book, we have often found ourselves in 
+            pursuit of equivalents. (Or <q>equivalence</q>.) Here we find
+            another needed pursuit: suppose you need money right now and 
+            someone else has that money. Further, that person does not 
+            need the money they have for use right now. They could give
+            the money to you for you to use for the needed food or housing
+            or medical care. They might ask only for the same amount of money
+            in return at some future (specified or unspecified) date. 
+            This rarely occurs. Generally, a larger amount of future money is
+            expected in return.
+          </p>
+          <p>
+            There are a variety of reasons that might be given for this
+            expectation. We might even view some of them as, more or 
+            less, reasonable. What we must never do is lose sight of the
+            fact that any such reason runs the risk of becoming so encrusted,
+            even completely obscured by habit and privilege, that it
+            becomes an item of faith upon which the lives and well-being of
+            vulnerable people will be sacrificed without hesitation. 
+          </p>
+          <p>
+            So let us present the reasons that the future repayment might
+            be expected to be larger than the original loan amount, wary and
+            with full awareness of the ways
+            these reasons can be used to justify privation, want, 
+            and exploitation of vulnerable persons. 
+          </p>
+          <p>
+            <ul>
+              <li>
+                <p>
+                  Risk: the borrower may not pay the agreed future
+                  amount, either because they will not or cannot. Thus, 
+                  the creditor should be compensated for taking this risk
+                  and the amount repaid should be larger than that loaned.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Lost access to the loaned money: the creditor no 
+                  longer has the use of the loaned money in the interval
+                  between loaning it and being repaid. Thus, the creditor 
+                  should be compensated for this decrease in their 
+                  financial autonomy 
+                  and the amount repaid should be larger than that loaned.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Inflation: historically, on average, the value of 
+                  money has a tendency to decrease. This means a dollar now
+                  tends to be able to purchase more than a dollar in a
+                  month or a year or a decade. (when I was a teen, it cost
+                  $7 to see an evening movie. Nowadays, a teen would watch
+                  it free via torrent on their phone. But if they went to the
+                  theater to see an evening movie it would cost around $15.) 
+                  Since a dollar now will (usually) buy less than a dollar in 
+                  the future, the creditor should be compensated to mitigate 
+                  this decay in purchasing power
+                  and the amount repaid should be larger than that loaned.
+                </p>
+              </li>
+            </ul>
+          </p>
+          <p>
+            <example xml:id="ex-time-interest">
+              <p>
+                
+              </p>
+            </example>
           </p>
         </section>
       </chapter>
