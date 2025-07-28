@@ -1182,7 +1182,7 @@
           <subsection xml:id="subsec-compound-interest">
             <title>Compound Interest</title>
             <p>
-              
+              BUT THE STORY SEEMS A LITTLE UNFAIR? COMPOUND INTEREST.
             </p>
           </subsection>
         </section>
@@ -1191,6 +1191,49 @@
           <p>
             STUFF ABOUT LOANS HERE.
           </p>
+          <subsection xml:id="subsec-single-payment">
+            <title>Single Payment Loans</title>
+            <p>
+              WHAT IF WE PAY BACK ONCE?
+            </p>
+          </subsection>
+          <subsection xml:id="subsec-interest-payment">
+            <title>Making Interest Payments Along the Way</title>
+            <p>
+              INTEREST PAYMENTS AND A LUMP SUM AT THE END.
+            </p>
+          </subsection>
+          <subsection xml:id="subsec-amortized-loan">
+            <title>Making Smaller Payments All Along</title>
+            <p>
+              In the previous section we learned about making
+              interest payments in such a way that we could then
+              make a final interest payment plus the originally
+              loaned amount at the end of the process. This
+              might be reasonable in some situations, but depending
+              on the loan amount, might be rather unreasonable.
+              For example, if one were to use a loan to buy a house 
+              for $700,000 (which is below the median sale price
+              and below the median asking price in Seattle in 
+              2025, according to Zillow) one would have to plan rather
+              carefully to make sure one was able to make a payment of
+              $700,000 at the end of the loan period. Most normal people
+              do not have this amount sitting around in their savings
+              account. Further, such a large payment at the very end of
+              the process makes the loan agreement more risky in the eyes
+              of the granter of the loan. (What happens if the borrower
+              refuses or cannot pay that extremely large last payment?)
+            </p>
+            <p>
+              With this in mind, what is more usual is to spread out
+              the intermittent payments so that they are all the same
+              amount, or at least as close the same amount as is 
+              possible. It turns out that the fact that all payments
+              must be rounded to the nearest cent will have some effect
+              on our quest for every payment to be exactly the same.
+              (Can you imagine why this might be?)
+            </p>
+          </subsection>
         </section>
         <section xml:id="sec-time-value">
           <title>The Time Value of Money</title>
