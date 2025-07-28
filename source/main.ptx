@@ -1148,16 +1148,76 @@
               </p>
             </example>
           </p>
+          <subsection xml:id="subsec-simple-interest">
+            <title>Simple Interest</title>
+            <p>
+              Suppose you were to put money into a savings account at
+              some financial institution. You should think of this as
+              you giving a loan to this institution. We are often trained
+              or expected to think of this as the institution doing us the
+              favor of protecting our money. It is true that a bank tends
+              to be more difficult to rob than a person with cash. But the 
+              more important aspect of this exchange is that you are granting
+              the institution the use of that money for some period of time
+              until you take it out of the institution again. Thus, according 
+              to the logic described above, the institution should pay you
+              some interest for the use of this money. (We will later 
+              discuss what benefit this has for the institution and what 
+              <q>use</q> might mean in this context.)
+            </p>
+            <p>
+              Suppose you place $1000 into this institution, which agrees
+              to pay you a 1% interest payment on this amount for each
+              month that you leave it in the bank. This interest payment
+              would thus be:
+              <me>
+                (0.01)(1000)=10
+              </me> 
+              That is, the bank would pay you $10 at the end of the first
+              month. If you left the $1000 in the bank for another month, 
+              you would be given another $10 payment by the bank. And so
+              on.
+            </p>
+          </subsection>
+          <subsection xml:id="subsec-compound-interest">
+            <title>Compound Interest</title>
+            <p>
+              
+            </p>
+          </subsection>
+        </section>
+        <section xml:id="sec-loans">
+          <title>Understanding Loans</title>
+          <p>
+            STUFF ABOUT LOANS HERE.
+          </p>
+        </section>
+        <section xml:id="sec-time-value">
+          <title>The Time Value of Money</title>
+          <p>
+            Before we leave the topic of money and interest and the
+            systems within which we are enmeshed, let us gather the
+            ideas into a sort of coherent approach. The fact that the
+            entire structure is formed by human habit and choice need
+            not prevent us from thinking through how its logic can be
+            extended into more ornate systems of payments. If we can 
+            understand this, we can understand a whole variety of 
+            financial tools.
+          </p>
         </section>
       </chapter>
 
       <chapter xml:id="ch-probability">
         <title>How Likely is Some Occurrence?</title>
         <p>
-          Now that we are becoming more comfortable with percentages and proportions, why not think about a
-          proportion of the time that something happens? It isn't that different, conceptually, to say that 65%
-          of some group of 100 people have brown eyes as it is to say that 65% of the 100 days from February 14
-          to May 25 have some rain that falls on Seattle at some point during that day.
+          Now that we are becoming more comfortable with percentages 
+          and proportions, why not think about a
+          proportion of the time that something happens? It isn't 
+          that different, conceptually, to say that 65%
+          of some group of 100 people have brown eyes as it is to 
+          say that 65% of the 100 days from February 14
+          to May 25 have some rain that falls on Seattle at some 
+          point during that day.
         </p> 
       </chapter>
 
@@ -1165,11 +1225,16 @@
       <chapter xml:id="ch-marx-models">
         <title>Marx and his Mathematical Models</title>
         <p>
-          The brilliant philosophical and economic thinker, Karl Marx, is one of the most influential 
-          minds over the last two centuries, especially in our understanding of the current dominant world
-          economic system, capitalism. While it is beyond the scope of this textbook to debate whether Marx
-          was right or not (in itself a strange debate, generally driven by ideology rather than honest desire
-          for truth) instead we will focus on Marx's clever deployment of mathematical models to help drive
+          The brilliant philosophical and economic thinker, Karl Marx, 
+          is one of the most influential 
+          minds over the last two centuries, especially in our 
+          understanding of the current dominant world
+          economic system, capitalism. While it is beyond the 
+          scope of this textbook to debate whether Marx
+          was right or not (in itself a strange debate, generally 
+          driven by ideology rather than honest desire
+          for truth) instead we will focus on Marx's clever 
+          deployment of mathematical models to help drive
           insight for himself and understanding for others. 
         </p>
         <p>
