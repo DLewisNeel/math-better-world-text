@@ -1252,16 +1252,79 @@
 
       <chapter xml:id="ch-probability">
         <title>How Likely is Some Occurrence?</title>
-        <p>
-          Now that we are becoming more comfortable with percentages 
-          and proportions, why not think about a
-          proportion of the time that something happens? It isn't 
-          that different, conceptually, to say that 65%
-          of some group of 100 people have brown eyes as it is to 
-          say that 65% of the 100 days from February 14
-          to May 25 have some rain that falls on Seattle at some 
-          point during that day.
-        </p> 
+        <introduction>
+          <p>
+            Now that we are becoming more comfortable with percentages 
+            and proportions, why not think about a
+            proportion of the time that something happens? It isn't 
+            that different, conceptually, to say that 65%
+            of some group of 100 people have brown eyes as it is to 
+            say that 65% of the 100 days from February 14
+            to May 25 have some rain that falls on Seattle at some 
+            point during that day.
+          </p>
+          <p>
+            The trick as we begin wading into these waters is to 
+            do so with a bit of a sense of wonder and play. Some of
+            the early examples will feel almost trivial, often 
+            descriptions of frivolous games of various sorts. The
+            beauty of this is, though, that the principles and 
+            practices we learn in these simple contexts can scale
+            up to give us insight on rather complex and surprising
+            applications later. 
+          </p>
+          <p>
+            With this in mind, perhaps it is easier to suspend  
+            impatience or eye-rolling impulses. Try, if you can,
+            to just enjoy the game-like explorations near the start.
+          </p>
+        </introduction>
+        <section xml:id="sec-equally-likely">
+          <title>Equally Likely Outcomes</title>
+          <p>
+            Let us begin with a fairly simple situation and try to 
+            understand how our intuition might (possibly) rightly 
+            direct us. Suppose five friends want to decide who
+            should pick the next book for their book club. Because
+            they are all too polite to insist, Ali suggests they put
+            their names on five identical slips of paper, put those
+            slips of paper into a container. We will imagine that
+            container as a 
+            metal urn out of a gentle respect for mathematical 
+            tradition. Ben, Cal, Dani, Eve all agree to this system.
+            In part this is based on their shared intuition that
+            each of them are equally likely to be chosen by this
+            method. This is an important assumption, and is one that
+            we would do well to keep in mind for future situations 
+            as well.
+          </p>
+          <example>
+            <title>Randomly Selecting One Object From Five</title>
+            <statement>
+              <p>
+                Five names are placed into an urn, 
+              </p>
+            </statement>
+            <answer>
+              <p>
+                
+              </p>
+            </answer>
+            <solution>
+              <p>
+                
+              </p>
+            </solution>
+          </example>
+        </section>
+        <section xml:id="sec-counting-techniques">
+          <title>Counting Techniques</title>
+          
+        </section>
+        <section xml:id="sec-conditional">
+          <title>Multi-Stage Processes and Probability</title>
+          
+        </section>
       </chapter>
 
 
