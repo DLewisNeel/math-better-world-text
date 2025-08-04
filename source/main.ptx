@@ -980,6 +980,87 @@
         </section>
       </chapter>
 
+
+      <chapter xml:id="ch-voting-methods">
+        <title>Avoiding Democratic Distortion: Voting Methods</title>
+        <introduction>
+          <p>
+            Much of what we have considered so far can be seen as attempts
+            to make things <q>fair</q> or <q>just</q>. We seem to have, as
+            humans, many ideas about what is fair or not. We have already
+            seen several situations where a design that seems well-suited
+            to generate fair or just outcomes has instead exhibited behavior
+            that surprised us for its deviation from what seemed fair.
+            These ideas of fairness so far have tended to be associated with
+            ideas of proportion. We have been pursuing proportionality.
+          </p>
+          <p>
+            In this section, we will examine something different. We will
+            concern ourselves with how elections might be best carried out. 
+            That is, if we must choose among two or more candidates 
+            for some position, 
+            or between two or more possible options for solving a problem,
+            how should we choose?
+          </p>
+          <p>
+            Many people will immediately arrive at an answer that we should 
+            reflect upon. We should have a vote, they say. Surely, this is the 
+            very heart of democracy! But <q>democracy</q> is itself a word that
+            gathers into it quite a multiplicity of ideas and ideological 
+            commitments or assumptions. And, as we have seen before, even if
+            we design a system from correct intuitions we must carefully examine
+            the behavior of that system to understand whether those intuitions
+            about good design do indeed then generate the fair or just or proportional
+            behaviors we had envisioned.
+          </p>
+        </introduction>
+        <section xml:id="sec-voting-notation">
+          <title>The Will of the Voters</title>
+          <p>
+            Right away as we think about elections and voting, we are 
+            introduced to a sort of abstract idea, which is the 
+            <q>will of the voters</q>. (We will set aside, for now, 
+            the terribly fraught question of who the voters are, 
+            a problem which we might plausibly argue
+            has never actually been solved in a truly just way.) 
+            But if an election, some collective act of voting, is a 
+            process designed to make a decision, should it not also be
+            designed for that decision to be most pleasing to the most
+            people who voted in that election? For any question, it 
+            seems reasonable to imagine some ideal <q>will of the people</q>
+            which the method for tallying votes is designed to reveal.
+          </p>
+          <example>
+            <title>Choosing Pizza</title>
+            <p>
+              12 children are choosing what kind of pizza they want
+              for a birthday party. (The large pizza from this particular
+              pizzeria has 12 pieces.) The options are cheese, pepperoni,
+              or olive and onion. Five vote for cheese, four vote for 
+              pepperoni, and three vote for olive and onion. So they 
+              each get a piece of cheese pizza. 
+            </p>
+          </example>
+        </section>
+        <section xml:id="sec-bad-voting">
+          <title>What Can Go Wrong?</title>
+          <p>
+            EXPLAIN WHAT CAN GO WRONG
+          </p>
+        </section>
+      </chapter>
+
+      <chapter xml:id="ch-gerrymandering">
+        <title>Intended Democratic Distortion: Gerrymandering</title>
+        <introduction>
+          <p>
+            PROPORTIONALITY VIOLATED YET AGAIN.
+          </p>
+        </introduction>
+      </chapter>
+
+
+
       <chapter xml:id="ch-financial-math">
         <title>Financial Mathematics</title>
         <introduction>
