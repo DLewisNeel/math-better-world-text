@@ -1099,19 +1099,28 @@
               <title>12 Children Rank Pizza Type</title>
               <tabular>
                 <row>
-                  <cell></cell>
+                  <cell> </cell>
                   <cell>5</cell>
                   <cell>4</cell>
                   <cell>3</cell>
                 </row>
                 <row>
-                  <cell></cell>
+                  <cell>1st</cell>
+                  <cell>Cheese</cell>
+                  <cell>Pepperoni</cell>
+                  <cell>Olive and Onion</cell>
                 </row>
                 <row>
-                  <cell></cell>
+                  <cell>2nd</cell>
+                  <cell>Olive and Onion</cell>
+                  <cell>Olive and Onion</cell>
+                  <cell>Pepperoni</cell>
                 </row>
                 <row>
-                  <cell></cell>
+                  <cell>3rd</cell>
+                  <cell>Pepperoni</cell>
+                  <cell>Cheese</cell>
+                  <cell>Cheese</cell>
                 </row>
               </tabular>
             </table>
