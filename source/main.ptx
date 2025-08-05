@@ -1098,27 +1098,27 @@
             <table>
               <title>12 Children Rank Pizza Type</title>
               <tabular halign="center">
-                <col/>|<col/><col/><col/>
-                <row header="yes" bottom="minor">
-                  <cell> </cell>
+                </col></col></col></col>
+                <row header="yes" bottom="medium">
+                  <cell right="medium"> </cell>
                   <cell>5</cell>
                   <cell>4</cell>
                   <cell>3</cell>
                 </row>
                 <row>
-                  <cell>1st</cell>
+                  <cell right="medium">1st</cell>
                   <cell>Cheese</cell>
                   <cell>Pepperoni</cell>
                   <cell>Olive and Onion</cell>
                 </row>
                 <row>
-                  <cell>2nd</cell>
+                  <cell right="medium">2nd</cell>
                   <cell>Olive and Onion</cell>
                   <cell>Olive and Onion</cell>
                   <cell>Pepperoni</cell>
                 </row>
                 <row>
-                  <cell>3rd</cell>
+                  <cell right="medium">3rd</cell>
                   <cell>Pepperoni</cell>
                   <cell>Cheese</cell>
                   <cell>Cheese</cell>
