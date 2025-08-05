@@ -1095,20 +1095,26 @@
           </definition>
           <example>
             <title>The Preference Schedule for Pizza Voters</title>
-            <me>
-              \begin{center} Situation 1\\
-              \medskip
-              \begin{tabular}{|r|cccccc|}
-              \hline
-              & 6 & 4 & 6 & 3 &1&1\\
-              \hline
-              1st & A & B & C & C &A&B\\
-              2nd & B & C & B & A &C&A\\
-              3rd & C & A & A & B &B&C\\
-              \hline
-              \end{tabular}
-              \end{center}
-            </me>
+            <table>
+              <title>12 Children Rank Pizza Type</title>
+              <tabular>
+                <row>
+                  <cell></cell>
+                  <cell>5</cell>
+                  <cell>4</cell>
+                  <cell>3</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell></cell>
+                </row>
+                <row>
+                  <cell></cell>
+                </row>
+              </tabular>
+            </table>
           </example>
         </section>
 
