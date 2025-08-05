@@ -1038,10 +1038,80 @@
               pizzeria has 12 pieces.) The options are cheese, pepperoni,
               or olive and onion. Five vote for cheese, four vote for 
               pepperoni, and three vote for olive and onion. So they 
-              each get a piece of cheese pizza. 
+              each get a piece of cheese pizza. Sounds like everything
+              worked out as it should.
+            </p>
+            <p>
+              But let us think through this more carefully. What if the
+              five who wanted cheese had olive and onion as their 
+              second choice? What if the four who wanted pepperoni also
+              had olive and onion as their second choice? Does this
+              still seem like a good outcome? We now know that seven of
+              the 12 children will be eating the pizza that is their
+              last choice. On the other hand, if olive and onion had
+              been ordered, then everyone would be eating either their
+              first or second choice of pizza. It seems that, at least
+              from certain points of view and with certain distributions
+              of the opinions of voters, our decision to focus only on
+              the top choice of ever voter might still lead to outcomes
+              that are not in alignment with <q>the will of the people</q>
+            </p>
+            <p>
+              If you are tempted to object to this, note that another way 
+              we might have approached the situation: the children should
+              vote on which pizza option should be eliminated first. Clearly
+              cheese pizza would have been eliminated, since a seven children,
+              a majority (which term we will explore in detail later) would 
+              have voted to eliminate cheese pizza. (Can you see what pizza
+              would then be chosen if this process was repeated with the two
+              remaininng pizza options?)
+            </p>
+            <p>
+              You might also object, here, and say, well, those are two different
+              methods, it should not surprise us, nor even perhaps disturb us,
+              that they result in a different outcome. This is a good point! 
+              All that this example really does is suggest that perhaps there
+              might be some work to be done, mathematically, analytically, to
+              think through how we might evaluate the effectiveness and fairness
+              of voting methods. There seems to be at least some ambiguity about
+              what might best (and thus most fairly?) reflect the will of the 
+              people.
             </p>
           </example>
+          <p>
+            In order to clearly think through this analysis, we need to develop 
+            some notation. How are we to capture the preferences of some 
+            finite collection of voters among some finite list of options,
+            whether they be candidates or types of pizza to order? 
+          </p>
+          <definition xml:id="def-preference-schedule">
+            <statement>
+              <p>
+                A preference schedule for some set of voters collects the 
+                number of voters in favor of each possible ordering of the 
+                candidates.
+              </p>
+            </statement>
+          </definition>
+          <example>
+            <title>The Preference Schedule for Pizza Voters</title>
+            <me>
+              \begin{center} Situation 1\\
+              \medskip
+              \begin{tabular}{|r|cccccc|}
+              \hline
+              & 6 & 4 & 6 & 3 &1&1\\
+              \hline
+              1st & A & B & C & C &A&B\\
+              2nd & B & C & B & A &C&A\\
+              3rd & C & A & A & B &B&C\\
+              \hline
+              \end{tabular}
+              \end{center}
+            </me>
+          </example>
         </section>
+
         <section xml:id="sec-bad-voting">
           <title>What Can Go Wrong?</title>
           <p>
