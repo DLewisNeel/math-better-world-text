@@ -1098,7 +1098,8 @@
             <table>
               <title>12 Children Rank Pizza Type</title>
               <tabular halign="center">
-                <row header="yes">
+                <col/>|<col/><col/><col/>
+                <row header="yes" bottom="minor">
                   <cell> </cell>
                   <cell>5</cell>
                   <cell>4</cell>
