@@ -1095,6 +1095,17 @@
           </definition>
           <example>
             <title>The Preference Schedule for Pizza Voters</title>
+            <p>
+              The table below is an example of a preference schedule.
+              It completely summarizes the ballots cast by the 12 children
+              trying to choose a pizza. At the top of each column is the
+              number of ballots of that type. The rows correspond to first-,
+              second-, and third-choices on those ballots. We will generally
+              include the first column to remind us that this is what 
+              these rows mean. Note that the sum of numbers in the first
+              row should always correspond to the total number of votes cast.
+              In this case, <m>5+4+3=12</m>.
+            </p>
             <table>
               <title>12 Children Rank Pizza Type</title>
               <tabular halign="center">
