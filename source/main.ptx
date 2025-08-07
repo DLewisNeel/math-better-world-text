@@ -1030,7 +1030,7 @@
             seems reasonable to imagine some ideal <q>will of the people</q>
             which the method for tallying votes is designed to reveal.
           </p>
-          <example>
+          <example xml:id="ex-pizza-vote">
             <title>Choosing Pizza</title>
             <p>
               12 children are choosing what kind of pizza they want
@@ -1060,11 +1060,11 @@
               If you are tempted to object to this, note that another way 
               we might have approached the situation: the children should
               vote on which pizza option should be eliminated first. Clearly
-              cheese pizza would have been eliminated, since a seven children,
+              cheese pizza would have been eliminated, since seven children,
               a majority (which term we will explore in detail later) would 
               have voted to eliminate cheese pizza. (Can you see what pizza
               would then be chosen if this process was repeated with the two
-              remaininng pizza options?)
+              remaining pizza options?)
             </p>
             <p>
               You might also object, here, and say, well, those are two different
@@ -1076,6 +1076,20 @@
               of voting methods. There seems to be at least some ambiguity about
               what might best (and thus most fairly?) reflect the will of the 
               people.
+            </p>
+            <p>
+              Finally, though we will work to discern methods for discerning
+              the will of the people, we should remember that a decision that 
+              accurately reflects the will of the people may not, by that fact, 
+              be affirmed as morally good. You will see this sometimes to be 
+              assumed in discussions of democracy and voting. But we would do
+              well to recall that, at many times in the past, great evil has 
+              been affirmed or assented to by democratic processes. Consider
+              the American South prior to 1865, the United States
+              prior to 1964. Or consider Germany in 1933. At many times, the
+              majority has not only incorrect but morally repugnant beliefs
+              and practices. We may hope that democracy blunts or minimizes the
+              chance of these sorts of outcomes, but we must not be naive.
             </p>
           </example>
           <p>
@@ -1136,12 +1150,33 @@
               </tabular>
             </table>
           </example>
+          <p>
+            Such a table can be easily extended to as many rows as necessary.
+            It is good to think about how many columns might be needed, though.
+            With three candidates, we would never need more than six columns.
+            Can you see why? It depends on the number of possible orderings 
+            of three candidates. If there were four candidates, the number of
+            possible orderings of candidates rises to 24. With five candidates
+            we might have 120 possible kinds of ballots cast. In all these 
+            cases we can still carry out the analyses that we will develop 
+            below. But you can see that the space of possible outcomes rises
+            quite rapidly. (This is called the combinatorial explosion, and we 
+            will speak more about it in later sections.)
+          </p>
         </section>
 
         <section xml:id="sec-bad-voting">
           <title>What Can Go Wrong?</title>
           <p>
-            EXPLAIN WHAT CAN GO WRONG
+            In <xref ref="ex-pizza-vote"/> we may have already begun to suspect
+            that we will need to be quite careful about how we think about what
+            the behavior of a voting method should be. The usual approach to this
+            question is to declare our ideas of fairness in an election. There
+            are many such <q>fairness criteria</q> that are suggested and 
+            studied. We will focus our attention on four of them.
+          </p>
+          <p>
+            MAJORITY
           </p>
         </section>
       </chapter>
