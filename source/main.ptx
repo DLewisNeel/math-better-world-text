@@ -1179,6 +1179,72 @@
             MAJORITY
           </p>
         </section>
+        <section xml:id="sec-fairness-criteria">
+          <title>Four Ideas of Fairness</title>
+          <p>
+          <definition xml:id="def-majority">
+            <title>Majority Fairness Criterion</title>
+            <statement>
+              <p>
+                In an election, if some candidate has the majority of first-place
+                votes, then this candidate should win.
+              </p>
+            </statement>
+          </definition>  
+          <definition xml:id="def-iia">
+            <title>Independence of Irrelevant Alternatives Fairness Criterion</title>
+            <statement>
+              <p>
+                In an election, if some candidate would win and some other non-winning
+                candidate drops out of the election, then the original winning candidate
+                should still win the election.
+              </p>
+            </statement>
+          </definition>
+          <definition xml:id="def-condorcet">
+            <title>The Condorcet Fairness Criterion</title>
+            <statement>
+              <p>
+                In an election, if some candidate would win all head-to-head
+                matchups with other candidates, then that candidate should win
+                the election.
+              </p>
+            </statement>
+          </definition>
+          <definition xml:id="def-monotonicity">
+            <title>The Monotonicity Fairness Criterion</title>
+            <statement>
+              <p>
+                INCLUDE MONOTONICITY DEF HERE.
+              </p>
+            </statement>
+          </definition>
+          </p>
+        </section>
+        <section xml:id="sec-voting-methods">
+          <title>Four Voting Methods</title>
+          <p>
+            With the the ideas of fairness defined by the four Fairness
+            Criteria above, let us now explore some methods of determining
+            a winner in an election, once we have been provided with a 
+            preference schedule summarizing voter opinion on the candidates.
+          </p>
+          <p>
+            Two other things to keep in mind: first, that none of the following
+            analysis is needed if there are only two candidates. Second, though
+            we will consider situations where each ballot provides a complete
+            ranking of all the candidates, there are simple ways to adapt the
+            results we will find to account for ballots with incomplete information.
+            That is, an objection that not all voters would fill out their ballot
+            completely and therefore no alternative methods should be considered
+            is an invalid objection. (It is somewhat common to hear objections to
+            alternative methods of voting, usually relying upon claims about the 
+            ignorance or laziness of voters. Ignorance and laziness in voting, when
+            they occur, are, in the opinion of this author, likely to be the effect
+            of poor voting methods and legislative and executive leaders who fail
+            to address the real-world material needs of voters.)
+          </p>
+        </section>
       </chapter>
 
       <chapter xml:id="ch-gerrymandering">
