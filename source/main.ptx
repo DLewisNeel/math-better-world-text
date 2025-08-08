@@ -350,7 +350,7 @@
       </chapter>
 
       <chapter xml:id="ch-democracy-representation">
-        <title>Democracy and Representation</title>
+        <title>Democracy and Proportional Representation</title>
           <introduction>
             <p>
               Regardless of how deeply unjust and violent the current state 
@@ -979,45 +979,50 @@
           <algorithm xml:id="alg-banzhaf">
             <title>How to Compute the Power of No</title>
             <statement>
-              <p>
-                Write down all winning coalitions in the weighted voting 
-                system. 
-              </p>
-            </statement>
-            <statement>
-              <p>
-                For each winning coalition, check each player in that coalition
-                to see if they are a critical player. That is, check each player,
-                one at a time, leaving the winning coalition and see if the remaining
-                players form a winning coalition. Note that there may be zero, one, or
-                multiple critical players in a winning coalition.
-              </p>
-            </statement>
-            <statement>
-              <p>
-                Determine how many times each player is a critical player. For
-                Player <m>i</m> call this number <m>c_i</m>. Determine,
-                also, the sum of all occurrences of any player being a critical player
-                and call this sum <m>C</m>.
-                That is, find the sum of all the <m>c_i</m>. The notation for this
-                is 
-                <me>
-                  \sum_{i=1}^{n} c_i = C
-                </me>
-              </p>
-            </statement>
-            <statement>
-              <p>
-                Each player's <term>Banzhaf power</term> is defined to be the fraction 
-                given by the number of times that player was critical divided by 
-                the total number
-                of times that any player was critical. 
-                That is, the Banzhaf power, 
-                the Power of No, for Player <m>i</m> is defined to be: 
-                <me>
-                  B_i=\dfrac{c_i}{C}
-                </me>
-              </p>
+              <ol>
+                <li>
+                  <p>
+                    Write down all winning coalitions in the weighted voting 
+                    system. 
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    For each winning coalition, check each player in that coalition
+                    to see if they are a critical player. That is, check each player,
+                    one at a time, leaving the winning coalition and see if the remaining
+                    players form a winning coalition. Note that there may be zero, one, or
+                    multiple critical players in a winning coalition.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Determine how many times each player is a critical player. For
+                    Player <m>i</m> call this number <m>c_i</m>. Determine,
+                    also, the sum of all occurrences of any player being a critical player
+                    and call this sum <m>C</m>.
+                    That is, find the sum of all the <m>c_i</m>. The notation for this
+                    is 
+                    <me>
+                      \sum_{i=1}^{n} c_i = C
+                    </me>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Each player's <term>Banzhaf power</term> is defined to be the fraction 
+                    given by the number of times that player was critical divided by 
+                    the total number
+                    of times that any player was critical. 
+                    That is, the Banzhaf power, 
+                    the Power of No, for Player <m>i</m> is defined to be: 
+                    <me>
+                      B_i=\dfrac{c_i}{C}
+                    </me>
+                  </p>
+                </li>
+              </ol>
+
             </statement>
           </algorithm>
           <p>
@@ -1178,8 +1183,18 @@
                 </li>
                 <li>
                   <p>
-                    FINISH ALG
-                  </p>
+                    Each player's <term>Shapley-Shubik power</term> is defined to 
+                    be the fraction 
+                    given by the number of times that player was pivotal divided by 
+                    the total number
+                    of times that any player was pivotal, which we already know
+                    is <m>n!</m>. 
+                    That is, the Shapley-Shubik power, 
+                    the Power of Yes, for Player <m>i</m> is defined to be: 
+                    <me>
+                      S_i=\dfrac{s_i}{n!}
+                    </me>
+                  </p>                
                 </li>  
               </ol>
             </statement>
