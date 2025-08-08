@@ -1101,14 +1101,14 @@
               about orderings of two objects, call them <m>A</m> and <m>B</m>. 
               Well, we can order them <m>AB</m> or <m>BA</m>, correct? 
               What about ordering three objects: A, B, and C?
-              <me>
-                ABC //
-                ACB //
-                BAC //
-                BCA //
-                CAB //
-                CBA
-              </me>
+              <md>
+                <mrow>ABC</mrow>
+                <mrow>ACB</mrow>
+                <mrow>BAC</mrow>
+                <mrow>BCA</mrow>
+                <mrow>CAB</mrow>
+                <mrow>CBA</mrow>
+              </md>
               Six possible orderings. 
             </p>
           </remark>
