@@ -1111,6 +1111,40 @@
               </md>
               Six possible orderings. 
             </p>
+            <p>
+              What you might notice in that last example is 
+              that we can think of this as a process playing out in 
+              stages. How many choices are there for the first object
+              in the ordering? Three choices. Now, once you've selected
+              the first, how many choices are there for the second
+              in line? Only two choices left. Then the remaining object
+              must be last in line. This means there are 
+              <m>(3)(2)(1)=6</m> orderings. And if there were four objects?
+              Then there would be <m>(4)(3)(2)(1)=24</m> orderings.
+            </p>
+            <p>
+              You can see that this swiftly becomes cumbersome to write out,
+              and so a notation has been created, factorial notation, which 
+              uses the exclamation point, <q>!</q>. So instead of writing 
+              <m>(3)(2)(1)</m> we can write <m>3!</m>. And instead of writing
+              <m>(4)(3)(2)(1)</m> we can write <m>4!</m>. This is such a
+              fundamental idea, and so natural, that as you become more familiar
+              with these topics you may find yourself automatically thinking
+              of <m>n!</m> as <q>the number of ways to order <m>n</m> objects</q>.
+            </p>
+            <p>
+              It's worth noting, also, that <m>5!=(5)(4)(3)(2)(1)=120</m> and 
+              <m>6!=(6)(5)(4)(3)(2)(1)=720</m>. So once we get to analysis of power
+              in a weighted voting system with six or more players, we have a 
+              rather strenuous task to perform! (There are ways to cleverly save
+              ourselves some work, but they require care and practice. For most
+              of our analyses in this book, we will keep things on a more reasonable
+              scale. There are also online tools available to carry out this sort of 
+              power analysis for us. We are working through the details so you can
+              intuitively understand <em>how</em> those processes work, not so much
+              so that you will drag yourself through onerous and extended power
+              calculations by hand.)
+            </p>
           </remark>
           <algorithm xml:id="alg-shapley-shubik">
             <title>How to Compute the Power of Yes</title>
