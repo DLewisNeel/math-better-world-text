@@ -1403,47 +1403,77 @@
         </section>
         <section xml:id="sec-fairness-criteria">
           <title>Four Ideas of Fairness</title>
-          <p>
-            CREATE SUBSECTIONS FOR STATIC AND DYNAMIC CRITERIA.
-          <definition xml:id="def-majority">
-            <title>Majority Fairness Criterion</title>
-            <statement>
-              <p>
-                In an election, if some candidate has the majority of first-place
-                votes, then this candidate should win.
-              </p>
-            </statement>
-          </definition>  
-          <definition xml:id="def-iia">
-            <title>Independence of Irrelevant Alternatives Fairness Criterion</title>
-            <statement>
-              <p>
-                In an election, if some candidate would win and some other non-winning
-                candidate drops out of the election, then the original winning candidate
-                should still win the election.
-              </p>
-            </statement>
-          </definition>
-          <definition xml:id="def-condorcet">
-            <title>The Condorcet Fairness Criterion</title>
-            <statement>
-              <p>
-                In an election, if some candidate would win all head-to-head
-                matchups with other candidates, then that candidate should win
-                the election.
-              </p>
-            </statement>
-          </definition>
-          <definition xml:id="def-monotonicity">
-            <title>The Monotonicity Fairness Criterion</title>
-            <statement>
-              <p>
-                INCLUDE MONOTONICITY DEF HERE.
-              </p>
-            </statement>
-          </definition>
-          </p>
+          <introduction>
+            <p>
+              We will now declare, as carefully as possible, our ideas
+              about what should happen in a voting method that is fair.
+              By naming these ideas of fairness, we will be defining
+              parameters for us to use in judging existing or future
+              methods of voting. The process of determining whether a
+              method of voting will always satisfy some criterion can 
+              be a rigorous task.
+            </p>
+            <p>
+              Of the four ideas of fairness that we will here propose, 
+              two may be thought of as <term>static</term>, resting
+              only on the fixed preferences of the voters and a fixed list
+              of candidates. The other two ideas of fairness may be thought 
+              of as <term>dynamic</term>, where either the preferences of the 
+              voters or the participation of candidates might change in 
+              particular ways.
+            </p>
+          </introduction>
+          <subsection xml:id="subsec-static-fairness">
+            <title>Static Fairness Criteria</title>
+            <p>
+              <definition xml:id="def-majority">
+                <title>Majority Fairness Criterion</title>
+                <statement>
+                  <p>
+                    In an election, if some candidate has the majority of first-place
+                    votes, then this candidate should win.
+                  </p>
+                </statement>
+              </definition>  
+              <definition xml:id="def-condorcet">
+                <title>The Condorcet Fairness Criterion</title>
+                <statement>
+                  <p>
+                    In an election, if some candidate would win all head-to-head
+                    matchups with other candidates, then that candidate should win
+                    the election.
+                  </p>
+                </statement>
+              </definition>
+            </p>
+          </subsection>
+          <subsection xml:id="subsec-dynamic-fairness">
+            <title>Dynamic Fairness Criteria</title>
+            <p>              
+              <definition xml:id="def-iia">
+                <title>Independence of Irrelevant Alternatives Fairness Criterion</title>
+                <statement>
+                  <p>
+                    In an election, if some candidate would win and some other non-winning
+                    candidate drops out of the election, then the original winning candidate
+                    should still win the election.
+                  </p>
+                </statement>
+              </definition>
+              <definition xml:id="def-monotonicity">
+                <title>The Monotonicity Fairness Criterion</title>
+                <statement>
+                  <p>
+                    In an election, if some candidate would win and a subset of 
+                    voters change their ballots only by moving that candidate higher
+                    on their ballots, then that candidate should still win. 
+                  </p>
+                </statement>
+              </definition>
+            </p>
+          </subsection>
         </section>
+
         <section xml:id="sec-voting-methods">
           <title>Four Voting Methods</title>
           <p>
