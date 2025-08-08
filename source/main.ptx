@@ -967,10 +967,78 @@
             the quota.
           </p>
           <p>
-            The first step in computing the Power of No in a weighted
-            voting system is to write down all
-            the winning coalitions for that system.
+            The other key idea to introduce is a <term>critical player</term>.
+            A critical player in a winning coalition is any player who, if they
+            leave the winning coalition, that coalition no longer has enough
+            weight to pass a measure and is, thus, no longer a winning coalition.
+            It is precisely this fact that leads us to call this way of thinking
+            about power as <q>the Power of No</q>, since our method is tallying
+            how often it is that a player changing their mind and saying <q>no</q>
+            would matter.
           </p>
+          <algorithm xml:id="alg-banzhaf">
+            <statement>
+              <p>
+                Write down all winning coalitions in the weighted voting 
+                system. 
+              </p>
+            </statement>
+            <statement>
+              <p>
+                For each winning coalition, check each player in that coalition
+                to see if they are a critical player. That is, check each player,
+                one at a time, leaving the winning coalition and see if the remaining
+                players form a winning coalition.
+              </p>
+            </statement>
+            <statement>
+              <p>
+                Determine how many times each player is a critical player. For
+                Player <m>i</m> call this number <m>c_i</m>. Determine,
+                also, the sum of all occurrences of any player being a critical player
+                and call this sum <m>C</m>.
+                That is, find the sum of all the <m>c_i</m>. The notation for this
+                is 
+                <me>
+                  \sum_{i=1}^{n} c_i = C
+                </me>
+                 
+              </p>
+            </statement>
+            <statement>
+              <p>
+                Each player's <term>Banzhaf power</term> is defined to be the fraction 
+                given by the number of times that player was critical divided by 
+                the total number
+                of times that any player was critical. 
+                That is, the Banzhaf power, 
+                the Power of No, for Player <m>i</m> is defined to be: 
+                <me>
+                  B_i=\dfrac{c_i}{C}
+                </me>
+              </p>
+            </statement>
+          </algorithm>
+          <p>
+            Note that if we compute the Power of No for each player in this way, 
+            the sum of all the powers is 1. Can you see why this is? Can you 
+            convince yourself this is true? 
+          </p>
+          <p>
+            It is also worth remembering that instead of 1 we could think of this as 100%,
+            and thus we can see that this approach is essentially imagining there to be 
+            some total amount of power, thought as 100%, which is then distributed
+            amongst the players. Banzhaf power index, then, is one way of describing 
+            how that 100% of power is distributed amongst the players. 
+          </p>
+          <p>
+            What is quite interesting is that this is not the only way to think about 
+            measuring power in such a system. But before we move on to another method,
+            let us work through an example.
+          </p>
+          <example xml:id="ex-banzhaf-1">
+            BANZHAF EXAMPLE
+          </example>
         </section>
         <section xml:id="sec-yes-power">
           <title>The Power of Yes</title>
@@ -1248,7 +1316,7 @@
       </chapter>
 
       <chapter xml:id="ch-gerrymandering">
-        <title>Intended Democratic Distortion: Gerrymandering</title>
+        <title>Distortion of Representation: Gerrymandering</title>
         <introduction>
           <p>
             PROPORTIONALITY VIOLATED YET AGAIN.
