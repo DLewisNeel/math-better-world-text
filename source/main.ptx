@@ -1404,6 +1404,7 @@
         <section xml:id="sec-fairness-criteria">
           <title>Four Ideas of Fairness</title>
           <p>
+            CREATE SUBSECTIONS FOR STATIC AND DYNAMIC CRITERIA.
           <definition xml:id="def-majority">
             <title>Majority Fairness Criterion</title>
             <statement>
