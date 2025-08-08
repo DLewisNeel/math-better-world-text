@@ -1088,35 +1088,39 @@
           <algorithm xml:id="alg-shapley-shubik">
             <title>How to Compute the Power of Yes</title>
             <statement>
-              <p>
-                Create a list of all the possible orderings of the players
-                within the weighted voting system. These are the sequential
-                coalitions. (Note that this can be a nontrivial task.)
-              </p>
-            </statement>
-            <statement>
-              <p>
-                For each sequential coalition, determine which player in this
-                ordering is the pivotal player. Note that each sequential
-                coalition will have exactly one pivotal player.
-              </p>
-            </statement>
-            <statement>
-              <p>
-                Determine how many times each player is a pivotal player. For
-                Player <m>i</m> call this number <m>s_i</m>. Note that the sum
-                of the <m>s_i</m> should be equal to <m>n!</m> where 
-                <m>n</m> is the number of players. That is, it should always be
-                the case that:
-                <me>
-                  \sum_{i=1}^n s_i=n!
-                </me>
-              </p>
-            </statement>
-            <statement>
-              <p>
-                FINISH ALG
-              </p>
+              <ol>
+                <li>
+                  <p>
+                    Create a list of all the possible orderings of the players
+                    within the weighted voting system. These are the sequential
+                    coalitions. (Note that this can be a nontrivial task.)
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    For each sequential coalition, determine which player in this
+                    ordering is the pivotal player. Note that each sequential
+                    coalition will have exactly one pivotal player.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Determine how many times each player is a pivotal player. For
+                    Player <m>i</m> call this number <m>s_i</m>. Note that the sum
+                    of the <m>s_i</m> should be equal to <m>n!</m> where 
+                    <m>n</m> is the number of players. That is, it should always be
+                    the case that:
+                    <me>
+                      \sum_{i=1}^n s_i=n!
+                    </me>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    FINISH ALG
+                  </p>
+                </li>  
+              </ol>
             </statement>
           </algorithm>
         </section>
