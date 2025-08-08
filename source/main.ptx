@@ -1085,6 +1085,33 @@
             within the system, moves the measure from <q>not yet approved</q>
             to <q>approved</q>.
           </p>
+          <remark>
+            <title>A remark on counting:</title>
+            <p>
+              Though producing a list of all the sequential coalitions can
+              be a somewhat arduous task, we can at least say, from the start,
+              how many we must produce. This helps us to make sure we
+              have not failed to list some ordering
+              orderings which would doom our computation of the Power of Yes 
+              from the start. (For more on the ideas introduced here, you can
+              read <xref ref="sec-counting-techniques"/>.)
+            </p>
+            <p>
+              How many orderings are there of one object? Just one. What
+              about orderings of two objects, call them <m>A</m> and <m>B</m>. 
+              Well, we can order them <m>AB</m> or <m>BA</m>, correct? 
+              What about ordering three objects: A, B, and C?
+              <me>
+                ABC //
+                ACB //
+                BAC //
+                BCA //
+                CAB //
+                CBA
+              </me>
+              Six possible orderings. 
+            </p>
+          </remark>
           <algorithm xml:id="alg-shapley-shubik">
             <title>How to Compute the Power of Yes</title>
             <statement>
