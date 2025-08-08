@@ -1037,7 +1037,9 @@
             let us work through an example.
           </p>
           <example xml:id="ex-banzhaf-1">
-            BANZHAF EXAMPLE
+            <p>
+              BANZHAF EXAMPLE
+            </p>
           </example>
         </section>
         <section xml:id="sec-yes-power">
