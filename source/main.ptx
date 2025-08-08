@@ -1532,7 +1532,8 @@
             value of money will be covered in this chapter, with the 
             intention that the careful learners emerge better able to 
             protect themselves from those with massive power within
-            the system. That is, the very rich.
+            the system. That is, the very rich and the institutions they
+            control.
           </p>
           <p>
             We will begin by introducing the concept of 
@@ -1709,10 +1710,91 @@
               you would be given another $10 payment by the bank. And so
               on.
             </p>
+            <p>
+              This approach to the practice is called <term>simple interest</term>
+              and we would say you were earning monthly 1% simple interest. We can 
+              even form a simple formula to summarize this situation. If you 
+              deposit some amount <m>P_0</m> earning a per time period simple interest
+              rate of <m>r</m> for <m>n</m> of these time periods, how much money, <m>P</m>,
+              would you now be entitled to withdraw from the bank?
+            </p>
+            <p>
+              You would be entitled to:
+              <me>
+                P=P_0+(n)(r)(P_0)=P_0+nrP_0=P_0(1+nr)
+              </me>
+              This is worth thinking through. But it should not be too confusing.
+              Each time period that passes, the bank must give us a new amount based
+              on a percentage of the <em>original</em> deposit, which is <m>P_0</m>.
+              That amount is the same every time, <m>r \times P_0</m>. So if it has 
+              been paid <m>n</m> times? Then <m>n \times r \times P_0</m> has been 
+              added to the original amount of <m>P_0</m>. The other forms are all
+              merely algebraic adjustments.
+            </p>
+            <example xml:id="ex-simple-interest">
+              <title>An Example of Simple Interest</title>
+              <statement>
+                <p>
+                  Marty places $600 into a bank which will pay them 4% simple
+                  interest every two months. How much money can Marty take out
+                  of this account if they leave it in the bank for eight months?
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  <me>
+                    P=600(1+(0.04)(4))=696
+                  </me>
+                  That is, $696.
+                </p>
+              </answer>
+              <solution>
+                <p>
+                  In one sense, we are simply plugging in the appropriate values
+                  of the variables. Since $600 is deposited, this means that 
+                  <m>P_0=600</m>. Since the simple interest rate for every two months
+                  is 4%, we have <m>r=0.04</m>. We must be slightly careful with the 
+                  eight months, but if the money is in the bank for eight months and 
+                  the period for paying interest is two months then because 
+                  <m>\frac{8}{2}=4</m> we know that the interest will be paid four 
+                  times. That is, <m>n=4</m>.
+                </p>
+                <p>
+                  We can also think it through chronologically, to help us develop
+                  our intuition about money and its relationship to time in such
+                  situations as this. With simple interest, the interest payment is
+                  the same every time so we can simply compute what that payment is.
+                  In this case, 4% of $600 is <m>(0.04)(600)=24</m>. So every two 
+                  months, Marty gets $24 added to their account. This happens four 
+                  times: after two months, after four months, after six months, 
+                  and after eight months. So the total will be:
+                  <me>
+                    600+24+24+24+24=600+(4)(24)=600+96=696
+                  </me>
+                  All the formula has done is to somewhat automate this thinking
+                  for us. It may not matter much in a case like this with only a
+                  few interest payments, but if we were considering hourly interest
+                  payments that were adding up over the course of decades, we might
+                  be rather grateful to relinquish the payment-by-payment viewpoint.
+                </p>
+              </solution>
+            </example>
+            <p>
+              This all seems quite simple, and is. (It is called 
+              <q>simple interest</q> after all.) Yet there remains a fine point
+              we should notice. If, as we have described, the money is not removed
+              from the bank, we have a strange situation. At the start, the bank
+              was paying a percentage of the money placed there. But as time
+              goes along that amount sitting in the bank has grown. Yet the bank
+              keeps paying the same fixed payment, based only on the original amount 
+              rather than the new larger amount that the customer could withdraw
+              if they chose. TO BE CONTINUED.
+            </p>
           </subsection>
           <subsection xml:id="subsec-compound-interest">
             <title>Compound Interest</title>
             <p>
+              
               BUT THE STORY SEEMS A LITTLE UNFAIR? COMPOUND INTEREST.
             </p>
           </subsection>
