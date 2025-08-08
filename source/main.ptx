@@ -977,6 +977,7 @@
             would matter.
           </p>
           <algorithm xml:id="alg-banzhaf">
+            <title>How to Compute the Power of No</title>
             <statement>
               <p>
                 Write down all winning coalitions in the weighted voting 
@@ -988,7 +989,8 @@
                 For each winning coalition, check each player in that coalition
                 to see if they are a critical player. That is, check each player,
                 one at a time, leaving the winning coalition and see if the remaining
-                players form a winning coalition.
+                players form a winning coalition. Note that there may be zero, one, or
+                multiple critical players in a winning coalition.
               </p>
             </statement>
             <statement>
@@ -1002,7 +1004,6 @@
                 <me>
                   \sum_{i=1}^{n} c_i = C
                 </me>
-                 
               </p>
             </statement>
             <statement>
@@ -1045,8 +1046,79 @@
         <section xml:id="sec-yes-power">
           <title>The Power of Yes</title>
           <p>
-            POWER OF YES
+            Suppose we find this focus on no-saying to be too negative. What
+            if we were to try to measure how often saying yes might matter? 
+            This immediately presents certain conceptual challenges. To motivate
+            the approach we will use, it may be useful to imagine the proposal, 
+            in the legislative body, of a measure that is very popular with
+            the population as a whole. If we imagine all the ways that the
+            players within the weighted voting system might raise their hands
+            to indicate that they approve this measure, we could focus on 
+            precisely when the entire gallery of optimistic and hopeful onlookers
+            might erupt into jubilant applause, knowing that, yes, the measure
+            will pass. This is the lens that we will use to develop the idea
+            of the Power of Yes.
           </p>
+          <p>
+            As before, we need to define a couple terms. First, rather than 
+            building winning coalitions, in this case we imagine all the possible
+            orderings of the players. That is, we can imagine all the possible
+            orderings of them raising their hands in favor of the measure. 
+            We will not consider the possibility of two raising their hands at 
+            the same instant. (From what we know of physics and the nature of 
+            time this would be impossible anyway.) We will call these possible
+            orderings <term>sequential coalitions</term>. Note, though, that
+            unlike in the previous case, we do not consider any ordering that
+            does not include all the players. There are technical reasons for 
+            this, but perhaps we might suggest a psychological-political reason 
+            for this as well, that once it becomes clear a measure will pass 
+            and also that it is popular, perhaps the remaining players choose
+            to also vote in favor of the measure to, so to speak, 
+            <q>
+              be on the right side of history
+            </q>. 
+            (We shall note, here, again, that there are plenty of times
+            in history that deeply immoral measures have been passed to
+            great popular applause.) Within each sequential coalition
+            we will be trying to identify the <term>pivotal player</term>, 
+            which is the player in the ordered list whose added weight, 
+            within the system, moves the measure from <q>not yet approved</q>
+            to <q>approved</q>.
+          </p>
+          <algorithm xml:id="alg-shapley-shubik">
+            <title>How to Compute the Power of Yes</title>
+            <statement>
+              <p>
+                Create a list of all the possible orderings of the players
+                within the weighted voting system. These are the sequential
+                coalitions. (Note that this can be a nontrivial task.)
+              </p>
+            </statement>
+            <statement>
+              <p>
+                For each sequential coalition, determine which player in this
+                ordering is the pivotal player. Note that each sequential
+                coalition will have exactly one pivotal player.
+              </p>
+            </statement>
+            <statement>
+              <p>
+                Determine how many times each player is a pivotal player. For
+                Player <m>i</m> call this number <m>s_i</m>. Note that the sum
+                of the <m>s_i</m> should be equal to <m>n!</m> where 
+                <m>n</m> is the number of players. That is, it should always be
+                the case that:
+                <me>
+                  \sum_{i=1}^n s_i=n!
+                </me>
+              </p>
+            </statement>
+            <statement>
+              <p>
+                FINISH ALG
+              </p>
+            </statement>
+          </algorithm>
         </section>
       </chapter>
 
