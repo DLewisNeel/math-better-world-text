@@ -1619,22 +1619,93 @@
                   <ol>
                     <li>
                       <p>
-                        If the population is made up of 61,043 Purple voters and 
-                        59,011 Orange voters, what would be the most fair way for 
-                        this state to be represented in the national legislature?
+                        This is very similar to problems we have solved in earlier
+                        chapters. Since the Purple Party has 50.8% of the population
+                        and the Orange Party has 49.2% of the population, a 50% to 
+                        50% split of the representatives seems more fair than a 75%
+                        to 25% (or 100% to 0%) split.
                       </p>
                     </li>
                     <li>
                       <p>
-                        Is it possible that the boundaries be drawn so that the
-                        Purple Party gets three or even all four representatives?
+                        We will explore visual expressions of this idea later,
+                        but aiming at roughly equal populations in each district (which
+                        is how the USA system works) and depending on the actual spatial
+                        distribution of the Purple and Orange voters, it is be possible that the
+                        Purple Party wins all four districts each by a narrow margin. 
                       </p>
                     </li>
                   </ol>
                 </p>
               </solution>
-              
             </example>
+            Now, you might respond, <q>So what?</q> There are close election
+            results all the time! Why should we worry if Purple manages four
+            close wins? True. And this is precisely what makes analysis of this
+            sort of question quite challenging and tricky. How can we get a handle
+            on when something is simply a result of random processes and the messy
+            churn of human thought and action? Should we always just assume that
+            things are essentially unbiased and safe? Or would it be more prudent
+            to develop the tools and habits of investigation and reflection?
+          </p>
+          <p>
+            We should not minimize, though, the challenge here. As we move into 
+            the analysis of ever more complex systems, we also enter into situations
+            where outcomes can be explained by a variety of factors, some of which
+            are simply randomness and chance, others of which might be orchestrated
+            by other humans or processes. This also means we may need to be more 
+            sophisticated in how we reflect and investigate. For example, in the 
+            situation described above, if the Purple Party won all four seats, each
+            one by a narrow margin, after
+            drawing the boundaries, we might want to find a way to look at the 
+            map of the legislative districts themselves to help us decide whether 
+            the districts made a certain natural sort of sense. How might we 
+            recognize a map of district boundaries that didn't seem to <q>make sense</q>?
+            What kind of tools would we have to develop to even speak coherently on 
+            such a question?
+          </p>
+        </section>
+        <section xml:id="sec-gerry-wasted">
+          <title>One View on Distortion: Wasted Votes</title>
+          <p>
+            One approach to analysis of possible gerrymandering is to 
+            investigate the idea of <term>wasted votes</term>. Though this
+            term is expressive and easy to remember, it does seem to carry
+            some negative connotation with it in the word <q>wasted</q>. 
+            We can imagine a booster of democratic processes objecting to
+            the word, some sort of naively hopeful 
+            <q>no vote is every truly wasted</q> sentiment. It is pretty
+            to hope so. It is also worth noting that the vague notion 
+            of wasting a vote seems more likely to arise in precisely the
+            sort of two-party system dominant in the USA, especially in
+            those localities that still run their elections using the 
+            Plurality Method discussed in 
+            <xref ref="sec-voting-methods"/>. The idea of a 
+            <q>wasted vote</q> loses coherent meaning in an election
+            using the Instant Runoff Voting Method, or the 
+            Borda Count Voting Method,  or the Pairwise Comparisons 
+            Voting Method. Indeed, this seems one of the major
+            commendable aspects of these methods in contradistinction 
+            to the Plurality Voting Method. 
+          </p>
+        </section>
+        <section xml:id="sec-gerry-howto">
+          <title>Distorting on Purpose: How to Gerrymander</title>
+          <p>
+            
+          </p>
+        </section>
+        <section xml:id="sec-gerry-analysis">
+          <title>Another View on Distortion: Naturality</title>
+          <p>
+            1) HOW COULD WE DECIDE WHETHER SOMETHING WRONG HAS BEEN DONE?
+            2) OTHER EXPLANATION: BIRDS OF A FEATHER / GREAT SORT.
+            3) SHAPE OF DISTRICT -- NATURAL OR NOT?
+            4) HISTORY / CULTURE: BUT HOW IS THAT ENTANGLED WITH OLD BIASES?
+            5) REDLINING
+            6) TWO PARTIES AGAIN: AN ASSUMPTION THAT ONE MUST IDENTIFY WITH ONE
+            OR THE OTHER. LIMITED RANGE OF IDEAS. BASELINE ASSUMPTIONS THAT ARE
+            FORCED ON EVERYONE.
           </p>
         </section>
       </chapter>
