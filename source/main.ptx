@@ -1691,63 +1691,106 @@
         </section>
         <section xml:id="sec-gerry-howto">
           <title>Distorting on Purpose: How to Gerrymander</title>
-          <p>
-            Though the concept of wasted votes 
-            and the Efficiency Gap measure derived from them can
-            be powerful tools
-            for motivating our exploration of how a system might fail
-            to reflect the preference of a significant portion of voters,
-            they have some limitations. For one, there will always be some
-            votes that are not reflected in the results. That is the 
-            nature of holding an election.
-          </p>
-          <p>
-            The frequent absurdity of discourse around these topics 
-            was brought into rather sharp focus in August 2025, when 
-            a Republican, not content with the currently right-
-            distorted state of the USA, complained 
-            on a eugenics-inclined-billionaire-owned 
-            social media site about the fact 
-            that eight states have no Republican representation in
-            the House of Representatives. Included in the list was 
-            the apparently outrageous case of Vermont, which has 32% 
-            of voters that vote Republican yet have zero Republicans
-            in the House. Of course, Vermont has such a small population
-            that it is apportioned only a single representative in 
-            the House. Was the tweeter arguing that 32% should be 
-            enough to claim that entire single representative for  
-            the Republicans?
-          </p>
-          <p>
-            The tool does require critical thinking, though.
-            There are some subtleties to consider, though. It 
-            is perhaps best to think of the Efficiency Gap defined 
-            in the previous section as an alert that calls for more
-            careful analysis of the boundaries drawn for
-            the districts. 
-          </p>
-          <p>
-            As a simple example: in the USA there has been a series
-            of demographic movements called the <q>Great Sort</q>, which
-            essentially reflects people moving to places that they perceive
-            to have a population whose political beliefs and/or values are
-            more well aligned to their own. The person who chooses to move
-            to rural Idaho and the person who chooses to move to the Capitol
-            Hill neighborhood in Seattle will tend to have distinctly dissimilar
-            political inclinations. (We are speaking only in tendencies and 
-            generalities here, of course. Rather, we should say we are speaking
-            of probabilities, about which we will speak at much greater length
-            later.)
-          </p>
-          <p>
-            The point, then, is that it would be good to be able to recognize,
-            in the event of what seems to be possible irregularities, whether
-            this has come to be from a sort of natural variation or rather
-            has been engineered by those in control of drawing the boundaries.
-            This sort of manipulation of boundaries to distort outcomes is 
-            precisely the behavior that is meant by the word 
-            <term>gerrymandering</term>.
-          </p>
+          <introduction>
+            <p>
+              Though the concept of wasted votes 
+              and the Efficiency Gap measure derived from them can
+              be powerful tools
+              for motivating our exploration of how a system might fail
+              to reflect the preference of a significant portion of voters,
+              they have some limitations. For one, there will always be some
+              votes that are not reflected in the results. That is the 
+              nature of holding an election.
+            </p>
+            <p>
+              The frequent absurdity of discourse around these topics 
+              was brought into rather sharp focus in August 2025, when 
+              a Republican, not content with the currently right-
+              distorted state of the USA, complained 
+              on a eugenics-inclined-billionaire-owned 
+              social media site about the fact 
+              that eight states have no Republican representation in
+              the House of Representatives. Included in the list was 
+              the apparently outrageous case of Vermont, which has 32% 
+              of voters that vote Republican yet have zero Republicans
+              in the House. Of course, Vermont has such a small population
+              that it is apportioned only a single representative in 
+              the House. Was the tweeter arguing that 32% should be 
+              enough to claim that entire single representative for  
+              the Republicans?
+            </p>
+            <p>
+              The tool does require critical thinking, though.
+              There are some subtleties to consider, though. It 
+              is perhaps best to think of the Efficiency Gap defined 
+              in the previous section as an alert that calls for more
+              careful analysis of the boundaries drawn for
+              the districts. 
+            </p>
+            <p>
+              As a simple example: in the USA there has been a series
+              of demographic movements called the <q>Great Sort</q>, which
+              essentially reflects people moving to places that they perceive
+              to have a population whose political beliefs and/or values are
+              more well aligned to their own. The person who chooses to move
+              to rural Idaho and the person who chooses to move to the Capitol
+              Hill neighborhood in Seattle will tend to have distinctly dissimilar
+              political inclinations. (We are speaking only in tendencies and 
+              generalities here, of course. Rather, we should say we are speaking
+              of probabilities, about which we will speak at much greater length
+              later.)
+            </p>
+            <p>
+              The point, then, is that it would be good to be able to recognize,
+              in the event of what seems to be possible irregularities, whether
+              this has come to be from a sort of natural variation or rather
+              has been engineered by those in control of drawing the boundaries.
+              This sort of manipulation of boundaries to distort outcomes is 
+              precisely the behavior that is meant by the word 
+              <term>gerrymandering</term>.
+            </p>
+            <p>
+              As is so often the case, an extremely effective 
+              way to improve our ability
+              to recognize when a system is being manipulated is
+              to attempt to understand how we ourselves might 
+              manipulate it, given the chance.
+            </p>
+          </introduction>
+          <subsection xml:id="subsec-gerrypacking">
+            <title>How to Pack</title>
+            <p>
+              Suppose you are a member of the Purple Party. Your 
+              state has a significant number of Orange voters, maybe
+              even more Orange voters than Purple, but you
+              would like to make sure the Purple Party is able to 
+              achieve more representation than would match the proportion
+              of Purple Party voters. 
+            </p>
+            <p>
+              Keeping in mind that the Efficiency Gap would reflect the
+              distortion we are trying to achieve, perhaps we should think
+              about how to make sure a lot of Orange Party votes are wasted.
+            </p>
+            <p>
+              KEEP GOING WITH PACKING
+            </p>
+          </subsection>
+          <subsection xml:id="subsec-gerrycracking">
+            <title>How to Crack</title>
+            <p>
+              For the next strategy, let us consider the situation
+              where we are an Orange Party official tasked with 
+              drawing the boundaries of the legislative districts
+              in our state. The Orange Party has more voters in this
+              state, and yet we would like to make sure that the 
+              representation is disproportionately Orange. How might
+              we go about doing this?
+            </p>
+            <p>
+              KEEP GOING WITH CRACKING.
+            </p>
+          </subsection>
         </section>
 
         <section xml:id="sec-gerry-analysis">
