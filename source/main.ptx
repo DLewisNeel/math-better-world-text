@@ -2087,14 +2087,85 @@
               goes along that amount sitting in the bank has grown. Yet the bank
               keeps paying the same fixed payment, based only on the original amount 
               rather than the new larger amount that the customer could withdraw
-              if they chose. TO BE CONTINUED.
+              if they chose. We will leave aside the tricky question of what
+              exactly is going on here. (Where did this money come from? Did a new
+              stack of bills burst into existence somewhere deep in the bank's 
+              vaults?) Let us just notice that the customer is now allowing the 
+              bank access to more money than at the start. Yet the bank is still
+              only paying that original amount of interest? The technical term 
+              (beyond the scope of this course and text) for discussing this
+              aspect of the behavior of the system is 
+              <term>force of interest</term>. We would say that in the context
+              described, there is a declining force of interest, which benefits
+              the borrower (in this case the bank) and is not in favor of the 
+              creditor (in this case the customer).
+            </p>
+            <p>
+              The more common practice, then, for computing interest is the form
+              that keeps the force of interest constant. That practice is called
+              <term>compound interest</term>.
             </p>
           </subsection>
           <subsection xml:id="subsec-compound-interest">
             <title>Compound Interest</title>
             <p>
-              BUT THE STORY SEEMS A LITTLE UNFAIR? COMPOUND INTEREST.
+              We should use caution when discussing a situation
+              involving two parties and in which one party has more 
+              money than it 
+              needs and the other party has less money than it needs. Still
+              there is an idea of fairness lurking here, which is that
+              if the amount of money the bank is holding has increased
+              then the bank should be paying a larger amount of interest
+              in return for control of that larger amount of money.
             </p>
+            <p>
+              You might already have an intuition about this. All that needs to
+              be done is to change the starting point. The problem with the
+              simple interest situation is that it is always looking back to
+              the original amount of money. What should happen instead? The
+              interest should be computed based on the current amount of money
+              in the account! We just need to be updating our perspective.
+              <remark>
+                <p>
+                  We might also conceptualize this as taking the money out and 
+                  re-depositing it at each period, thus updating the <m>P_0</m>
+                  in the simple interest formula each time. This is also another
+                  way to see how compound interest has a certain logic to it:
+                  why should the creditor have to show up, withdraw and then 
+                  re-deposit the money to avoid getting a lower and lower 
+                  monetary benefit? Rather, the process should update itself.
+                  This is what compound interest does.
+                </p>
+              </remark>
+            </p>
+            <p>
+              As before, there is a formula we might use.
+            </p>
+            <p>
+              This is easily demonstrated with an example. We will keep most
+              details the same as before, only switching to compound interest 
+              instead of simple interest.
+            </p>
+            <example xml:id="ex-compound-interest">
+              <title>An Example of Compound Interest</title>
+              <statement>
+                <p>
+                  Marty places $600 into a bank which will pay them 4% compound
+                  interest every two months. How much money can Marty take out
+                  of this account if they leave it in the bank for eight months?
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  
+                </p>
+              </answer>
+              <solution>
+                <p>
+                  
+                </p>
+              </solution>
+            </example>
           </subsection>
         </section>
         <section xml:id="sec-loans">
