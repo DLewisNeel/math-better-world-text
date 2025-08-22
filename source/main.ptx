@@ -1664,11 +1664,38 @@
               should engage in war or support the starvation of children
               in the name of freedom and justice and democracy.
             </p>
+            <p>
+              But we can be more specific about the failures of the
+              Plurality Method. First, notice that 
+              <xref ref="ex-pizza-vote"/> is in fact an example of a
+              bad behavior by the Plurality Method. In that case, 
+              pepperoni won the vote even though most of the children
+              had pepperoni as their least favorite choice!
+            </p>
+            <example xml:id="ex-plurality-bad">
+              <statement>
+                <p>
+                  MORE HERE
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  MORE HERE
+                </p>
+              </answer>
+              <solution>
+                <p>
+                  MORE HERE
+                </p>
+              </solution>
+            </example>
           </subsection>
-          <subsection xml:id="subsec-Instant Runoff Voting Method">
+          <subsection xml:id="subsec-instant-runoff">
             <title>Instant Runoff Voting Method</title>
             <p>
-              
+              The most commonly used alternative, in political
+              situations, is Instant Runoff Voting, also sometimes 
+              called Ranked Choice Voting. 
             </p>
           </subsection>
 
@@ -1676,7 +1703,12 @@
         <section xml:id="sec-methods-and-fairness">
           <title>The Satisfaction of Fairness Criteria by Voting Methods</title>
           <p>
-            
+            We have already seen some examples of voting methods 
+            satisfying or failing to satisfy Fairness Criteria. We will 
+            summarize those results here:
+          </p>
+          <p>
+            SUMMARY OF PREVIOUS RESULTS. Plurality violates Condorcet. Etc.
           </p>
         </section>
       </chapter>
