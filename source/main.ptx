@@ -147,7 +147,7 @@
           a way to allow us to <q>fill in the blanks</q>. We might also
           write this function like so:
           <me>
-            f(\underline{~})=5(\underline{~})+3
+            f(\underline{~~~})=5(\underline{~~~})+3
           </me>
           This sort of filling-in-the-blanks becomes cumbersome for 
           more complex rules, though, so we use <m>x</m> instead.
