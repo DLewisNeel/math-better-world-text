@@ -153,7 +153,7 @@
           more complex rules, though, so we use <m>x</m> instead. Another
           way we could, even more clumsily, write it would be:
           <me>
-            f(\text{whatever number is /bf{here}})=5(\text{that number also goes \bf{here}})+3
+            f(\text{whatever number is /textbf{here}})=5(\text{that number also goes \textbf{here}})+3
           </me>
           Before we move on, perhaps it would be good to be specific:
           <me>
