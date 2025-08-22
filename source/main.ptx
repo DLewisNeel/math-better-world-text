@@ -95,6 +95,64 @@
         </p>
       </chapter>      
 
+      <chapter xml:id="ch-preliminaries">
+        <title>Some Preliminary Concepts</title>
+        <p>
+          A few general mathematical ideas might help us down the line. 
+          <definition xml:id="def-function">
+            <statement>
+              <p>
+                A <term>function</term> is a mathematical rule which
+                receives an input (often a number or list of numbers)
+                and returns an output
+                (often a number) in a consistent way. That is, for each 
+                particular legitimate input the function will produce the
+                same output. 
+              </p>
+            </statement>
+          </definition>
+          The notation for functions is often what can cause a bit of
+          confusion for the new mathematical thinker. It is often, when
+          possible, written as a formula, but with notation that mixes
+          some meaning with the way mathematical notation usually works.
+          Specifically, one often sees a function <m>f</m> defined like so:
+          <me>
+            f(x)=5x+3
+          </me>
+          Please try to suppress any negative emotions associated with such 
+          an expression. The problem is (and we who have become used to the
+          notation sometimes forget this) that by the time someone sees this
+          notation, they have generally been told that when one sees a 
+          character next to an open parenthesis, <q>(</q>, that this should
+          be understood as implying multiplication. Yet this is absolutely
+          not what is going on in this mathematical expression. Instead, we
+          are to understand (somehow) that <m>f</m> is a function, and the 
+          input for that function is to be understood as <m>x</m>.
+        </p>
+        <p>
+          More specifically, this expression:
+          <me>
+            f(x)=5x+3
+          </me>
+          is attempting to communicate the following information
+          about this function. 
+          <q>
+            This function, when passed some
+            numerical value, will first multiply that value
+            by five, and then will take that result and add
+            three to it. This number will be passed back
+            to whoever input that value.
+          </q>
+          Another way to say this is that <m>x</m> is really just
+          a way to allow us to <q>fill in the blanks</q>. We might also
+          write this function like so:
+          <me>
+            f(/underline{~})=5(/underline{~})+3
+          </me>
+          This sort of filling-in-the-blanks becomes cumbersome for 
+          more complex rules, though, so we use <m>x</m> instead.
+        </p>
+      </chapter>
 
       <chapter xml:id="ch-percent-proportion">
         <title>Percentages and Proportionality</title>
@@ -2139,7 +2197,20 @@
               </remark>
             </p>
             <p>
-              As before, there is a formula we might use.
+              As before, there is a formula we might use. We present it
+              in a few different forms to allow for different angles on
+              understanding it intuitively. In this formula, <m>P_0</m> is 
+              the initial amount deposited (or, equivalently, loaned), 
+              <m>r</m> is the 
+              per-period interest rate (the percent increase each time period),
+              and <m>t</m> is the number of time periods that the money is
+              left in the account (or, equivalently, no payments are made
+              by the borrower).
+              <men xml:id="eqn-compound-interest">
+                P=P_0(1+r)^t
+              </men>
+              If we look at this formula, remember that an exponent is
+              just instructing us to repeatedly multiply by some factor.
             </p>
             <p>
               This is easily demonstrated with an example. We will keep most
