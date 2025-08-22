@@ -153,7 +153,7 @@
           more complex rules, though, so we use <m>x</m> instead. Another
           way we could, even more clumsily, write it would be:
           <me>
-            f(\text{whatever number is /textbf{here}})=5(\text{that number also goes \textbf{here}})+3
+            f(\text{whatever number is here})=5(\text{that number also goes here})+3
           </me>
           Before we move on, perhaps it would be good to be specific:
           <me>
@@ -186,7 +186,6 @@
         </introduction>
         <section xml:id="sec-proportion">
           <title>Proportion</title>
-          
             <p>
               We begin with a very simple sort of idea, one that you have probably seen before. 
               It is the idea of proportion or fraction. In what we might optimistically
@@ -1585,7 +1584,14 @@
             </p>
             <p>
               Two other things to keep in mind: first, that none of the following
-              analysis is needed if there are only two candidates. Second, though
+              analysis is needed if there are only two candidates. 
+              When there are only two candidates, the problems we are seeking
+              to solve do not arise. (But notice that preventing more than two
+              candidates from pursuing office might indeed be anti-democratic. 
+              We should not assume that we may easily avoid complexity or paradox
+              by ruling out, in advance, full participation of all those who would
+              like to seek to serve in office.)
+              Second, though
               we will consider situations where each ballot provides a complete
               ranking of all the candidates, there are simple ways to adapt the
               results we will find to account for ballots with incomplete information.
@@ -1599,7 +1605,79 @@
               to address the real-world material needs of voters.)
             </p>
           </introduction>
+          <subsection xml:id="subsec-plurality">
+            <title>The Plurality Method</title>
+            <p>
+              The Plurality Method likely needs little introduction. It
+              is the most familiar method to most people who have lived
+              within democratic processes. It is very simple to set up, 
+              explain, and determining a winner is also quite straightforward.
+            </p>
+            <p>
+              Unfortunately, as we will see, it is quite prone to some
+              rather serious problems. If you remember nothing else from all 
+              that follows, please remember this: the Plurality Method, despite
+              its ease of use, should be replaced by other methods if the goal
+              is to avoid rather serious negative behaviors. We will
+              see why this is so.
+            </p>
+            <p>
+              <algorithm xml:id="alg-plurality-method">
+                <statement>
+                  <p>
+                    <ol>
+                      <li>
+                        <p>
+                          Whichever candidate has received the most
+                          first-place votes is declared the winner.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          If there is a tie between two or more candidates with
+                          the most first-place votes, the tie should be broken
+                          using a predetermined tiebreak method. (This could be
+                          to declare the winner is the one 
+                          with the most second-place votes (and if that is also a
+                          tie using the third-place votes to break the tie, etc.), or
+                          could be determined by using one of the other 
+                          voting methods.)
+                        </p>
+                      </li>
+                    </ol>
+                  </p>
+                </statement>
+              </algorithm>
+            </p>
+            <p>
+              You can see that this is indeed a very simple method. In
+              fact, voters need not even think about who their second or
+              third or lower choices might be. In the USA this sort of 
+              indifference to lower choices has become so ingrained
+              as to feel almost natural. But even if your favorite candy
+              is a Theo chocolate bar, surely it matters whether your
+              second choice is Necco Wafers or Skittles? Most of us
+              have gradations of preference for most things, and perhaps
+              it behooves us to be informed enough to learn these 
+              preferences when it comes to organizing our preferences and
+              practices around who gets food, housing, and whether we
+              should engage in war or support the starvation of children
+              in the name of freedom and justice and democracy.
+            </p>
+          </subsection>
+          <subsection xml:id="subsec-Instant Runoff Voting Method">
+            <title>Instant Runoff Voting Method</title>
+            <p>
+              
+            </p>
+          </subsection>
 
+        </section>
+        <section xml:id="sec-methods-and-fairness">
+          <title>The Satisfaction of Fairness Criteria by Voting Methods</title>
+          <p>
+            
+          </p>
         </section>
       </chapter>
 
