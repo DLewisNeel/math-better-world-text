@@ -839,6 +839,9 @@
             some examples of how this can happen. But the belief related to this idea of power is quite
             surprising and can be motivated with a relatively simple example.
           </p>
+        </introduction>
+        <section xml:id="formalizing-weighted">
+          <title>A Motivating Example and Formalizing Weighted Voting</title>
           <example xml:id="ex-weighted-intuition">
             <title>Intuition Misleading Us?</title>
             <p>
@@ -1005,7 +1008,8 @@
               [q:w_1,w_2,\dots,w_n]
             </me>
           </p>
-        </introduction>
+        </section>
+
         <section xml:id="sec-no-power">
           <title>The Power of No</title>
           <p>
