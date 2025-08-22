@@ -153,9 +153,25 @@
           more complex rules, though, so we use <m>x</m> instead. Another
           way we could, even more clumsily, write it would be:
           <me>
-            f(\text{whatever number is here})=5(\text{that number also goes here}+3)
+            f(\text{whatever number is here})=5(\text{that number also goes here})+3
           </me>
-          
+          Before we move on, perhaps it would be good to be specific:
+          <me>
+            f(2)=5(2)+3=10+3=13
+          </me>
+          <me>
+            f(3)=5(3)+3=15+3=18
+          </me>
+          <me>
+            f(-3)=5(-3)+3=-15+3=-12
+          </me>
+          <me>
+            f(100)=5(100)+3=500+3=503
+          </me>
+        </p>
+        <p>
+          Mainly, when working with a function, try to remember that
+          it is just a way of telling you how to fill in the blanks.
         </p>
       </chapter>
 
