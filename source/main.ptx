@@ -150,7 +150,12 @@
             f(\underline{~~~})=5(\underline{~~~})+3
           </me>
           This sort of filling-in-the-blanks becomes cumbersome for 
-          more complex rules, though, so we use <m>x</m> instead.
+          more complex rules, though, so we use <m>x</m> instead. Another
+          way we could, even more clumsily, write it would be:
+          <me>
+            f(\text{whatever number is here})=5(\text{that number also goes here}+3)
+          </me>
+          
         </p>
       </chapter>
 
