@@ -2540,6 +2540,102 @@
                The exponent on this factor repeats the
                interest payments for the proper number of times.
             </p>
+            <example xml:id="ex-apr-compound-1">
+              <title>An Example of Compound Interest with APR</title>
+              <statement>
+                <p>
+                  Gilberte would like to save some money to purchase
+                  a proper memorial stone for her lover, killed in
+                  the war. She has $500 and has found a bank that
+                  offers a savings account that pays an APR of
+                  3% compounded monthly. If she makes this deposit and 
+                  leaves the money in the bank for two years, how much 
+                  money does she have?
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  $530.88
+                </p>
+              </answer>
+              <solution>
+                <p>
+                  In a situation like this, we can lean on the formula.
+                  The only trick is to make sure we have interpreted the
+                  details of the problem correctly and translated those 
+                  details into the proper values for each variable.
+                  In this case:
+                  <ul>
+                    <li>
+                      <p>
+                        The amount deposited is not determined any differently
+                        from previous interest formulas: since Gilberte
+                        is depositing $500 we know that <m>P_0=500</m>. 
+                        So far we have:
+                        <me>
+                          P=500\left(1+\frac{r}{n}\right)^{nt}
+                        </me>
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        The APR is 3% compounded monthly. This gives us 
+                        two pieces of information. First, the rate <m>r=0.03</m>. 
+                        Equally important, the monthly compounding tells us
+                        that the interest will be paid 12 times per year, so
+                        <m>n=12</m>. Thus we now have:
+                        <me>
+                          P=500\left(1+\frac{0.03}{12}\right)^{12t}
+                        </me>
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Finally, we are told that Gilberte plans to leave
+                        the money in the savings account for two years
+                        without any additional deposits or withdrawals.
+                        That means that the final variable, representing
+                        time in years, should be <m>t=2</m>. Thus:
+                        <me>
+                          P=500\left(1+\frac{0.03}{12}\right)^{(12)(2)}=530.88
+                        </me>
+                      </p>
+                    </li>
+                  </ul>
+                </p>
+              </solution>
+            </example>
+            <p>
+              Before we move on, we should note one other fact about this 
+              situation. Once the APR, compounding period, and initial 
+              deposit have been set, the only variable that affects the balance 
+              in the savings account is time, <m>t</m>. That means we could,
+              as in <xref ref="ch-preliminaries"/>, define the current
+              amount in the account as a function of that one variable. That is, 
+              if, as in the example, we know that <m>P_0=500, r=0.03, n=12</m> 
+              then we may write the function:
+              <me>
+                P=500\left(1+\frac{0.03}{12}\right)^{12t}=500(1.0025)^{12t}
+              </me>
+              <me>
+                =500(1.0304159569135067)^t
+              </me>
+              The only thing we should be very careful about in such a situation is that 
+              we should technically only trust this formula for values of <m>t</m> that
+              (in this case) correspond to <m>\frac{1}{n}=\frac{1}{12}</m> of a year.
+              That is: since this formula is designed to represent money in the account
+              just after an interest payment has been added to the amount in the account,
+              we should only use the formula for values of <m>t</m> that correspond to
+              those sorts of moments. An easy way to see why this might be is to 
+              think about using it for some value of <m>t</m> that corresponds to one 
+              week after the most recent interest payment. Since this value of <m>t</m>
+              would be larger than it was when that interest payment was made, the 
+              amount in the account would, according to the formula, be larger too. But
+              the amount in the account does not actually change until the next interest 
+              payment, roughly three weeks after this. So the theoretical amount suggested
+              by the formula only matches the true amount in the account at those moments 
+              when an interest payment has just been added to the account.
+            </p>
           </subsection>
         </section>
         <section xml:id="sec-loans">
