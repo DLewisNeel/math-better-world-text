@@ -2375,7 +2375,7 @@
                       <p>
                         After two months, the new amount in the account is:
                         <me>
-                          600 + 600(0.04)=600+24=624
+                          600 + 600(0.04)=600(1+0.04)=600+24=624
                         </me>
                         Notice that after one time period, the result is the
                         same as for simple interest, $624. This should have 
@@ -2387,7 +2387,10 @@
                         Four months into the process, the interest is paid again, 
                         but now on the <em>new</em> amount:
                         <me>
-                          624+624(0.04)=624(1+0.04)=624+24.96=648.96
+                          624+624(0.04)=624(1+0.04)
+                        </me>
+                        <me>
+                          =624+24.96=648.96
                         </me>
                         This is not a very large change, but you can see that this
                         amount is different, slightly more, than what would be in
@@ -2398,7 +2401,10 @@
                       <p>
                         We can repeat this twice more for the six-month mark:
                         <me>
-                          648.96+(648.96)(0.04)=648.96(1+0.04)=648.96+25.9584=674.9184
+                          648.96+(648.96)(0.04)=648.96(1+0.04)
+                        </me>
+                        <me>
+                          =648.96+25.9584=674.9184
                         </me>
                         And for the eight-month mark:
                         <me>
