@@ -2519,7 +2519,7 @@
               initial amount invested is <m>P_0</m>, then the amount in the
               account after those <m>t</m> years will be:
               <men xml:id="eqn-apr-compound">
-                P=P_0(1+\frac{r}{n})^{nt}
+                P=P_0\left(1+\frac{r}{n}\right)^{nt}
               </men>
                As always, let us pause a moment to try to fill in the intuition
                about this formula. Why does it do what we claim it does? Remember
@@ -2536,7 +2536,8 @@
                owner of the account receives <m>\frac{r}{n}</m> interest 
                increases <m>n</m> times each year. So the factor to increase 
                that original deposit of <m>P_0</m> is the usual 
-               <m>(1+\frac{r}{n})</m>. The exponent on this factor repeats the
+               <m>\left(1+\frac{r}{n}\right)</m>. 
+               The exponent on this factor repeats the
                interest payments for the proper number of times.
             </p>
           </subsection>
