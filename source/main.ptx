@@ -2634,7 +2634,9 @@
               the amount in the account does not actually change until the next interest 
               payment, roughly three weeks after this. So the theoretical amount suggested
               by the formula only matches the true amount in the account at those moments 
-              when an interest payment has just been added to the account.
+              when an interest payment has just been added to the account. That is,
+              only for those moments when <m>t</m> is something equally divisible
+              by <m>\frac{1}{n}=\frac{1}{12}</m>.
             </p>
           </subsection>
         </section>
