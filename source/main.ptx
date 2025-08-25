@@ -2408,7 +2408,10 @@
                         </me>
                         And for the eight-month mark:
                         <me>
-                          674.9184+(674.9184)(0.04)=674.9184(1+0.04)=701.915136
+                          674.9184+(674.9184)(0.04)=674.9184(1+0.04)
+                        </me>
+                        <me>
+                          =701.915136
                         </me>
                         Now you may notice a strange thing here: fractions of a cent.
                         If you were the bank customer and were to look at your 
@@ -2443,6 +2446,31 @@
               the process, yet to type in the formula <m>600(1.04)^{40}</m> or 
               <m>600(1.04)^{60}</m> is essentially the same amount of work
               as for the case of eight months.
+            </p>
+            <p>
+              A relatively simple idea! But of course, nothing can be left
+              quite so simple, especially not by bankers. This is the perfect 
+              place for a great quote from Bertolt Brecht</rsq>s play
+              <pubtitle>The Threepenny Opera</pubtitle>:
+              <q>
+                What is the robbing of a bank
+                compared to the founding of a bank?
+              </q>
+              What you will most often see, when interest rates are being
+              reported for an account or loan, is an <q>APR</q>, which 
+              stands for <term>annual percentage rate</term>. This number
+              is tricky and often has a huge amount of fine print associated
+              with it. Setting aside those considerations, we will focus on 
+              understanding how to understand its use in these simple 
+              situations. The key to all of this is to understand that,
+              despite the words that make up the name for this concept,
+              <em>
+                it does not tell you the annual percentage increase
+                in the account if you left alone it for a year.
+              </em>
+            </p>
+            <p>
+              So, how to understand APR? 
             </p>
           </subsection>
         </section>
