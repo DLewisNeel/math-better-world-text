@@ -2363,15 +2363,81 @@
               </statement>
               <answer>
                 <p>
-                  
+                  $701.92
                 </p>
               </answer>
               <solution>
                 <p>
-                  
+                  One way to think about this is step-by-step. The interest will
+                  be paid four times.
+                  <ol>
+                    <li>
+                      <p>
+                        After two months, the new amount in the account is:
+                        <me>
+                          600 + 600(0.04)=600+24=624
+                        </me>
+                        Notice that after one time period, the result is the
+                        same as for simple interest, $624. This should have 
+                        been your expectation!
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Four months into the process, the interest is paid again, 
+                        but now on the <em>new</em> amount:
+                        <me>
+                          624+624(0.04)=624(1+0.04)=624+24.96=648.96
+                        </me>
+                        This is not a very large change, but you can see that this
+                        amount is different, slightly more, than what would be in
+                        the account under simple interest.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        We can repeat this twice more for the six-month mark:
+                        <me>
+                          648.96+(648.96)(0.04)=648.96(1+0.04)=648.96+25.9584=674.9184
+                        </me>
+                        And for the eight-month mark:
+                        <me>
+                          674.9184+(674.9184)(0.04)=674.9184(1+0.04)=701.915136
+                        </me>
+                        Now you may notice a strange thing here: fractions of a cent.
+                        If you were the bank customer and were to look at your 
+                        account information at these times, you would see an amount
+                        rounded to the nearest cent. This gives our final answer:
+                        $701.92
+                      </p>
+                    </li>
+                  </ol>
                 </p>
               </solution>
             </example>
+            <p>
+              The intermediate steps in the solution given above are written 
+              in a variety of ways precisely to give you intuition about the
+              formula. Notice that at each stage, the previous amount of money
+              is being multiplied by the factor <m>(1+0.04)=1.04</m>. This is
+              precisely the number that increases the amount by 4% each time!
+              This, in turn, explains the exponent and why that exponent should
+              be 4. The interest was paid four times. The amount in the account
+              was increased by 4% four times. Thus:
+              <me>
+                600(1+0.04)^4=600(1.04)^4=701.92
+              </me>
+              But see how much more compact that is than to step through the 
+              process one interest-period at a time? In this example we can
+              do it either way and it is not terribly different in effort,
+              but what if we wanted to know how much money there would be
+              in the account after 80 months? Or 120 months? 
+              In each of those cases
+              it would be frustrating and boring to go step by step through
+              the process, yet to type in the formula <m>600(1.04)^{40}</m> or 
+              <m>600(1.04)^{60}</m> is essentially the same amount of work
+              as for the case of eight months.
+            </p>
           </subsection>
         </section>
         <section xml:id="sec-loans">
