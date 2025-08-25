@@ -2212,9 +2212,9 @@
             </p>
             <p>
               You would be entitled to:
-              <me>
+              <men>
                 P=P_0+(n)(r)(P_0)=P_0+nrP_0=P_0(1+nr)
-              </me>
+              </men>
               This is worth thinking through. But it should not be too confusing.
               Each time period that passes, the bank must give us a new amount based
               on a percentage of the <em>original</em> deposit, which is <m>P_0</m>.
@@ -2450,18 +2450,24 @@
             <p>
               A relatively simple idea! But of course, nothing can be left
               quite so simple, especially not by bankers. This is the perfect 
-              place for a great quote from the play by Bertolt Brecht,
+              place for a great quote from the play by Bertolt Brecht, 
               <pubtitle>The Threepenny Opera</pubtitle>:
               <q>
                 What is the robbing of a bank
                 compared to the founding of a bank?
               </q>
+            </p>
+          </subsection>
+
+          <subsection xml:id="subsec-apr-compound">
+            <title>APR and Compound Interest</title>
+            <p>
               What you will most often see, when interest rates are being
               reported for an account or loan, is an <q>APR</q>, which 
               stands for <term>annual percentage rate</term>. This number
               is tricky and often has a huge amount of fine print associated
               with it. Setting aside those considerations, we will focus on 
-              understanding how to understand its use in these simple 
+              understanding its use in practical  
               situations. The key to all of this is to understand that,
               despite the words that make up the name for this concept,
               <em>
@@ -2470,7 +2476,68 @@
               </em>
             </p>
             <p>
-              So, how to understand APR? 
+              So, how to understand APR? The good news is that we need only
+              make a small adjustment to the compound interest formula 
+              above. Where that introduction
+              of compound interest focused on the percent change over
+              each period of interest payment, the APR imagines
+              dividing that percentage by however many times per year
+              that the interest is being paid.
+            </p>
+            <p>
+              To be explicit: if a savings account is paying 4% APR 
+              compounded monthly, then the per month interest rate is
+              <m>\frac{0.04}{12}</m>. Any time we are talking about
+              an actual percent change in the amount for some time
+              period, we call that the <term>effective interest rate</term>
+              for that time period. So a 4% APR compounded monthly (also 
+              sometimes described as a 4% monthly APR or a 4% APR paid
+              monthly) means that the monthly effective interest rate
+              is that 4% divided by 12. We think of that 4% as being 
+              divided by the number of times that interest is paid
+              in that year. (Thus for a daily APR of 4% the effective 
+              interest rate each day would be <m>\frac{0.04}{365}</m>.)
+            </p>
+            <p>
+              But this all means we have to make not one but two adjustments
+              to the compound interest formula. One adjustment is to the
+              percent change piece: no longer will it be just the <q>rate</q>, 
+              now it will be the APR (in decimal form) divided by the number
+              of times per year that interest is paid. The second adjustment is
+              to the exponent. Where in the previous version of the formula, we 
+              defined <m>t</m> to be the number of periods for which interest
+              was paid, that is, the number of compounding periods, we will
+              now switch to thinking of <m>t</m> always being measured in years.
+              Think of this as a shift called for by our switch to the APR
+              viewpoint. (Remember, that <q>A</q> in APR stands for 
+              <q>annual</q>.)
+            </p>
+            <p>
+              So the new formula for compound interest will be as follows:
+              If the APR is <m>r</m> 
+              compounded <m>n</m> times per year for <m>t</m> years, and the
+              initial amount invested is <m>P_0</m>, then the amount in the
+              account after those <m>t</m> years will be:
+              <men xml:id="eqn-apr-compound">
+                P=P_0(1+\frac{r}{n})^{nt}
+              </men>
+               As always, let us pause a moment to try to fill in the intuition
+               about this formula. Why does it do what we claim it does? Remember
+               that what we are trying to do is to allow the percent increase to
+               be applied as many times as makes sense. If the interest amount
+               is added <m>n</m> times per year and the money is left in the
+               account for <m>t</m> years, then interest will be paid <m>nt</m>
+               times. That means that whatever percent increase, per period,
+               we want to apply must be applied <m>nt</m> times, and that is 
+               precisely what the exponent accomplishes. As for that percent
+               increase: each of the <m>n</m> times per year it is paid, that 
+               percent is the APR <m>r</m>, in its decimal form, divided by
+               the number of times per year the interest is paid. So the 
+               owner of the account receives <m>\frac{r}{n}</m> interest 
+               increases <m>n</m> times each year. So the factor to increase 
+               that original deposit of <m>P_0</m> is the usual 
+               <m>(1+\frac{r}{n})</m>. The exponent on this factor repeats the
+               interest payments for the proper number of times.
             </p>
           </subsection>
         </section>
