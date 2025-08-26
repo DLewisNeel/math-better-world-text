@@ -2846,16 +2846,81 @@
               </answer>
               <solution>
                 <p>
-                  CHANGE PERSPECTIVES
+                  Recall what we said about changing perspectives:
+                  We are really asking how much Peleg will have in
+                  a savings account after three years if he is
+                  receiving a compound interest payment of 6% 
+                  at the end of each year. The deposit is the
+                  amount paid to Bildad, $200. The number of 
+                  interest periods is three, since the interest is
+                  charged each year. Thus, 
+                  <m>r=0.06, P_0=200, t=2</m>.
+                </p>
+                <p>
+                  So, using our formula in this new context we 
+                  get:
+                  <me>
+                    P=P_0(1+r)^t=200(1+0.06)^3=238.20.
+                  </me>
                 </p>
               </solution>
             </example>
+            <p>
+              A more usual situation for loans is that the single
+              payment to the borrower in the present is balanced
+              by multiple future payments. Let us begin to explore 
+              these now.
+            </p>
           </subsection>
           <subsection xml:id="subsec-interest-payment">
             <title>Making Interest Payments Along the Way</title>
             <p>
-              INTEREST PAYMENTS AND A LUMP SUM AT THE END.
+              A somewhat unusual way to repay a loan is described 
+              in this section. We will not explore it deeply, but
+              it is included in the hope that understanding the
+              logic of this approach to repayment will help
+              ground future intuition about more complicated 
+              repayment schemes.
             </p>
+            <p>
+              As always, remember that when
+              we speak of <q>logic</q> in this context, we are 
+              referring to analysis of a hoped-for (or purported?)
+              internal coherence of the practices surrounding these 
+              financial instruments, not endorsing the practices
+              as natural or moral or efficient or good.
+            </p>
+            <p>
+              If we think about Bildad and Peleg and their agreement
+              in <xref ref="ex-single-payment-loan"/>, we can imagine 
+              Peleg perhaps having second thoughts. As they sit across
+              from each other, Peleg imagines that it might be nice 
+              to receive some small amounts of money in the meantime
+              so that he can take care of maintenance of his own
+              around the boatyard or the house. They already have an
+              agreement about the interest rate, no reason to
+              reopen all of that negotiation. But Peleg might
+              ask that Bildad pay the interest payments at the end of
+              each year. How would this then play out? 
+            </p>
+            <example>
+              <title>Interest-Only Payments on a Loan</title>
+              <statement>
+                <p>
+                  
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  
+                </p>
+              </answer>
+              <solution>
+                <p>
+                  
+                </p>
+              </solution>
+            </example>
           </subsection>
           <subsection xml:id="subsec-amortized-loan">
             <title>Making Smaller Payments All Along</title>
