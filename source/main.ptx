@@ -2722,12 +2722,55 @@
               </exercisegroup>
             </exercises>
           </subsection>
+          <subsection xml:id="subsec-yield">
+            <title>Annual Yield</title>
+            <p>
+              ADD IN BRIEF INTRO TO YIELD HERE. NEEDED
+              BEFORE WE TACKLE LOANS.
+            </p>        
+          </subsection>
         </section>
         <section xml:id="sec-loans">
           <title>Understanding Loans</title>
-          <p>
-            STUFF ABOUT LOANS HERE.
-          </p>
+          <introduction>
+            <p>
+              We have spent quite some time on savings accounts and 
+              using that context to understand interest in general. The hope
+              is that we may now lean on the beginnings of your intuition
+              about interest as we move into the more complex financial
+              objects: loans.
+            </p>
+            <p>
+              We will use the terms <term>borrower</term> and 
+              <term>lender</term> throughout this section. The
+              borrower receives an amount of cash in the present.
+              They get money right now, in return for a promise
+              that they will pay money back to the lender in the
+              future. The repayment might take place all at once
+              or might be accomplished by a series of payments,
+              and these payments in turn might all be the same
+              amount or they might change in amount over time.
+              As long as we are careful about how we think about
+              the agreement between the two parties, we will be
+              able to understand how these payments can be in
+              alignment with agreed-upon interest rates associated
+              with the loan.
+            </p>
+            <p>
+              Loans are an almost inescapable fact of modern life 
+              under capitalism. The granting or refusal to grant 
+              loans is a sometimes brutal expression of power, with
+              effects upon whether families can secure reliable housing.
+              Historically, this tool has been wielded in racist ways.
+              It is still wielded in racist ways.
+            </p>
+            <p>
+              The chances are good you and your family are already
+              enmeshed in loan agreements, whether related to housing or 
+              also possibly related to your payments for your education.
+            </p>
+          </introduction><p>
+          
           <subsection xml:id="subsec-single-payment">
             <title>Single Payment Loans</title>
             <p>
