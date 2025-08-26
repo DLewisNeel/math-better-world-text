@@ -2761,8 +2761,10 @@
               under capitalism. The granting or refusal to grant 
               loans is a sometimes brutal expression of power, with
               effects upon whether families can secure reliable housing.
-              Historically, this tool has been wielded in racist ways.
-              It is still wielded in racist ways.
+              Historically, this tool has been wielded in biased ways.
+              It is still wielded in biased ways. (We will discuss ideas
+              around credit scores and risk analysis in
+              <xref ref="ch-probability"/>.)
             </p>
             <p>
               The chances are good you and your family are already
@@ -2774,8 +2776,78 @@
           <subsection xml:id="subsec-single-payment">
             <title>Single Payment Loans</title>
             <p>
-              WHAT IF WE PAY BACK ONCE?
+              A loan is merely a financial agreement. Money is provided
+              in the present by one party, the lender, and this money is
+              given to the other party, the borrower. It is agreed between
+              the two parties
+              that the borrower will provide money at one or more times
+              in the future. A loan is nothing more than this. We will
+              bring in ideas of interest and even more complicated thinking
+              but in the end a loan is only this: the borrower receives
+              money now
+              and will return money in the future. If you give your 
+              friend $1000 and they say, 
+              <q>
+                I'll pay you back $1100 in a couple years,
+              </q>
+              then the two of you have agreed upon a loan. The 
+              conditions described do <em>imply</em> an annual 
+              interest rate for that loan (or even imply a monthly
+              APR, if you wanted to think it through that way) but
+              the two of you need not ever name or even think about
+              the interest involved. You have agreed upon what each
+              of you will do, so the situation
+              is a loan. 
             </p>
+            <p>
+              When, as described, the loan consists only of two 
+              payments, one in each direction, the situation is 
+              essentially equivalent to the savings account
+              examples we saw in <xref ref="sec-interest"/>.
+              Remember, when one places money into a savings 
+              account one is loaning money to the bank!
+              <remark>
+                Just think how much ideological effort has
+                gone into getting us all to think about the
+                bank as serving the customer when in fact
+                it is receiving a loan from us. Once you 
+                begin thinking carefully about these 
+                processes it becomes impossible to ignore how
+                much shaping of our thought has taken place 
+                down through the years.
+              </remark>
+            </p>
+            <p>
+              Since it is the same situation, we need not build
+              up any new apparatus to answer such a question.
+            </p>
+            <example xml:id="ex-single-payment-loan">
+              <title>A Loan under Compound Interest with Single Repayment</title>
+              <statement>
+                <p>
+                  Bildad hates to borrow money, but he really needs a new
+                  sail for his whaling ship. He can get one and get it fitted
+                  to his ship for $200. His colleague Peleg agrees to loan 
+                  the $200, to be repaid after three years when the ship
+                  returns with its valuable cargo. Considering the risk 
+                  involved the pair agree that an interest rate of
+                  6%, compounded once at the end of each year, seems fair. 
+                  How much money
+                  will Bildad pay Peleg in three years to satisfy the 
+                  requirements of the loan?
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  Bildad will pay Peleg $238.20.
+                </p>
+              </answer>
+              <solution>
+                <p>
+                  CHANGE PERSPECTIVES
+                </p>
+              </solution>
+            </example>
           </subsection>
           <subsection xml:id="subsec-interest-payment">
             <title>Making Interest Payments Along the Way</title>
