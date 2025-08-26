@@ -2638,6 +2638,89 @@
               only for those moments when <m>t</m> is something equally divisible
               by <m>\frac{1}{n}=\frac{1}{12}</m>.
             </p>
+            <exercises xml:id="exercises-interest">
+              <exercisegroup>
+              
+                <introduction>
+                  <p>
+                    For the following problems, the savings account
+                    in the Alsaka Credit Union
+                    has an APR of 4%, compounded monthly.
+                  </p>
+                </introduction>
+              
+                <exercise>
+                  <statement>
+                    <p>
+                      Casper just won a tennis tournament and wants
+                      to place his prize money in a savings account 
+                      in the Alsaka Credit Union. He deposits $4000
+                      into the account and then forgets about it for
+                      eight years. How much money is waiting for him
+                      when he finally remembers about the account? 
+                    </p>
+                  </statement>
+                  <answer>
+                    <p>
+                      Casper will have $5505.58 in eight years.
+                    </p>
+                  </answer>
+                </exercise>                
+                
+                <exercise>
+                  <statement>
+                    <p>
+                      Ana wants to save up money to take a fancy vacation,
+                      but she won't have enough release time from her job 
+                      until three years from today. She has quite a bit of
+                      spare cash at the moment and would like to deposit
+                      some of that cash into an Alsaka Credit Union savings
+                      account so that it will have grown to $5000 in four 
+                      years.
+                    </p>
+                  </statement>
+                  <hint>
+                    <p>
+                      If you write down the usual equation, which variables
+                      have values that have been provided to you and which
+                      one does not? If there is only one variable whose value
+                      you do not know, how might you determine the
+                      value of that variable?
+                    </p>
+                  </hint>
+                  <answer>
+                    <p>
+                      Ana should deposit $4435.49.
+                    </p>
+                  </answer>
+                </exercise>                
+                
+                <exercise>
+                  <statement>
+                    <p>
+                      A deposit of $1000 was placed into an account for Franz
+                      at Alsaka Credit Union. His father says that he can only
+                      withdraw money from the account when the amount has
+                      increased to $3000. If Franz only checks at the end of
+                      each year, how many years will he have to wait before
+                      he can withdraw some money?
+                    </p>
+                  </statement>
+                  <hint>
+                    <p>
+                      One way to approach this is to try various values for <m>t</m>.
+                      Or you could use a spreadsheet program and build a table
+                      with these values. Or, as with the previous problem, you could
+                      fill in the values of all the variables you know and see if
+                      there is some way to use algebra to find the value of the one
+                      variable you do not know. (This requires the use of logarithms,
+                      which you may never have seen.)
+                    </p>
+                  </hint>
+                </exercise>
+              
+              </exercisegroup>
+            </exercises>
           </subsection>
         </section>
         <section xml:id="sec-loans">
