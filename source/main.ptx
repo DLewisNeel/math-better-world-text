@@ -2901,26 +2901,109 @@
               agreement about the interest rate, no reason to
               reopen all of that negotiation. But Peleg might
               ask that Bildad pay the interest payments at the end of
-              each year. How would this then play out? 
+              each year. How would this then play out?
             </p>
-            <example>
+            <example xml:id="ex-interest-only-loan">
               <title>Interest-Only Payments on a Loan</title>
               <statement>
                 <p>
-                  
+                  Bildad has borrowed $200 and agreed to pay the
+                  6% annual interest at the end of each year as 
+                  well as the
+                  full amount at the end of the loan, after 
+                  three years. What payments
+                  are made by Bildad to Peleg and when does he make
+                  them?
                 </p>
               </statement>
               <answer>
                 <p>
-                  
+                  Bildad pays $12 after one year, $12 after two
+                  years, and $212 after three years.
                 </p>
               </answer>
               <solution>
                 <p>
-                  
+                  At 6% per year, Bildad will owe Peleg how much
+                  at the end of the first year? We can use the usual
+                  formula:
+                  <me>
+                    P=200(1+.06)^1=200(1.06)=200+12=212
+                  </me>
+                  Note the third step in our arithmetic: 
+                  <m>200+12</m>.
+                  Here we can see an important distinction: 
+                  there is the original loan amount, $200, 
+                  and the interest amount at that moment 
+                  in time, $12. As we move deeper into examination
+                  of loans, we will need to pay close attention
+                  to this sort of distinction. The point is that
+                  in this payment scheme, Bildad makes a payment
+                  of $12 which reduces the amount he owes, at that
+                  moment, to the original $200. The interest then
+                  begins growing once more. We will often say that 
+                  the interest <term>accrues</term>. 
+                </p>
+                <p>
+                  Interestingly, we could think of the loan restarting
+                  at this moment only now as a two-year loan at an annual
+                  rate of 6%. After another year, once again Bildad
+                  owes Peleg $212 and makes a payment of $12 to reduce
+                  the <term>outstanding loan balance</term> to $200 once
+                  more. 
+                </p>
+                <p>
+                  The last year is slightly different, though not in
+                  how the interest accrues. Once more the loan balance
+                  grows from $200 to $212. Bildad now owes that full amount
+                  since the agreement was that the loan would be fully
+                  paid off after three years. It is still correct to think
+                  of this payment as made up of $12 of interest and the 
+                  remaining $200 as the original loan amount.
                 </p>
               </solution>
             </example>
+            <p>
+              Before we move on to yet another form of loan repayment,
+              we should compare the two situations we have seen thus
+              far, in <xref ref="ex-single-payment-loan"/> and in 
+              <xref ref="ex-interest-only-loan"/>. 
+              Specifically, let us 
+              consider how much money Bildad paid to Peleg in total
+              under each of these payment schemes. 
+            </p>
+            <p>
+              In <xref ref="ex-single-payment-loan"/> Bildad paid 
+              $238.20 at the end of the process and no other payments.
+              Bildad, thus, paid back $38.20 beyond the amount he
+              received at the beginning of the process. But in the 
+              second payment scheme, in 
+              <xref ref="ex-interest-only-loan"/>, Bildad paid $12, 
+              then $12 more, then $212. This is a total of $236 repaid
+              to Peleg. How are we to make sense of this if, in each
+              case, a 6% annual rate of interest was in effect?  
+            </p>
+            <p>
+              Perhaps you have an intuition: if we take the lens on
+              interest which views it
+              as the price paid by the borrower for control of the
+              money in question, then in this case Bildad, in the second
+              case, returned control of some of the money earlier in
+              the process. So since Peleg gains control of $12 after
+              one year and another $12 after two years, then the total
+              <q>price</q> to Bildad for use of the original $200 drops
+              to a total of $36 rather than the $38.20 he had to pay 
+              under the original scheme.
+            </p>
+            <p>
+              We can also make sense of it by viewing through the lens of
+              risk. By receiving some of the repayment money before the 
+              end of the loan term, Peleg has slightly reduced risk. Think
+              of it as a reduction in risk of total loss. Since this 
+              payment scheme is slightly less risky for Peleg, Bildad 
+              can pay slightly less overall for the chance to use the 
+              loan money.
+            </p>
           </subsection>
           <subsection xml:id="subsec-amortized-loan">
             <title>Making Smaller Payments All Along</title>
