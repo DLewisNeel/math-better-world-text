@@ -2993,10 +2993,16 @@
               one year and another $12 after two years, then the total
               <q>price</q> to Bildad for use of the original $200 drops
               to a total of $36 rather than the $38.20 he had to pay 
-              under the original scheme.
+              under the original scheme. We call this number the 
+              <term>total interest</term> or 
+              <term>total interst paid</term> and it is always the 
+              difference found by summing all cash payments and then
+              subtracting from that sum the original loan amount.
             </p>
             <p>
-              We can also make sense of it by viewing through the lens of
+              We can also make sense of the difference
+              between the two amounts of total interest in this case 
+              by viewing through the lens of
               risk. By receiving some of the repayment money before the 
               end of the loan term, Peleg has slightly reduced risk. Think
               of it as a reduction in risk of total loss. Since this 
@@ -3004,7 +3010,113 @@
               can pay slightly less overall for the chance to use the 
               loan money.
             </p>
+            <p>
+              The other thing that is made more clear by consideration
+              of this scheme for repaying a loan is this: it might be 
+              quite a challenge to have the cash on hand for the 
+              large payment at the end of this process. It is helpful
+              to have repaid some amount along the way to help reduce
+              the final payment and reduce the total payment as well.
+              But once we have begun to consider alternative ways to 
+              repay a loan under the logic of interest that we have
+              described here, it is worth considering just how 
+              creative we might attempt to be.
+            </p>
+            <p>
+              In particular, from the point of view of the borrower,
+              why should the intermediate payments be so small that 
+              they only cover the interest accrued? Perhaps it would
+              make sense for Bildad to pay not just the $12, but 
+              some extra amount to reduce the outstanding loan balance
+              as well.
+              <example xml:id="ex-loan-many-payments">
+                <title>Bildad Repaying the Loan with a Little Extra Each Time</title>
+                <statement>
+                  <p>
+                    Suppose Bildad and Peleg change the 
+                    loan agreement yet again.
+                    The loan will still be for $200. 
+                    The annual interest rate will remain 6%, as will the 
+                    agreement that payments should happen at the end of the
+                    first, second, and third years. Suppose Bildad suggests
+                    that the payments at the end of the first and second 
+                    years should be $40. Then what should the final payment
+                    be and how much total interest will Bildad have paid? 
+                  </p>
+                </statement>
+                <answer>
+                  <p>
+                    The final payment will be $150.86.
+                  </p>
+                </answer>
+                <solution>
+                  <p>
+                    If Bildad paid $40 at the end of the first year,
+                    then $12 of that would pay the interest that had accrued
+                    while the other $28 would reduce the original loan 
+                    amount. This would have the additional benefit that now,
+                    as of that moment, Bildad would only owe Peleg $172, since
+                    <m>200-28=172</m>. This, in turn, would mean that the 
+                    6% annual rate would create a smaller amount of interest
+                    when the end of the second year arrived. Bildad would
+                    only owe <m>172(0.06)=10.32</m> dollars in interest at
+                    the end of the second year, which, combined with the 
+                    previous year<rsq/>s loan balance of $172 would mean
+                    a total of $182.32. Another way to see this same 
+                    perspective is: 
+                    <me>
+                      P=172(1+0.06)^1=172+10.32=182.32
+                    </me>.
+                  </p>
+                  <p>
+                    At the end of the second year, then,
+                    when Bildad makes his payment of $40, 
+                    the amount he owes will drop from $182.32
+                    to $142.32. If we wish to think about how his
+                    $40 payment was divided, $10.32 of it went to 
+                    cover the new interest from that year, with the other
+                    $29.68 coming off the (previous) balance of 
+                    once the $172.
+                  </p>
+                  <p>
+                    What happens to finish the process? Once again,
+                    over the course of this last year, the loan balance
+                    increases according to the 6% annual interest rate. 
+                    So at the end of the process, after three years, 
+                    the final amount owed will be 
+                    <m>142.32(1.06)=150.8592</m> which rounds to the
+                    nearest cent as $150.86. This is the amount of the
+                    final payment to Peleg. $8.54 of this final payment
+                    is for interest.
+                  </p>
+                  <p>
+                    There are two ways to compute the total interest paid.
+                    First, we can simply sum the total payments and subtract
+                    the original loan amount. This us usually the easiest way
+                    to find total interest paid. In this case, the total 
+                    payments are <m>40+40+150.86=230.86</m>. Thus, the
+                    total interest paid is <m>230.86-200=30.86</m> dollars.
+                    Equivalently, since we have already gone to the trouble
+                    of noting how much of each payment went to interest, we
+                    could add up those portions attributable to interest along
+                    the way. It should give us the same answer. And, indeed,
+                    <m>12+10.32+8.54=30.86</m> does indeed give us the same 
+                    amount of total interest. Notice also that this amount is
+                    smaller than the amounts of total interest paid in
+                    <xref ref="ex-single-payment-loan"/> and 
+                    <xref ref="ex-interest-only-loan"/>. This should agree
+                    with your intuition, since this sequence of payments 
+                    returns still more of the loaned money to the control of 
+                    Peleg earlier in the process, meaning Bildad can
+                    logically pay a smaller total price 
+                    (for reasons of risk reduction for Peleg
+                    or for reasons of increased earlier control of cash for Peleg).
+                  </p>
+                </solution>
+              </example>
+            </p>
           </subsection>
+
           <subsection xml:id="subsec-amortized-loan">
             <title>Making Smaller Payments All Along</title>
             <p>
@@ -3037,6 +3149,7 @@
             </p>
           </subsection>
         </section>
+
         <section xml:id="sec-time-value">
           <title>The Time Value of Money</title>
           <p>
