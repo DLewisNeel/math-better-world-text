@@ -2725,9 +2725,41 @@
           <subsection xml:id="subsec-yield">
             <title>Annual Yield</title>
             <p>
-              ADD IN BRIEF INTRO TO YIELD HERE. NEEDED
-              BEFORE WE TACKLE LOANS.
+              Despite APR being a (supposed) attempt at a clear
+              numerical measure to be able to compare alternative
+              savings or credit/loan opportunities, there remains
+              some difficulty. 
+              Since a savings account with 5% APR compounded monthly 
+              will behave
+              differently from a savings account 
+              5% APR compounded quarterly (four
+              times per year) it would be nice to have a measure
+              that distinguishes between the two of them. In fact, 
+              it can be even more tricky. For example, money
+              grows faster in a account with an APR of 8%
+              compounded daily than in an account with an APR
+              of 8.05% compounded quarterly! (How would you
+              convince yourself that this is true?)
             </p>        
+            <p>
+              One way to resolve this is, as is so often, to
+              find a common perspective from which to view the
+              situation. In this case, we will focus on the
+              growth of money over the course of a year. That is,
+              we will introduce the idea of 
+              <term>annual yield</term>. Yield is, of course, a new 
+              word for us in this context. Among other connotations
+              it includes a hint of agricultural meaning. We can
+              imagine the idea of sowing a certain amount of seed
+              in a field and then checking, upon harvest, how much 
+              more of the crop we have been able to produce. The 
+              idea is no more complex than this: if some amount
+              of money was placed into this account for a year,
+              by what percent will it have increased?
+            </p>
+            <p>
+              EQUATION, EXAMPLE
+            </p>
           </subsection>
         </section>
         <section xml:id="sec-loans">
