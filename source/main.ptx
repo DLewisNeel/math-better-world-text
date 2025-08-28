@@ -2797,7 +2797,7 @@
               this quickly, though it requires finding an <m>n</m>th 
               root. 
               <men xml:id="eqn-apr-from-yield">
-                r=n\left(1+i\right)^{\frac{1}{n}}-1
+                r=n\left((1+i)^{\frac{1}{n}}-1\right)
               </men>
               Consider the following examples to see more about the use of each.
             </p>
