@@ -2758,8 +2758,99 @@
               by what percent will it have increased?
             </p>
             <p>
-              EQUATION, EXAMPLE
+              Equivalently: what annual effective interest rate would
+              grow the money at the same (yearly) rate as the given
+              APR? If we know the APR, <m>r</m>, the 
+              number of times compounded per year for the APR, <m>n</m>,
+              then we seek some annual effective interest rate, <m>i</m>, 
+              which grows the money at an equivalent rate over the 
+              course of one year.
+              This immediately suggests the equation that we  
+              should set up: the left side of the equation
+              is the amount function for APR and the right side
+              is the accumulation function for an annual effective
+              interest rate:
+              <me>
+                P_0\left( 1+\frac{r}{n}\right)^{nt}=P_0(1+i)^t
+              </me>
+              But we can make this even easier to solve. We have
+              already said we are seeking equivalence over the course
+              of a single year, which means we set <m>t=1</m>. 
+              Better still, since <m>P_0</m> is on each side of the 
+              equation, it can be divided away! (This makes sense
+              because we are only seeking the percent change
+              over the course of the year, and the percent change 
+              would be the same for a deposit of $1 as it would for
+              a deposite of $1000 or $1,000,000.) Thus:
+              <me>
+                \left( 1+\frac{r}{n}\right)^n=1+i
+              </me>
+              And since we seek <m>i</m> and have been provided with
+              <m>r</m> and <m>n</m>, we thus have a formula for
+              <m>i</m> simply by subtracting 1 from each side of the 
+              equation:
+              <men xml:id="eqn-yield-from-apr">
+                i=\left( 1+\frac{r}{n}\right)^n-1
+              </men>
+              As is often the case, we might also sometimes want to know
+              what APR would realize some given yield. We can also answer
+              this quickly, though it requires finding an <m>n</m>th 
+              root. 
+              <men xml:id="eqn-apr-from-yield">
+                r=n\left(1+i\right)^{\frac{1}{n}}-1
+              </men>
+              Consider the following examples to see more about the use of each.
             </p>
+            <example xml:id="ex-yield-from-apr">
+              <title>Finding the Annual Yield from APR</title>
+              <statement>
+                <p>
+                  Alyosha has been instructed by his monastery
+                  to invest some of the order<rsq/>s funds
+                  into a savings account which has an annual yield
+                  of at least 5.25%. The nearby Leningrad Credit Union
+                  offers a savings account with a 5.2% APR compounded
+                  daily (that is, 365 times per year). Can Alyosha 
+                  invest the monastery<rsq/>s funds there? 
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  Yes. The annual yield is approximately 5.337%.
+                </p>
+              </answer>
+              <solution>
+                <p>
+                  Enter the variables <m>r=0.052, n=365</m> 
+                  into <xref ref="eqn-yield-from-apr"/>.
+                </p>
+              </solution>
+            </example>
+
+            <example xml:id="apr-from-yield">
+              <title>Finding the APR that will generate some Annual Yield</title>
+              <statement>
+                <p>
+                  Ivan believes in the existence of a savings account
+                  that will pay interest, compounded monthly, at an 
+                  APR that will generate an annual yield of 8%. He 
+                  learns of a credit union in Moscow that has a monthly
+                  APR. What percent monthly APR would justify Ivan's 
+                  belief?
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  DO THIS NEXT
+                </p>
+              </answer>
+              <solution>
+                <p>
+                  AND ALSO DO THIS NEXT
+                </p>
+              </solution>
+            </example>
+
           </subsection>
         </section>
         <section xml:id="sec-loans">
