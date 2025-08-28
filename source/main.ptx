@@ -2781,7 +2781,7 @@
               because we are only seeking the percent change
               over the course of the year, and the percent change 
               would be the same for a deposit of $1 as it would for
-              a deposite of $1000 or $1,000,000.) Thus:
+              a deposit of $1000 or $1,000,000.) Thus:
               <me>
                 \left( 1+\frac{r}{n}\right)^n=1+i
               </me>
