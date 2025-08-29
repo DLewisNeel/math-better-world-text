@@ -2821,8 +2821,8 @@
               </answer>
               <solution>
                 <p>
-                  Enter the variables <m>r=0.052, n=365</m> 
-                  into <xref ref="eqn-yield-from-apr"/>.
+                  Use <xref ref="eqn-yield-from-apr"/> and set
+                  <m>r=0.052</m> and <m>n=365</m>.
                 </p>
               </solution>
             </example>
@@ -2841,12 +2841,14 @@
               </statement>
               <answer>
                 <p>
-                  DO THIS NEXT
+                  A APR of approximately 7.72%, compounded monthly,
+                  will have an annual yield of 8%.
                 </p>
               </answer>
               <solution>
                 <p>
-                  AND ALSO DO THIS NEXT
+                  Use <xref ref="eqn-yield-from-apr"/> and set
+                  <m>i=0.08</m> and <m>n=12</m>.
                 </p>
               </solution>
             </example>
@@ -3239,38 +3241,12 @@
               </example>
             </p>
           </subsection>
-
-          <subsection xml:id="subsec-amortized-loan">
-            <title>Making Smaller Payments All Along</title>
-            <p>
-              In the previous section we learned about making
-              interest payments in such a way that we could then
-              make a final interest payment plus the originally
-              loaned amount at the end of the process. This
-              might be reasonable in some situations, but depending
-              on the loan amount, might be rather unreasonable.
-              For example, if one were to use a loan to buy a house 
-              for $700,000 (which is below the median sale price
-              and below the median asking price in Seattle in 
-              2025, according to Zillow) one would have to plan rather
-              carefully to make sure one was able to make a payment of
-              $700,000 at the end of the loan period. Most normal people
-              do not have this amount sitting around in their savings
-              account. Further, such a large payment at the very end of
-              the process makes the loan agreement more risky in the eyes
-              of the granter of the loan. (What happens if the borrower
-              refuses or cannot pay that extremely large last payment?)
-            </p>
-            <p>
-              With this in mind, what is more usual is to spread out
-              the intermittent payments so that they are all the same
-              amount, or at least as close the same amount as is 
-              possible. It turns out that the fact that all payments
-              must be rounded to the nearest cent will have some effect
-              on our quest for every payment to be exactly the same.
-              (Can you imagine why this might be?)
-            </p>
-          </subsection>
+          <p>
+            Before we move on to develop the approach to level-payment
+            loan repayment schemes, we need to build up a little more
+            theory around the interaction between money and time
+            under the logic of some fixed interest rate.
+          </p>
         </section>
 
         <section xml:id="sec-time-value">
@@ -3285,6 +3261,78 @@
             understand this, we can understand a whole variety of 
             financial tools.
           </p>
+          <p>
+            To keep things simple, throughout this section we will
+            carry out our analysis in somewhat generic terms, where
+            interest <m>i</m> is compounded per time period. The most
+            common such periods would be year or month. Most of our 
+            examples will be presented in terms of years.
+          </p>
+          <p>
+            The fundamental question that drives the entire logic of
+            the following tools is this: How valuable is it, right now,
+            to have the right to receive some fixed amount of money 
+            at a fixed moment in the future? A more specific version
+            of this question: how much should you pay, now, to receive 
+            $100 in one year? 
+          </p>
+          <p>
+            The answer depends on an interest rate! We seek a system,
+            as we have discussed previously, that has a certain internal
+            logic to it. This is not just some idealistic wish: in 
+            a financial system that fails to fit together with this 
+            sort of logic, there will be available certain no-risk 
+            arrangements of payments with positive value, and this is
+            a sort of inefficiency in the system. Such a no-risk way
+            to make money is called an 
+            <term>arbitrage opportunity</term> and 
+          </p>
+        </section>
+
+        <section xml:id="sec-amortized-loans">
+          <title>Amortized Loans</title>
+          <introduction>
+            <p>
+              In the previous section we learned about making
+              interest payments in such a way that we could then
+              make a final interest payment plus the originally
+              loaned amount at the end of the process. This
+              might be reasonable in some situations, but depending
+              on the loan amount, might be rather unreasonable.
+              For example, if one were to use a loan to buy a house 
+              for $700,000 (which is below the median sale price
+              and below the median asking price in Seattle in 
+              2025, according to Zillow) one would have to plan rather
+              carefully to make sure one was able to make a payment of
+              $700,000 at the end of the loan period. Most people
+              do not have this amount sitting around in their savings
+              account. Further, such a large payment at the very end of
+              the process makes the loan agreement more risky in the eyes
+              of the granter of the loan. (What happens if the borrower
+              refuses or cannot pay that extremely large last payment?)
+            </p>
+            <p>
+              With this in mind, what is more usual is to spread out
+              the intermittent payments so that they are all the same
+              amount, or at least as close the same amount as is 
+              possible. It turns out that the fact that all payments
+              must be rounded to the nearest cent will have some effect
+              on our quest for every payment to be exactly the same.
+              (Why might this be?)
+            </p>          
+          </introduction>
+          <subsection xml:id="subsec-level-payment-loans">
+            <title>Level Payment Loans</title>
+            
+          </subsection>
+          <subsection xml:id="subsec-loan-balance">
+            <title>Outstanding Loan Balance During the Loan Term</title>
+            
+          </subsection>
+          <subsection xml:id="subsec-loan-refinance">
+            <title>How and Why to Refinance a Loan</title>
+            
+          </subsection>
         </section>
       </chapter>
 
