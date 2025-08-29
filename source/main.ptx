@@ -3488,10 +3488,33 @@
 
       <chapter xml:id="ch-expected-value">
         <title>Average Outcomes of Uncertain Processes</title>
-        <p>
-        We begin with a very simple sort of idea, one that you have probably seen before. It is the idea of 
-        proportions or percentages. 
-        </p>
+        <introduction>
+          <p>
+            We begin with a very simple sort of idea, one that you have probably seen before. It is the idea of 
+            proportions or percentages. 
+          </p>
+        </introduction>
+
+        <section xml:id="sec-expected-value">
+          <title>Expected Value</title>
+          
+        </section>
+        <section xml:id="sec-expected-applications">
+          <title>Applications of Expected Value</title>
+          <introduction>
+            <p>
+              
+            </p>
+          </introduction>
+          <subsection xml:id="subsec-fair-games">
+            <title>When is a Game of Chance Fair?</title>
+            
+          </subsection>
+          <subsection xml:id="subsec-pooled-risk">
+            <title>How to Plan for Pooled Risk</title>
+            
+          </subsection>
+        </section>
       </chapter>
       
       
