@@ -3374,24 +3374,34 @@
               </solution>
             </example>
           </p>
+
+          <exercises xml:id="exercises-time-value-money">
+            <exercise>
+              
+            </exercise>
+            <exercise>
+              
+            </exercise>
+          </exercises>
         </section>
 
         <section xml:id="sec-amortized-loans">
           <title>Amortized Loans</title>
           <introduction>
             <p>
-              In the previous section we learned about making
+              In <xref ref="sec-loans"/> we learned about making
               interest payments in such a way that we could then
               make a final interest payment plus the originally
               loaned amount at the end of the process. This
               might be reasonable in some situations, but depending
-              on the loan amount, might be rather unreasonable.
+              on the original loan amount, might be rather unreasonable.
               For example, if one were to use a loan to buy a house 
               for $700,000 (which is below the median sale price
               and below the median asking price in Seattle in 
               2025, according to Zillow) one would have to plan rather
               carefully to make sure one was able to make a payment of
-              $700,000 at the end of the loan period. Most people
+              $700,000 (plus an interest payment!) 
+              at the end of the loan period. Most people
               do not have this amount sitting around in their savings
               account. Further, such a large payment at the very end of
               the process makes the loan agreement more risky in the eyes
@@ -3411,8 +3421,103 @@
           <subsection xml:id="subsec-level-payment-loans">
             <title>Level Payment Loans</title>
             <p>
-              
+              We will balance two important goals for ourselves
+              in this section. First, we wish to learn how to 
+              construct a loan. That is, we will establish how to
+              set up a series of future payments,
+              from borrower to creditor, that will have
+              equal present value to the loan amount that will be
+              given to the borrower in the present. Simply: 
+              borrower gets money now, what money does the borrower
+              pay in the future? Naturally, this will depend upon 
+              how many future payments there are, how frequently 
+              those future payments will occur, and what  
+              effective interest rate, per payment period, is 
+              in effect.
             </p>
+            <p>
+              The number of ways a loan could be repayed is essentially
+              infinite, dependent only upon how creatively the 
+              borrower and creditor wish to be in agreeing to the 
+              exchange of payments. Note, also, that these two
+              parties need not even ever mention an interest rate. 
+              They could agree to the payments and simply shake 
+              hands and move on. (It is true that once those payments
+              have been agreed to there is some implied interest
+              rate (or, weirdly, possibly more than one!)
+              that goes along with the loan, but these sorts
+              of calculations, at least from scratch, are beyond 
+              the scope of this text.)
+            </p>
+            <example xml:id="ex-loan-zero">
+              <title>A Loan Between Friends</title>
+              <statement>
+                <p>
+                  Agnes has a chance to make a short film
+                  but needs another $1000. Her friend Jean-Luc can
+                  spare the money now, and wants to be repaid 
+                  in three payments: $333.33 at the end of the first year,
+                  $333.33 at the end of the second year, and $333.34 at
+                  the end of the third year. What interest rate is Jean-Luc
+                  charging Agnes?
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  The interest rate is 0%. 
+                  They are friends, after all.
+                </p>
+              </answer>
+              <solution>
+                <p>
+                  We can see the interest rate must be 0% 
+                  precisely because the amount she repays is
+                  exactly equal to the loan amount. Notice that,
+                  though we will often seek to keep the payments
+                  all of equal size, even for a short-term loan 
+                  like this, it will not always be possible. This
+                  is because we must round to the nearest cent.
+                </p>
+              </solution>
+            </example>
+
+            <p>
+              More usually, there is a positive interest
+              rate associated with a loan. Let us consider a 
+              simple one.
+            </p>
+
+            <example xml:id="ex-loan-with-two-payments">
+              <title>A Loan with Two Payments</title>
+              <statement>
+                <p>
+                  Werner needs $2000 to finish his documentary.
+                  Lotte is a more established filmmaker and 
+                  agrees to loan the money at only 1% annual
+                  interest. The loan is to be repaid over four 
+                  years and four payments, at the end of each 
+                  year. The payments are to be as equal as 
+                  possible.
+                </p>
+                <p>
+                  What should the four payments be?
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  Werner should pay $512.56 for the first three years.
+                  The final payment should be $512.57. (Note: an 
+                  alternative would be $512.57 for the first three years,
+                  followed by a final payment of $512.54.)
+                </p>
+              </answer>
+              <solution>
+                <p>
+                  ANSWER TO COME.
+                </p>
+              </solution>
+            </example>
+
           </subsection>
           <subsection xml:id="subsec-loan-balance">
             <title>Outstanding Loan Balance During the Loan Term</title>
