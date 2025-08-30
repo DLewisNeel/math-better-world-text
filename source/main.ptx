@@ -3374,6 +3374,41 @@
               </solution>
             </example>
           </p>
+          <p>
+            The true power of this perspective on understanding
+            the value of cash flows is this: we need not be limited
+            by only the present value. In fact, by thinking of
+            this logic carefully, we can shift our perspective, 
+            as needed, to find the value of series of cash
+            flows at <em>any</em> point in time. It is true that,
+            for the topics treated here, we can resolve most of our
+            questions in the present, using present value, which is
+            the value of the cash flows at time <m>t=0</m>. But if 
+            judging the value of a cash flow at a different point in
+            time is nothing more than multiplying or dividing by
+            the appropriate version of <m>(1+i)^n</m> then we have
+            some true flexibility.
+          </p>
+          <p>
+            <principle xml:id="principle-time-value-of-money">
+              <statement>
+                <p>
+                  The value of a cash flow of 
+                  <m>C</m> dollars arriving at time
+                  <m>t=T</m>, where <m>t</m> is measured in the
+                  natural unit of the interest period used for the 
+                  risk-free effective interest rate <m>i</m>, 
+                  can be determined for any other time <m>t=T_1</m>.
+                  That value, <m>V_T</m> is
+                  <me>
+                    V_T=C(1+i)^{T_1-T}
+                  </me>
+                  Note that this works whether <m>T_1 > T</m>, or 
+                  <m>T_1 < T</m>, or even if <m>T_1=T</m>.
+                </p>
+              </statement>
+            </principle>
+          </p>
 
           <exercises xml:id="exercises-time-value-money">
             <exercise>
@@ -3585,7 +3620,7 @@
                   </p>
                 </statement>
               </definition>
-              
+              This shows the usefulness 
             </p>
           </subsection>
           <subsection xml:id="subsec-loan-refinance">
