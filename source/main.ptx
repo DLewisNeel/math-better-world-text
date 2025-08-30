@@ -3283,9 +3283,96 @@
             a financial system that fails to fit together with this 
             sort of logic, there will be available certain no-risk 
             arrangements of payments with positive value, and this is
+            viewed as
             a sort of inefficiency in the system. Such a no-risk way
             to make money is called an 
-            <term>arbitrage opportunity</term> and 
+            <term>arbitrage opportunity</term> and they tend not to last
+            long in the real financial/economic system. (There are whole 
+            arrays of computers whose sole mission in life is to 
+            spot such opportunities and automatically invest in them
+            as swiftly and effectively as possible before they dissappear.)
+            When we assume a certain interest rate, we can then discuss 
+            the <term>present value</term> of some future cash flow or set
+            of cash flows. We call this assumed interest rate the 
+            <term>risk-free rate</term>. (Our analysis in this text 
+            will only ever assume a single such rate. There is a whole
+            fascinating world to explore once one allows for the more
+            realistic situation of different rates available over 
+            different amounts of time. But this is well beyond our
+            set of concerns in this text.)
+          </p>
+          <p>
+            So: if we assume that the risk-free interest rate is
+            an annual effective interest rate of 5%, how 
+            much should we pay right now to receive $100 in a year?
+            The answer should look very familiar! This is the 
+            same old question from earlier in this text, only 
+            slightly disguised. We are asking how much should 
+            be invested, right now, so that it will grow to $100
+            at the end of the year. So using 
+            <xref ref="eqn-apr-compound"/> 
+            <me>
+              P=P_0\left(1+\frac{r}{n}\right)^{nt}
+            </me>
+            with
+            <m>r=0.05, n=1, t=1</m> and <m>P=100</m> we find:
+            <me>
+              100=P_0\left(1+\frac{0.05}{1}\right)^{(1)(1)}
+            </me>
+            This simplifies to:
+            <me>
+              100=P_0(1.05)
+            </me>
+            So we conclude that we should invest:
+            <me>P_0=\dfrac{100}{1.05}=95.238095</me>
+            which rounds to $95.24. But let us restate
+            the key idea here:
+            <em>
+              The present value of a future cash payment is
+              the amount that, if invested now at the risk-free
+              rate, would grow under compound interest to
+              equal that future cash payment at that future time.
+            </em>
+            So in this case the present value of $100 is $95.24, when 
+            we assume a risk-free interest rate of 5% annual effective.
+          </p>
+          <p>
+            To be clear: this rationale applies for all time intervals.
+            So we can say that the value of a $100 payment in five years
+            under 5% annual effective interest is:
+            <me>
+              PV=\dfrac{100}{(1+0.05)^5=78.3526}
+            </me>
+            Thus, the present value of $100 received in five years is
+            $78.35 when 
+            we assume a risk-free interest rate of 5% annual effective.
+          </p>
+          <p>
+            There is one more very helpful fact about present values: 
+            because we are generating them from a coherent set of 
+            assumptions, grounded in mathematics, we can combine them
+            easily as well using arithmetic.
+            <example>
+              <statement>
+                <p>
+                  Assuming 5% annual compound interest, what is the 
+                  present value of the right to be paid $100 in one
+                  year and another $100 in five years? 
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  The present value is $173.59.
+                </p>
+              </answer>
+              <solution>
+                <p>
+                  <me>
+                    PV=\dfrac{100}{1+0.05}+\dfrac{100}{(1+0.05)^5}=173.59
+                  </me>
+                </p>
+              </solution>
+            </example>
           </p>
         </section>
 
@@ -3323,7 +3410,9 @@
           </introduction>
           <subsection xml:id="subsec-level-payment-loans">
             <title>Level Payment Loans</title>
-            
+            <p>
+              
+            </p>
           </subsection>
           <subsection xml:id="subsec-loan-balance">
             <title>Outstanding Loan Balance During the Loan Term</title>
