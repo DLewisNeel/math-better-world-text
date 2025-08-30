@@ -3395,16 +3395,17 @@
                 <p>
                   The value of a cash flow of 
                   <m>C</m> dollars arriving at time
-                  <m>t=T</m>, where <m>t</m> is measured in the
+                  <m>t=T_1</m>, where <m>t</m> is measured in the
                   natural unit of the interest period used for the 
                   risk-free effective interest rate <m>i</m>, 
-                  can be determined for any other time <m>t=T_1</m>.
-                  That value, <m>V_T</m> is
+                  can be determined for any other time <m>t=T_0</m>.
+                  The value at <m>T_0</m>, <m>V_{T_0}</m>, is
                   <me>
-                    V_T=C(1+i)^{T_1-T}
+                    V_{T_0}=C(1+i)^{T_1-T_0}
                   </me>
-                  Note that this works whether <m>T_1 > T</m>, or 
-                  <m>T_1 < T</m>, or even if <m>T_1=T</m>.
+                  Note that this formula works if <m>T_1</m> is before 
+                  <m>T_0</m>, or if <m>T_1</m> is after <m>T_0</m>, 
+                  and even if <m>T_1=T_0</m>.
                 </p>
               </statement>
             </principle>
