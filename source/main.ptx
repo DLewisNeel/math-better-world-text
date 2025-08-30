@@ -3521,7 +3521,72 @@
           </subsection>
           <subsection xml:id="subsec-loan-balance">
             <title>Outstanding Loan Balance During the Loan Term</title>
-            
+            <p>
+              When we speak of the <term>amortization</term> of a
+              loan, this refers to our ability to discern, throughout
+              the process of repaying the loan, the current state
+              of how much is owed, and, based on this, how each
+              payment is split into one portion that covers the newly
+              accrued interest and another portion that reduces the 
+              original amount owed. In some ways, this might seem
+              to be merely additional bookkeeping without much purpose.
+              After all, once the two parties have agreed upon a 
+              repayment scheme, what else is there to know?
+            </p>
+            <p>
+              But of course, situations can change. What happens 
+              if the buyers who are living in the house
+              must move to another city? Then the house will often
+              need to be sold. If the house is sold for $700,000 and
+              the buyers used a loan to purchase the home for $600,000
+              four years ago, what should happen? The buyers
+              have been making payments and, in usual cases, those
+              payments will have consistently exceeded what they
+              owed in interest, so the original amount they owe to
+              the bank should now be less than $600,000. But how much
+              less? 
+            </p>
+            <p>
+              In simplest terms, and leaving aside the 
+              infamous <q>closing costs</q> (which can be accounted
+              for later, once we have understood the basics) the original
+              buyers, who are now selling the home for $700,000, will take
+              some of that $700,000 to pay off the rest of what they owe
+              to the bank. The rest, beyond that amount, they get to keep.
+              Often they will need this money to put forward toward their
+              next house, but the money is theirs to use how they see fit.
+            </p>
+            <p>
+              We are left, then, with the question of how to determine
+              how much of the house is owned by the bank and how much
+              is owned by the buyers at any moment along the way.
+              Well, perhaps not at <em>any</em> moment. We will focus on
+              determining what the <term>outstanding loan balance</term>
+              is in the instant just after a payment has been made.
+            </p>
+            <p>
+              There are two ways we can determine the current outstanding
+              loan balance. Though one will usually be easier to 
+              compute than the other, the ability to understand the 
+              rational basis for each, within this overarching system of
+              credit and debt, will help to solidify our intuition about
+              the system. 
+            </p>
+            <p>
+              <definition xml:id="def-olb-prospective">
+                <statement>
+                  <p>
+                    The outstanding loan balance (prospective version)
+                    at any stage of the
+                    loan repayment is defined to be the present value
+                    of the remaining payments, under the effective
+                    per period interest rate of the original loan
+                    agreement.
+                  </p>
+                </statement>
+              </definition>
+              
+            </p>
           </subsection>
           <subsection xml:id="subsec-loan-refinance">
             <title>How and Why to Refinance a Loan</title>
