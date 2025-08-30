@@ -3341,7 +3341,7 @@
             So we can say that the value of a $100 payment in five years
             under 5% annual effective interest is:
             <me>
-              PV=\dfrac{100}{(1+0.05)^5=78.3526}
+              PV=\dfrac{100}{(1+0.05)^5}=78.3526
             </me>
             Thus, the present value of $100 received in five years is
             $78.35 when 
