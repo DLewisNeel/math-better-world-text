@@ -3403,8 +3403,8 @@
                   <me>
                     V_T=C(1+i)^{T_1-T}
                   </me>
-                  Note that this works whether <m>T_1 > T</m>, or 
-                  <m>T_1 < T</m>, or even if <m>T_1=T</m>.
+                  Note that this works whether <m>T_1 /> T</m>, or 
+                  <m>T_1 /< T</m>, or even if <m>T_1=T</m>.
                 </p>
               </statement>
             </principle>
