@@ -3401,7 +3401,7 @@
                   risk-free effective interest rate <m>i</m>, 
                   can be determined for any other time <m>t=T_0</m>.
                   The value at <m>T_0</m>, <m>V_{T_0}</m>, is
-                  <me xml:id="eqn-time-value">
+                  <me>
                     V_{T_0}=C(1+i)^{T_1-T_0}
                   </me>
                   Note that this formula works if <m>T_1</m> is before 
@@ -3525,8 +3525,10 @@
                       <me>
                        \dfrac{100}{(1+0.04)^3}=88.90
                       </me>
-                      A final way to find this is simply to use the appropriate
-                      values in <xref ref="eqn-time-value"/>.
+                      A final way to find this numerical value
+                      is simply to insert the appropriate
+                      values into the equation in
+                      <xref ref="principle-time-value-of-money"/>.
                     </p>
                   </li>
                   <li>
