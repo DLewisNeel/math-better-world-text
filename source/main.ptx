@@ -2854,6 +2854,7 @@
             </example>
 
           </subsection>
+
         </section>
         <section xml:id="sec-loans">
           <title>Understanding Loans</title>
@@ -3410,6 +3411,84 @@
               </statement>
             </principle>
           </p>
+          <p>
+            More informally, this means that, once we have agreed upon
+            a risk-free per-period interest rate <m>i</m> to use in 
+            our analysis, we can view the value of money, moving
+            through time, by multiplying or dividing by factors of
+            <m>(1+i)</m>. 
+            <dl>
+              <li>
+                <title>Value of a Cash Flow <m>n</m> Units of Time Later</title>
+                <p>
+                  A cash flow <m>C</m> has value 
+                  <m>C(1+i)^n</m> <m>n</m> periods in the future. 
+                  Multiplication by factors of <m>(1+i)</m>
+                  moves the value forward in time.
+                </p>
+              </li>
+              <li>
+                <title>Value of a Cash Flow <m>n</m> Units of Time Earlier</title>
+                <p>
+                  A cash flow <m>C</m> has value 
+                  <m>\xfrac{C}{(1+i)^n}</m> <m>n</m> periods in the 
+                  past. Division by factors of <m>(1+i)</m>
+                  moves the value backward in time.
+                </p>
+              </li>
+            </dl>
+          </p>
+          <p>
+            Finally, because so many of our later applications
+            involve a large number of equal cash payments 
+            repeated at regular intervals, we will benefit from
+            understanding one more formula. We wish to be able to
+            easily compute the 
+            present value of <m>n</m> future payments of  
+            <m>Q</m> dollars. The payments are made at times
+            <m>t=1, 2, \dots, n</m>.
+          </p>
+          <p>
+            As so often, we will start with a simple example.
+          </p>
+          <example xml:id="ex-pv-annuity">
+            <title>Present Value of <m>4</m> Future Payments</title>
+            <statement>
+              <p>
+                Lana tells Sabrina she will pay her $200 at the end
+                of each of the next four years. Sabrina says, 
+                <q>
+                  Okay, 
+                  and I will loan you an amount of money now that 
+                  means you will be paying me 2% annual interest.
+                </q>
+                They shake hands and Lana starts trying to decide 
+                which Criterion Collection discs she will buy
+                with the money. But how much can she spend based
+                on what Sabrina just gave her? (She has already
+                decided on <pubtitle>Matewan</pubtitle> and 
+                <pubtitle>Portrait of a Lady on Fire</pubtitle> at
+                the very least.)
+              </p>
+            </statement>
+            <answer>
+              <p>
+                Sabrina gave Lana $761.55.
+              </p>
+            </answer>
+            <solution>
+              <p>
+                Since we know that the present value of each payment
+                can be found by dividing by some power of <m>(1+0.02)</m>
+                and since we also know that we can simply sum up 
+                these present values, the appropriate formula is:
+                <me>
+                  PV=\dfrac{200}{(1+0.02)}+\dfrac{200}{(1+0.02)^2}+\dfrac{200}{(1+0.02)^3}+\dfrac{200}{(1+0.02)^4}
+                </me>
+              </p>
+            </solution>
+          </example>
+
 
           <exercises xml:id="exercises-time-value-money">
             <exercise>
