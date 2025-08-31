@@ -3605,6 +3605,14 @@
             us quite a bit of work.
           </p>
           <p>
+            We can make use of a fact from algebra (which relies
+            upon some rather deep principles from calculus) to 
+            make things quite a bit nicer for ourselves. Namely,
+            that the following equation is true as long as 
+            <m>|r|<1</m>.
+            <me>
+              1+r+r^2+\cdots+r^{n-1}=\dfrac{1-r^n}{1-r}
+            </me>
             
           </p>
 
