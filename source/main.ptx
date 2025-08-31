@@ -3630,10 +3630,11 @@
             term has a factor of <m>\frac{Q}{(1+i)}</m> and if we factor
             this out from each term we get:
             <me>
-              PV=\dfrac{Q}{(1+i)}\left(1+\dfrac{1}{(1+i)}+\dfrac{1}{(1+i)^2}+\cdots + \dfrac{Q}{(1+i)^{N-1}}\right)
+              PV=\dfrac{Q}{(1+i)}\left(1+\dfrac{1}{(1+i)}+\dfrac{1}{(1+i)^2}+\cdots + \dfrac{1}{(1+i)^{N-1}}\right)
             </me>
             That portion inside the parentheses now looks promising! We can
-            rewrite it using 
+            rewrite it using <xref ref="eqn-polynomial-division"/> with 
+            <m>r=\frac{1}{(1+i)}</m> and <m>n=N</m>.
           </p>
 
 
