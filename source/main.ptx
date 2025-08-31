@@ -3609,11 +3609,31 @@
             upon some rather deep principles from calculus) to 
             make things quite a bit nicer for ourselves. Namely,
             that the following equation is true as long as 
-            <m>|r| \lt 1</m>.
-            <me>
+            <m>r \ne 1</m>:
+            <men xml:id="eqn-polynomial-division">
               1+r+r^2+\cdots+r^{n-1}=\dfrac{1-r^n}{1-r}
+            </men>
+          </p>
+          <p>
+            Perhaps you can see how this helps. We want to
+            know the present value of <em>any</em> number
+            of equal future payments made at consistent 
+            intervals. What would the long version of that
+            look like? It would look like this (with our 
+            usual variables of <m>i</m> for per-period interest
+            rate, <m>Q</m> for the dollar amount of each payment, 
+            and <m>N</m> for the total number of payments):
+            <me>
+              PV=\dfrac{Q}{(1+i)}+\dfrac{Q}{(1+i)^2}+\cdots + \dfrac{Q}{(1+i)^N}
             </me>
-            
+            This might not look so promising. But notice that every
+            term has a factor of <m>\frac{Q}{(1+i)}</m> and if we factor
+            this out from each term we get:
+            <me>
+              PV=\dfrac{Q}{(1+i)}\left(1+\dfrac{1}{(1+i)}+\dfrac{1}{(1+i)^2}+\cdots + \dfrac{Q}{(1+i)^{N-1}}\right)
+            </me>
+            That portion inside the parentheses now looks promising! We can
+            rewrite it using 
           </p>
 
 
