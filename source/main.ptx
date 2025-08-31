@@ -3401,7 +3401,7 @@
                   risk-free effective interest rate <m>i</m>, 
                   can be determined for any other time <m>t=T_0</m>.
                   The value at <m>T_0</m>, <m>V_{T_0}</m>, is
-                  <me>
+                  <me xml:id="eqn-time-value">
                     V_{T_0}=C(1+i)^{T_1-T_0}
                   </me>
                   Note that this formula works if <m>T_1</m> is before 
@@ -3438,6 +3438,112 @@
               </li>
             </dl>
           </p>
+          <p>
+            Let<rsq/>s solidify this idea with an example:
+          </p>
+          <example>
+            <title>Values at Various Times</title>
+            <statement>
+              <p> For the following questions, use an 
+                annual risk-free effective interest rate of 
+                <m>i=0.04</m>.
+                <ol>
+                  <li>
+                    <p>
+                      What is the value two years from
+                      now of a payment of $100 five years from
+                      now?
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      What is the value in ten years
+                      of a payment of $100 in three years?
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      What is the value in five years of 
+                      a payment of $100 in three years and a
+                      payment of $100 in ten years?
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </statement>
+            <answer>
+              <p>
+                <ol>
+                  <li>
+                    <p>
+                      $88.90
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      $131.59
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      $190.35
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </answer>
+            <solution>
+              <p>
+                <ol>
+                  <li>
+                    <p>
+                      There are multiple ways for us to understand this. 
+                      Perhaps the most useful for building intuition is this:
+                      we can think about finding the present value (that is, 
+                      the <m>t=0</m> value) of the payment, and then take that
+                      present value and move it forward to the target time.
+                      In other words we can think of selling the payment at
+                      <m>t=5</m> right now, then taking that cash in the 
+                      present and investing it at the risk-free rate for two
+                      years until <m>t=2</m>. The present value of the payment
+                      is:
+                      <me>
+                        PV=\dfrac{100}{(1+0.04)^5}=82.19
+                      </me>
+                      When this is then allowed to grow for two years at 4% annual
+                      compound interest it grows to:
+                      <me>
+                        \left(\dfrac{100}{(1+0.04)^5}\right)(1+0.04)^2=\dfrac{100}{(1+0.04)^3}=88.90
+                      </me>
+                      We can also see that we get the same result by thinking
+                      of the process as moving through time. The $100 at five
+                      years, <m>t=5</m> must travel backwards by three years to
+                      time <m>t=2</m>. To travel backwards, we divide by a power
+                      of <m>(1+0.04)</m> and the appropriate power is given by
+                      how many time periods we are traveling in the backwards 
+                      direction. In this case, that is three years. Thus:
+                      <me>
+                       \dfrac{100}{(1+0.04)^3}=88.90
+                      </me>
+                      A final way to find this is simply to use the appropriate
+                      values in <xref ref="eqn-time-value"/>.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      MORE HERE 
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      MORE HERE
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </solution>
+          </example>
+
           <p>
             Finally, because so many of our later applications
             involve a large number of equal cash payments 
@@ -3488,6 +3594,17 @@
               </p>
             </solution>
           </example>
+          <p>
+            This sort of calculation is not so bad when there are only a few
+            payments. But what about a large, long-term loan? These can routinely
+            have 360 or 480 payments. You presumably do not have the patience
+            (nor should you!)
+            to write out 360 or 480 terms in a sum. Luckily, algebra can save
+            us quite a bit of work.
+          </p>
+          <p>
+            
+          </p>
 
 
           <exercises xml:id="exercises-time-value-money">
