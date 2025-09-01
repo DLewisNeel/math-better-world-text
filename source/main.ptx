@@ -3632,6 +3632,10 @@
             <me>
               PV=\dfrac{Q}{(1+i)}\left(1+\dfrac{1}{(1+i)}+\dfrac{1}{(1+i)^2}+\cdots + \dfrac{1}{(1+i)^{N-1}}\right)
             </me>
+            Which is only a small step from:
+            <me>
+              PV=\dfrac{Q}{(1+i)}\left(1+\left(\dfrac{1}{(1+i)}\right)+\left(\dfrac{1}{(1+i)}\right)^2+\cdots + \left(\dfrac{1}{(1+i)}\right)^{N-1}\right)
+            </me>
             That portion inside the parentheses now looks promising! 
             As long as <m>i \ne 0</m>, we can
             rewrite it using <xref ref="eqn-polynomial-division"/> with 
