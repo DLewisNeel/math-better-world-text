@@ -3637,7 +3637,7 @@
             rewrite it using <xref ref="eqn-polynomial-division"/> with 
             <m>r=\frac{1}{(1+i)}</m> and <m>n=N</m> and we get:
             <me>
-              PV=\dfrac{Q}{(1+i)}\left(\dfrac{1-(\frac{1}{1+i})^N}{1-\frac{1}{1+i}}\right)
+              PV=\dfrac{Q}{(1+i)}\left(\dfrac{1-(\frac{1}{1+i})^N}{1-\frac{1}{(1+i)}}\right)
             </me>
             If we then distribute the denominator and simplify the numerator we get:
             <me>
