@@ -3635,22 +3635,9 @@
             That portion inside the parentheses now looks promising! 
             As long as <m>i \ne 0</m>, we can
             rewrite it using <xref ref="eqn-polynomial-division"/> with 
-            <m>r=\frac{1}{(1+i)}</m> and <m>n=N</m> and we get:
-            <me>
-              PV=\dfrac{Q}{(1+i)}\left(\dfrac{1-(\frac{1}{1+i})^N}{1-\frac{1}{(1+i)}}\right)
-            </me>
-            If we then distribute the denominator and simplify the numerator we get:
-            <me>
-              PV=\dfrac{Q\left(1-(\frac{1}{1+i})^N\right)}{(1+i)-1}
-            </me>
-            which then simplifies to:
-            <me>
-              PV=\dfrac{Q\left(1-(\frac{1}{1+i})^N\right)}{i}=
-            </me>
-            
+            <m>r=\frac{1}{(1+i)}</m> and <m>n=N</m> and we get:            
           </p>
-
-
+          
           <exercises xml:id="exercises-time-value-money">
             <exercise>
               
