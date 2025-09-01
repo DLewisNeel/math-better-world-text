@@ -3635,9 +3635,10 @@
             That portion inside the parentheses now looks promising! 
             As long as <m>i \ne 0</m>, we can
             rewrite it using <xref ref="eqn-polynomial-division"/> with 
-            <m>r=\frac{1}{(1+i)}</m> and <m>n=N</m> and we get:            
+            <m>r=\frac{1}{(1+i)}</m> and <m>n=N</m> and we get:   
+            TESTING TESTING TESTING...         
           </p>
-          
+
           <exercises xml:id="exercises-time-value-money">
             <exercise>
               
