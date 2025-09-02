@@ -3692,7 +3692,7 @@
                 So when we plug all that into 
                 <xref ref="eqn-pv-many-future-payments"/>, we get:
                 <me>
-                  PV=\dfrac{Q \left((1+i)^N-1\right)}{i\left(1+i\right)^N}=\dfrac{1200 \left((1+\frac{.04}{12})^{360}-1\right)}{(\frac{0.04}{12})\left(1+\dfrac{0.04}{12}\right)^N}
+                  PV=\dfrac{Q \left((1+i)^N-1\right)}{i\left(1+i\right)^N}=\dfrac{1200 \left((1+\frac{.04}{12})^{360}-1\right)}{(\frac{0.04}{12})\left(1+\frac{0.04}{12}\right)^{360}}
                 </me>
                 which means:
                 <me>
@@ -3940,7 +3940,7 @@
             <title>How and Why to Refinance a Loan</title>
             
           </subsection>
-          
+
         </section>
       </chapter>
 
