@@ -3653,7 +3653,7 @@
             </me>
             The most useful form of this formula is:
             <men xml:id="eqn-pv-many-future-payments">
-              PV=\dfrac{Q}{i\right(1+i\left)^N}ETC
+              PV=\dfrac{Q \left((1+i)^N-1\right)}{i\left(1+i\right)^N}
             </men>
             We will build some quite useful future formulas
             from this relationship.
