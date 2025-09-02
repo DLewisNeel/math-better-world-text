@@ -3649,7 +3649,7 @@
             </me>
             which then simplifies to:
             <me>
-              PV=\dfrac{Q\left(1-(\frac{1}{1+i})^N \right)}{i}=\dfrac{Q}{i}\left(1-(\frac{1}{1+i})^N \right)
+              PV=\dfrac{Q\left(1-(\frac{1}{1+i})^N \right)}{i}=\dfrac{Q}{i}\left(1-\left(\frac{1}{1+i}\right)^N \right)
             </me>
             TESTING TESTING.
           </p>
