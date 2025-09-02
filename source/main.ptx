@@ -3656,7 +3656,8 @@
               PV=\dfrac{Q \left((1+i)^N-1\right)}{i\left(1+i\right)^N}
             </men>
             We will build some quite useful future formulas
-            from this relationship.
+            from this relationship. It will be especially useful
+            in our analysis of loans and their amortization.
           </p>
           <example xml:id="ex-pv-many-future-payments">
             <title>Present Value of Many Future Payments</title>
@@ -3674,13 +3675,44 @@
             </statement>
             <answer>
               <p>
+                $251,353.49
               </p>
             </answer>
             <solution>
               <p>
+                The first potential pitfall here is the interest rate.
+                Since it is given to us as a monthly APR, we need to 
+                transform it to a monthly effective interest rate. The 
+                variable <m>i</m> in this formula must always be the 
+                effective rate associated with the interval of time
+                between payments. So, our effective rate can be found
+                by <m>i=\frac{0.04}{12}</m>. Monthly payments for 30 years
+                means <m>N=(12)(30)=360</m> total payments. Finally, 
+                the payments are $1200 each, which means <m>Q=1200</m>.
+                So when we plug all that into 
+                <xref ref="eqn-pv-many-future-payments"/>, we get:
+                <me>
+                  PV=\dfrac{Q \left((1+i)^N-1\right)}{i\left(1+i\right)^N}=\dfrac{1200 \left((1+\frac{.04}{12})^{360}-1\right)}{(\frac{0.04}{12})\left(1+\dfrac{0.04}{12}\right)^N}
+                </me>
+                which means:
+                <me>
+                  PV=251{,}353.49
+                </me>
+                So the loan amount that Clarice has to use, now, in the present,
+                is $251,353.49.
               </p>
             </solution>
           </example>
+          <p>
+            The formula allows us to understand the
+            present value of large numbers of future payments, as long
+            as the payments are equally spaced and the effective interest
+            rate per period remains constant throughout the life of the 
+            process. In fact, even if some payments are missed or if the 
+            interest rate changes, we can, with some cleverness, still
+            carry out this sort of analysis. But for now we are ready to
+            move on to explore loans.
+          </p>
 
 
           <exercises xml:id="exercises-time-value-money">
@@ -3859,7 +3891,7 @@
               infamous <q>closing costs</q> (which can be accounted
               for later, once we have understood the basics) the original
               buyers, who are now selling the home for $700,000, will take
-              some of that $700,000 to pay off the rest of what they owe
+              some of that $700,000 to pay off their remaining debt
               to the bank. The rest, beyond that amount, they get to keep.
               Often they will need this money to put forward toward their
               next house, but the money is theirs to use how they see fit.
@@ -3893,13 +3925,22 @@
                   </p>
                 </statement>
               </definition>
-              This shows the usefulness 
+              Now, this could be quite a tedious computation, if not for
+              the fact that we derived and understood 
+              <xref ref="eqn-pv-many-future-payments"/>. Indeed, the 
+              computation shown in <xref ref="ex-pv-many-future-payments"/>
+              serves as an excellent first example of computing
+              an outstanding loan balance in this way. After all, the
+              original loan amount, or principal, is also always the
+              first outstanding loan balance.
             </p>
           </subsection>
+
           <subsection xml:id="subsec-loan-refinance">
             <title>How and Why to Refinance a Loan</title>
             
           </subsection>
+          
         </section>
       </chapter>
 
