@@ -3651,8 +3651,37 @@
             <me>
               PV=\dfrac{Q\left(1-(\frac{1}{1+i})^N \right)}{i}=\dfrac{Q}{i}\left(1-\left(\frac{1}{1+i}\right)^N \right)
             </me>
-            TESTING TESTING.
+            The most useful form of this formula is:
+            <men xml:id="eqn-pv-many-future-payments">
+              PV=\dfrac{Q}{i\right(1+i\left)^N}ETC
+            </men>
+            We will build some quite useful future formulas
+            from this relationship.
           </p>
+          <example xml:id="ex-pv-many-future-payments">
+            <title>Present Value of Many Future Payments</title>
+            <statement>
+              <p>
+                The Wild Heart Credit Union has agreed to loan
+                money to Clarice at a 4% APR compounded monthly.
+                Clarice will make monthly payments of $1200 for
+                the next 30 years. What is the present value
+                of these future payments which begin one month
+                from now. This present value will constitute the
+                <term>principal</term> of the loan, also often
+                called the <term>loan amount</term>.
+              </p>
+            </statement>
+            <answer>
+              <p>
+              </p>
+            </answer>
+            <solution>
+              <p>
+              </p>
+            </solution>
+          </example>
+
 
           <exercises xml:id="exercises-time-value-money">
             <exercise>
