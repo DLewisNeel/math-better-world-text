@@ -3598,7 +3598,7 @@
                     </p>
                     <p>
                       It is worth continuing to build our intuition, though. One
-                      other perspectives that leads us to the same answer:
+                      other perspective that leads us to the same answer:
                       first, find the present value of $100 by moving it back
                       to the present, which is back three years, by dividing 
                       by <m>(1+i)^3</m>, then moving that present value
@@ -3607,13 +3607,35 @@
                     </p>
                     <p>
                       The final perspective, of course, is simply to insert the
-                      appropriate values of <m>T_0, T_1, i</m>, and <m>N</m>
+                      appropriate values of <m>T_0, T_1, i</m>, and <m>C</m>
                       into <xref ref="principle-time-value-of-money"/>.
                     </p>
                   </li>
                   <li>
                     <p>
-                      
+                      The important principle here is that, as with present
+                      value, we can take the individual <m>t=5</m> point of view
+                      on each of these payments and simply add them together
+                      at that moment in time.
+                    </p>
+                    <p>
+                      So the <m>t=5</m> value of the payment in three
+                      years is <m>100(1+0.04)^2=108.16</m> while the <m>t=5</m>
+                      value of the payment in ten years is 
+                      <m>\frac{100}{(1+0.04)^5}=82.19</m> and when we add
+                      those we get $190.35.
+                    </p>
+                    <p>
+                      Finally, another perspective would be to bring everything 
+                      back to present value, like so:
+                      <me>
+                        PV=\frac{100}{(1+0.04)^3}+\frac{100}{(1+0.04)^{10}}
+                      </me>
+                      Then we project that present value forward by five years
+                      by multiplying by <m>(1+0.04)^5</m> which gives us:
+                      <me>
+                        (1+0.04)^5\left(\frac{100}{(1+0.04)^3}+\frac{100}{(1+0.04)^{10}}\right)=100(1+0.04)^2+\frac{100}{(1+0.04)^5}
+                      </me>
                     </p>
                   </li>
                 </ol>
