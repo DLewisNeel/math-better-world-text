@@ -548,7 +548,7 @@
               state should have in the legislature?
             </p>
           </introduction>
-          
+
           <section xml:id="sec-hamilton-jefferson">
             <title>The Hamilton and Jefferson Methods of Apportionment</title>
             <introduction>
@@ -943,7 +943,9 @@
               state has roughly 33% of the power. We could similarly 
               declare that all the power adds to 1 and say that each
               state has power measured at 0.33. 
-              <aside>
+            </p>
+            <aside>
+              <p>
                 There is nothing preventing us from declaring there to be
                 any amount of power which must be distributed. We might 
                 set up our analysis such that 45 <q>power units</q> are 
@@ -954,8 +956,8 @@
                 not rather slightly illuminating to say that Cropland has 15
                 of the 45 power units? It is easier just to say it has 33.3%
                 of the power or 0.333 of the power.
-              </aside>
-            </p>
+              </p>
+            </aside>
           </example>
           <p>
             Before we move on to a more systematic approach to computing power
