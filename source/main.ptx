@@ -140,7 +140,7 @@
             numerical value, will first multiply that value
             by five, and then will take that result and add
             three to it. This number will be passed back
-            to whoever input that value.
+            to whoever input that original numerical value.
           </q>
           Another way to say this is that <m>x</m> is really just
           a way to allow us to <q>fill in the blanks</q>. We might also
@@ -174,24 +174,34 @@
         </p>
       </chapter>
 
+  <!-- ______________________________________________________________ -->
+
       <chapter xml:id="ch-percent-proportion">
         <title>Percentages and Proportionality</title>
         <introduction>
           <p>
-            We will open with a consideration of fractions, proportions, and percentages.
-            These ideas are deeply interrelated and, what is more, incredibly tied
+            We will open with a consideration of fractions, 
+            proportions, and percentages.
+            These ideas are deeply interrelated and, what 
+            is more, incredibly tied
             to a lot of intuitive ideas about fairness.
           </p>
         </introduction>
         <section xml:id="sec-proportion">
           <title>Proportion</title>
             <p>
-              We begin with a very simple sort of idea, one that you have probably seen before. 
-              It is the idea of proportion or fraction. In what we might optimistically
-              interpret as a hopeful sign, this concept is often introduced using the idea 
-              of fair division of resources. If there are four bottles of water and four
-              thirsty people, then we might easily decide that each thirsty person should
-              get one bottle of water. That is, we divide the four bottles four ways, which 
+              We begin with a very simple sort of idea, 
+              one that you have probably seen before. 
+              It is the idea of proportion or fraction. 
+              In what we might optimistically
+              interpret as a hopeful sign, this concept is 
+              often introduced using the idea 
+              of fair division of resources. If there are 
+              four bottles of water and four
+              thirsty people, then we might easily decide 
+              that each thirsty person should
+              get one bottle of water. That is, we divide 
+              the four bottles four ways, which 
               allows one bottle in each group. We indicate this by 
               <me>
                 4 \div 4 = 1  
@@ -230,7 +240,7 @@
                 \dfrac{6}{12}=0.5
               </me>
               This tells us that each child can have 0.5 of a cookie, which we tend to 
-              call half a cookie, or <m>\dfrac{1}{2}</m> a cookie. You probably 
+              call half a cookie, or <m>\frac{1}{2}</m> a cookie. You probably 
               understand the concept of <q>half</q>.
               But what if two of the children suddenly announce that they do not like
               this sort of cookie and would prefer not to have any. Now we have ten children
@@ -274,8 +284,10 @@
               history that was ignored or de-emphasized by
               so-called <q>Western</q> historians and mathematicians
               for far too long. You can find out
-              more in Berggren's <pubtitle>Episodes in the Mathematics of Medieval Islam</pubtitle>. 
-              The word <q>algorithm</q> itself comes from the
+              more in Berggren's 
+              <pubtitle>Episodes in the Mathematics of Medieval Islam</pubtitle>. 
+              The word <q>algorithm</q> itself comes from a 
+              somewhat clumsy importation of the
               name of the Islamic mathematician Al-Khwarizmi, about whom you can read
               <url href="https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/">here</url>,
               from the venerable St Andrews site on the history of math.
@@ -441,11 +453,15 @@
             </exercise>
             
             <exercise>
-              
+              <p>
+                
+              </p>
             </exercise>
           </exercises>
         </section>
       </chapter>
+
+  <!-- ______________________________________________________________ -->
 
       <chapter xml:id="ch-democracy-representation">
         <title>Democracy and Proportional Representation</title>
@@ -555,7 +571,8 @@
               <p>  
                 Two early methods are labeled by names that will be familiar to you
                 if you have brought into yourself historical knowledge of the forming
-                of the United States of America. Let us begin with the <em>Hamilton Method</em>.
+                of the United States of America. 
+                Let us begin with the <em>Hamilton Method of Apportionment</em>.
               </p>
             </introduction>
             <subsection xml:id="subsec-hamilton">
@@ -828,17 +845,26 @@
           </section>
       </chapter>
 
+  <!-- ______________________________________________________________ -->
+
       <chapter xml:id="ch-weighted-voting">
         <title>Power in Weighted Voting Systems</title>
         <introduction>
           <p>
-            All of the effort put into the systems described in the previous chapter were premised upon an
-            intuitive idea: that if a state has, for example, twice the representatives, then it will have
-            twice the power in the House of Representatives. But remember: one of the overarching themes of
-            this book is that we want to be able to use mathematics and its related fields to investigate 
-            whether our intuitive ideas about how things work are, in fact, accurate. We have already seen
-            some examples of how this can happen. But the belief related to this idea of power is quite
-            surprising and can be motivated with a relatively simple example.
+            All of the effort put into the systems described in 
+            the previous chapter were premised upon an
+            intuitive idea: that if a state has, for example, 
+            twice the representatives, then it will have
+            twice the power in the House of Representatives. But 
+            remember: one of the overarching themes of
+            this book is that we want to be able to use 
+            mathematics and its related fields to investigate 
+            whether our intuitive ideas about how things 
+            work are, in fact, accurate. We have already seen
+            some examples of how this can happen. But the 
+            belief related to this idea of power is quite
+            surprising and can be motivated with a 
+            relatively simple example.
           </p>
         </introduction>
         <section xml:id="formalizing-weighted">
@@ -846,7 +872,8 @@
           <example xml:id="ex-weighted-intuition">
             <title>Intuition Misleading Us?</title>
             <p>
-              Suppose there were three states in the nation with populations such that, 
+              Suppose there were three states in the 
+              nation with populations such that, 
               in the 100-member House
               of Representatives, one state, Alsaka, had 49 representatives, 
               one state, Bartleby, had 47 representatives, and a third
@@ -856,12 +883,18 @@
               (For example, this would be exactly true if the populations were 49,000, 
               47,000, and 4000, respectively.) 
               So according to the intuition we have
-              been basing our work on up until now, this system has been constructed 
-              in a way that is fair. It has explicitly and exactly matched the proportion of 
-              numbers of representatives to the proportion of the number of people in the
-              population for each state. The state that has 49% of the population has
-              49% of the representatives, the state that has 47% of the population has 47% of
-              the representatives, and the state that has 4% of the population has 4% of 
+              been basing our work on up until now, 
+              this system has been constructed 
+              in a way that is fair. It has explicitly 
+              and exactly matched the proportion of 
+              numbers of representatives to the proportion 
+              of the number of people in the
+              population for each state. 
+              The state that has 49% of the population has
+              49% of the representatives, the state that 
+              has 47% of the population has 47% of
+              the representatives, and the state that 
+              has 4% of the population has 4% of 
               the representatives.
               (If you look back at examples and exercises from 
               <xref ref="ch-democracy-representation"/> you will notice that in practice
@@ -940,9 +973,9 @@
               ways we have been thinking about such things, we might
               choose to think of there being 100% of power that must be 
               distributed. Then in this case we would say that each 
-              state has roughly 33% of the power. We could similarly 
+              state has roughly 33.3% of the power. We could similarly 
               declare that all the power adds to 1 and say that each
-              state has power measured at 0.33. 
+              state has power measured at 0.333. 
             </p>
             <aside>
               <p>
@@ -953,7 +986,7 @@
                 would conclude in this case that each state has 15 power
                 units. But can you see how this is really just introducing a
                 rather arbitrary additional number into the process? Is this
-                not rather slightly illuminating to say that Cropland has 15
+                not rather less illuminating to say that Cropland has 15
                 of the 45 power units? It is easier just to say it has 33.3%
                 of the power or 0.333 of the power.
               </p>
@@ -971,6 +1004,7 @@
               500 from Cropland to Alsaka (but all other births and deaths
               cancel out so the only changes are these relocations). Now what?
             </p>
+
           </example>
           <p>
             In a rather beautiful demonstration of the fact that math and
@@ -1067,7 +1101,8 @@
             </p>
           </example>
           <p>
-            In order to systematically explore the Power of No (often called 
+            In order to systematically explore the Power of No (more
+            usually called 
             <q>the Banzhaf power index</q>) we need to introduce the idea
             of a <term>winning coalition</term>. A winning coalition is any
             set of players which can pass a measure; that is, a winning 
@@ -1310,6 +1345,7 @@
         </section>
       </chapter>
 
+    <!-- ______________________________________________________________ -->
 
       <chapter xml:id="ch-voting-methods">
         <title>Avoiding Democratic Distortion: Voting Methods</title>
@@ -1721,6 +1757,9 @@
         </section>
       </chapter>
 
+    <!-- ______________________________________________________________ -->
+
+
       <chapter xml:id="ch-gerrymandering">
         <title>Distortion of Representation: Gerrymandering</title>
         <introduction>
@@ -2007,6 +2046,7 @@
         </section>
       </chapter>
 
+  <!-- ______________________________________________________________ -->
 
 
       <chapter xml:id="ch-financial-math">
@@ -3537,12 +3577,43 @@
                   </li>
                   <li>
                     <p>
-                      MORE HERE 
+                      This is perhaps a little more straightforward. Indeed,
+                      this is a question we could have answered much
+                      earlier in this chapter, simply by recognizing 
+                      that this is $100 sitting in an account paying
+                      4% compound interest for seven interest periods. We
+                      somewhat naturally place ourselves at that moment
+                      in time when the deposit is made. It is worth 
+                      emphasizing, though, that this is what we are doing.
+                      We need to feel more comfortable moving ourselves to
+                      different temporal perspectives, specifically by
+                      telling ourselves, we want to view this from <m>t=3</m>
+                      or from <m>t=10</m>.
+                    </p>
+                    <p>
+                      So one solution is just to write:
+                      <me>
+                        V=100(1+0.04)^7=131.59
+                      </me>
+                    </p>
+                    <p>
+                      It is worth continuing to build our intuition, though. One
+                      other perspectives that leads us to the same answer:
+                      first, find the present value of $100 by moving it back
+                      to the present, which is back three years, by dividing 
+                      by <m>(1+i)^3</m>, then moving that present value
+                      forward by ten years by multiplying by <m>(1+i)^10</m>. 
+                      This results in the same numerical value.
+                    </p>
+                    <p>
+                      The final perspective, of course, is simply to insert the
+                      appropriate values of <m>T_0, T_1, i</m>, and <m>N</m>
+                      into <xref ref="principle-time-value-of-money"/>.
                     </p>
                   </li>
                   <li>
                     <p>
-                      MORE HERE
+                      
                     </p>
                   </li>
                 </ol>
@@ -3948,6 +4019,8 @@
         </section>
       </chapter>
 
+  <!-- ______________________________________________________________ -->
+
       <chapter xml:id="ch-probability">
         <title>How Likely is Some Occurrence?</title>
         <introduction>
@@ -3975,8 +4048,19 @@
             With this in mind, perhaps it is easier to suspend  
             impatience or eye-rolling impulses. Try, if you can,
             to just enjoy the game-like explorations near the start.
+            But before we do that, a brief historical perspective.
           </p>
         </introduction>
+
+
+        <section xml:id="sec-">
+          <title></title>
+          
+
+
+        </section>
+
+
         <section xml:id="sec-equally-likely">
           <title>Equally Likely Outcomes</title>
           <p>
@@ -4067,10 +4151,14 @@
         <section> 
           <title>A Dizzyingly Complex World</title>
           <p>
-            A beautiful reality is that we inhabit a universe that is boundlessly complex,
-            filled with processes and orders that we have only barely begun to understand. 
-            One cannot get very far into the scientific world without hearing a lot about
-            statistics, and so we will begin to explore them here.   
+            A beautiful reality is that we inhabit a 
+            universe that is boundlessly complex,
+            filled with processes and orders that we 
+            have only barely begun to understand. 
+            One cannot get very far into the scientific 
+            world without hearing a lot about
+            statistics, and so we will begin to explore 
+            them here.   
           </p>
           <p>
             The key idea for statistics is this: given that our ways of measuring reality
@@ -4101,7 +4189,8 @@
         <title>Average Outcomes of Uncertain Processes</title>
         <introduction>
           <p>
-            We begin with a very simple sort of idea, one that you have probably seen before. It is the idea of 
+            We begin with a very simple sort of idea, one that 
+            you have probably seen before. It is the idea of 
             proportions or percentages. 
           </p>
         </introduction>
