@@ -1031,39 +1031,41 @@
             <term>veto power</term> in the system. You may think that
             such a player must have all the power in the system, but 
             this is actually not the case.
-            <example xml:id="ex-veto">
-              <p>
-                Consider the weighted voting system <m>[4:3,2,1]</m>.
-                Since Player 2 and Player 3 only add to a total weight of 3, 
-                this means they cannot pass a measure without Player 1. 
-                Thus, Player 1 has veto power. But notice that Player 1 cannot
-                pass a measure on their own, because their weight is also
-                3, which is less than the quota, <m>q=4</m>. Neither Player 2
-                nor Player 3 have veto power. But it also seems they may not
-                be a dummies. (We will develop our abilities further to explore
-                this question.)
-              </p>
-            </example>
+          </p>
+          <example xml:id="ex-veto">
+            <p>
+              Consider the weighted voting system <m>[4:3,2,1]</m>.
+              Since Player 2 and Player 3 only add to a total weight of 3, 
+              this means they cannot pass a measure without Player 1. 
+              Thus, Player 1 has veto power. But notice that Player 1 cannot
+              pass a measure on their own, because their weight is also
+              3, which is less than the quota, <m>q=4</m>. Neither Player 2
+              nor Player 3 have veto power. But it also seems they may not
+              be a dummies. (We will develop our abilities further to explore
+              this question.)
+            </p>
+          </example>
+          <p>
             It turns out that it is possible that more than one player 
             might have veto power within a system:
-            <example xml:id="ex-veto-multiple">
-              <p>
-                Consider the weighted voting system <m>[6:4,3,1]</m>. If
-                we think about what is required to pass a measure in this 
-                system, we see that Player 1 is needed, but so is Player 2.
-                Player 1 and Player 3, even if they agree, do not reach
-                the total weight required by the quota <m>q=6</m>. Similarly,
-                Player 2 and Player 3, even if they agree, do not reach
-                the quota. Thus,
-                both Player 1 and Player 2 have veto power in this system.
-                If either Player 1 or Player 2 say no to a measure, it will
-                not pass.
-                (It may be the case, now, that Player 3 is indeed a dummy.
-                But we need, still, to develop our tools to be able to 
-                explore this.)
-              </p>
-            </example>
           </p>
+          <example xml:id="ex-veto-multiple">
+            <p>
+              Consider the weighted voting system <m>[6:4,3,1]</m>. If
+              we think about what is required to pass a measure in this 
+              system, we see that Player 1 is needed, but so is Player 2.
+              Player 1 and Player 3, even if they agree, do not reach
+              the total weight required by the quota <m>q=6</m>. Similarly,
+              Player 2 and Player 3, even if they agree, do not reach
+              the quota. Thus,
+              both Player 1 and Player 2 have veto power in this system.
+              If either Player 1 or Player 2 say no to a measure, it will
+              not pass.
+              (It may be the case, now, that Player 3 is indeed a dummy.
+              But we need, still, to develop our tools to be able to 
+              explore this.)
+            </p>
+          </example>
           <p>
             In order to systematically explore the Power of No (often called 
             <q>the Banzhaf power index</q>) we need to introduce the idea
@@ -1555,28 +1557,29 @@
           </subsection>
           <subsection xml:id="subsec-dynamic-fairness">
             <title>Dynamic Fairness Criteria</title>
-            <p>              
-              <definition xml:id="def-iia">
-                <title>Independence of Irrelevant Alternatives Fairness Criterion</title>
-                <statement>
-                  <p>
-                    In an election, if some candidate would win and some other non-winning
-                    candidate drops out of the election, then the original winning candidate
-                    should still win the election.
-                  </p>
-                </statement>
-              </definition>
-              <definition xml:id="def-monotonicity">
-                <title>The Monotonicity Fairness Criterion</title>
-                <statement>
-                  <p>
-                    In an election, if some candidate would win and a subset of 
-                    voters change their ballots only by moving that candidate higher
-                    on their ballots, then that candidate should still win. 
-                  </p>
-                </statement>
-              </definition>
-            </p>
+            <p> 
+
+            </p>             
+            <definition xml:id="def-iia">
+              <title>Independence of Irrelevant Alternatives Fairness Criterion</title>
+              <statement>
+                <p>
+                  In an election, if some candidate would win and some other non-winning
+                  candidate drops out of the election, then the original winning candidate
+                  should still win the election.
+                </p>
+              </statement>
+            </definition>
+            <definition xml:id="def-monotonicity">
+              <title>The Monotonicity Fairness Criterion</title>
+              <statement>
+                <p>
+                  In an election, if some candidate would win and a subset of 
+                  voters change their ballots only by moving that candidate higher
+                  on their ballots, then that candidate should still win. 
+                </p>
+              </statement>
+            </definition>
           </subsection>
         </section>
 
@@ -1628,34 +1631,32 @@
               is to avoid rather serious negative behaviors. We will
               see why this is so.
             </p>
-            <p>
-              <algorithm xml:id="alg-plurality-method">
-                <statement>
-                  <p>
-                    <ol>
-                      <li>
-                        <p>
-                          Whichever candidate has received the most
-                          first-place votes is declared the winner.
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          If there is a tie between two or more candidates with
-                          the most first-place votes, the tie should be broken
-                          using a predetermined tiebreak method. (This could be
-                          to declare the winner is the one 
-                          with the most second-place votes (and if that is also a
-                          tie using the third-place votes to break the tie, etc.), or
-                          could be determined by using one of the other 
-                          voting methods.)
-                        </p>
-                      </li>
-                    </ol>
-                  </p>
-                </statement>
-              </algorithm>
-            </p>
+            <algorithm xml:id="alg-plurality-method">
+              <statement>
+                <p>
+                  <ol>
+                    <li>
+                      <p>
+                        Whichever candidate has received the most
+                        first-place votes is declared the winner.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        If there is a tie between two or more candidates with
+                        the most first-place votes, the tie should be broken
+                        using a predetermined tiebreak method. (This could be
+                        to declare the winner is the one 
+                        with the most second-place votes (and if that is also a
+                        tie using the third-place votes to break the tie, etc.), or
+                        could be determined by using one of the other 
+                        voting methods.)
+                      </p>
+                    </li>
+                  </ol>
+                </p>
+              </statement>
+            </algorithm>
             <p>
               You can see that this is indeed a very simple method. In
               fact, voters need not even think about who their second or
@@ -1762,79 +1763,81 @@
             of assumptions, you are correct. Reflect a bit on whether, even so, the
             insights we might gain would still apply to the more complex real-world
             situation in the USA circa 2025.)
-            <example>
-              <title>Purple Favoring Itself</title>
-              <statement>
-                <p>
-                  The state of Omoo has 120,054 people in it, and thus
-                  should be represented in the nation's 
-                  proportional-representation legislature by four representatives.
-                  The state government is currently controlled by the Purple Party, 
-                  which has the responsibility, now, to draw the borders for the
-                  legislative districts which will be represented in the national
-                  legislature. 
-                </p>
-                <p>
-                  <ol>
-                    <li>
-                      <p>
-                        If the population is made up of 61,043 Purple voters and 
-                        59,011 Orange voters, what would be the most fair way for 
-                        this state to be represented in the national legislature?
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Is it possible that the boundaries be drawn so that the
-                        Purple Party gets three or even all four representatives?
-                      </p>
-                    </li>
-                  </ol>
-                </p>
-              </statement>
-              <answer>
-                <p>
-                  <ol>
-                    <li>
-                      <p>
-                        Most fair would be two representatives for each party.
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Yes, the Purple Party could have between 1 and 4 
-                        representatives in the legislature. The Orange Party 
-                        could have between 0 and 3 representatives. 
-                      </p>
-                    </li>
-                  </ol>
-                </p>
-              </answer>
-              <solution>
-                <p>
-                  <ol>
-                    <li>
-                      <p>
-                        This is very similar to problems we have solved in earlier
-                        chapters. Since the Purple Party has 50.8% of the population
-                        and the Orange Party has 49.2% of the population, a 50% to 
-                        50% split of the representatives seems more fair than a 75%
-                        to 25% (or 100% to 0%) split.
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        We will explore visual expressions of this idea later,
-                        but aiming at roughly equal populations in each district (which
-                        is how the USA system works) and depending on the actual spatial
-                        distribution of the Purple and Orange voters, it is be possible that the
-                        Purple Party wins all four districts each by a narrow margin. 
-                      </p>
-                    </li>
-                  </ol>
-                </p>
-              </solution>
-            </example>
+          </p>
+          <example>
+            <title>Purple Favoring Itself</title>
+            <statement>
+              <p>
+                The state of Omoo has 120,054 people in it, and thus
+                should be represented in the nation's 
+                proportional-representation legislature by four representatives.
+                The state government is currently controlled by the Purple Party, 
+                which has the responsibility, now, to draw the borders for the
+                legislative districts which will be represented in the national
+                legislature. 
+              </p>
+              <p>
+                <ol>
+                  <li>
+                    <p>
+                      If the population is made up of 61,043 Purple voters and 
+                      59,011 Orange voters, what would be the most fair way for 
+                      this state to be represented in the national legislature?
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Is it possible that the boundaries be drawn so that the
+                      Purple Party gets three or even all four representatives?
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </statement>
+            <answer>
+              <p>
+                <ol>
+                  <li>
+                    <p>
+                      Most fair would be two representatives for each party.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Yes, the Purple Party could have between 1 and 4 
+                      representatives in the legislature. The Orange Party 
+                      could have between 0 and 3 representatives. 
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </answer>
+            <solution>
+              <p>
+                <ol>
+                  <li>
+                    <p>
+                      This is very similar to problems we have solved in earlier
+                      chapters. Since the Purple Party has 50.8% of the population
+                      and the Orange Party has 49.2% of the population, a 50% to 
+                      50% split of the representatives seems more fair than a 75%
+                      to 25% (or 100% to 0%) split.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      We will explore visual expressions of this idea later,
+                      but aiming at roughly equal populations in each district (which
+                      is how the USA system works) and depending on the actual spatial
+                      distribution of the Purple and Orange voters, it is be possible that the
+                      Purple Party wins all four districts each by a narrow margin. 
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </solution>
+          </example>
+          <p>
             Now, you might respond, <q>So what?</q> There are close election
             results all the time! Why should we worry if Purple manages four
             close wins? True. And this is precisely what makes analysis of this
