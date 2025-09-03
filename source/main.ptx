@@ -3567,7 +3567,7 @@
                       how many time periods we are traveling in the backwards 
                       direction. In this case, that is three years. Thus:
                       <me>
-                       \dfrac{100}{(1+0.04)^3}=88.90
+                        V_2=\dfrac{100}{(1+0.04)^3}=88.90
                       </me>
                       A final way to find this numerical value
                       is simply to insert the appropriate
@@ -3593,7 +3593,7 @@
                     <p>
                       So one solution is just to write:
                       <me>
-                        V=100(1+0.04)^7=131.59
+                        V_3=100(1+0.04)^7=131.59
                       </me>
                     </p>
                     <p>
@@ -3634,7 +3634,10 @@
                       Then we project that present value forward by five years
                       by multiplying by <m>(1+0.04)^5</m> which gives us:
                       <me>
-                        (1+0.04)^5\left(\frac{100}{(1+0.04)^3}+\frac{100}{(1+0.04)^{10}}\right)=100(1+0.04)^2+\frac{100}{(1+0.04)^5}
+                        V_5(1+0.04)^5\left(\frac{100}{(1+0.04)^3}+\frac{100}{(1+0.04)^{10}}\right)
+                      </me>
+                      <me>
+                        V_5=100(1+0.04)^2+\frac{100}{(1+0.04)^5}
                       </me>
                     </p>
                   </li>
