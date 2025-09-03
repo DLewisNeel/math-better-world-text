@@ -515,27 +515,28 @@
               Let us put it another way: we want to distribute 101 cookies to 190,000
               people. In this view, we are trying to understand how much of a
               representative does each person get representing them in the
-              legislative body? 
-              <question>
-                <p>
-                  If we find this number, what would be the
-                  next logical step for finding how many representatives each
-                  state should have in the legislature?
-                </p>
-              </question>
-              <answer>
-                <p>
-                  If we have determined how much of a <q>cookie</q> each person
-                  gets, then we can just see how many people are in a state and
-                  add up all the (parts of) cookies that should be in that state.
-                  That is, if we have determined how much of a <q>representative</q> 
-                  each person is represented by,
-                  then we can just see how many people are in a state and
-                  add up all the (parts of) a representative that should be
-                  in the legislature from that state.
-                </p>
-              </answer>
+              legislative body?
             </p>
+            <question>
+              <p>
+                If we find this number, what would be the
+                next logical step for finding how many representatives each
+                state should have in the legislature?
+              </p>
+            </question>
+            <answer>
+              <p>
+                If we have determined how much of a <q>cookie</q> each person
+                gets, then we can just see how many people are in a state and
+                add up all the (parts of) cookies that should be in that state.
+                That is, if we have determined how much of a <q>representative</q> 
+                each person is represented by,
+                then we can just see how many people are in a state and
+                add up all the (parts of) a representative that should be
+                in the legislature from that state.
+              </p>
+            </answer>
+            
             <p>
               <em>Second idea: people are cookies to distribute to 
                 representatives.</em>
@@ -547,6 +548,7 @@
               state should have in the legislature?
             </p>
           </introduction>
+          
           <section xml:id="sec-hamilton-jefferson">
             <title>The Hamilton and Jefferson Methods of Apportionment</title>
             <introduction>
