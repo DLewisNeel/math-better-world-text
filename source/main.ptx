@@ -3634,7 +3634,7 @@
                       Then we project that present value forward by five years
                       by multiplying by <m>(1+0.04)^5</m> which gives us:
                       <me>
-                        V_5(1+0.04)^5\left(\frac{100}{(1+0.04)^3}+\frac{100}{(1+0.04)^{10}}\right)
+                        V_5=(1+0.04)^5\left(\frac{100}{(1+0.04)^3}+\frac{100}{(1+0.04)^{10}}\right)
                       </me>
                       <me>
                         V_5=100(1+0.04)^2+\frac{100}{(1+0.04)^5}
