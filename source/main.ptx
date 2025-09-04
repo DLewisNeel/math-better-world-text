@@ -4025,8 +4025,20 @@
               to fully retire the debt on the original loan amount 
               (which, remember, is also called the principal).
             </p>
+            <p>
+              The overarching principle remains consistent: we are
+              seeking payments, as level as possible, that will
+              have a present value that is equal, to the nearest 
+              cent, to the original loan amount.
+            </p>
 
+            <exercises xml:id="exercises-level-payment-loans">
+              <exercise>
+                
+              </exercise>
+            </exercises>
           </subsection>
+
           <subsection xml:id="subsec-loan-balance">
             <title>Outstanding Loan Balance During the Loan Term</title>
             <p>
@@ -4093,6 +4105,8 @@
               </statement>
             </definition>
             <p>
+              This is called the prospective version because it
+              is <q>looking forward</q> at the future payments.
               Now, this could be quite a tedious computation, if not for
               the fact that we derived and understood 
               <xref ref="eqn-pv-many-future-payments"/>. Indeed, the 
@@ -4101,6 +4115,58 @@
               an outstanding loan balance in this way. After all, the
               original loan amount, or principal, is also always the
               first outstanding loan balance.
+            </p>
+            <p>
+              But perhaps you have already noticed a slight problem here.
+              The formula we use for the present value of a large number
+              of future payments relies upon all of those payments being
+              exactly equal. Yet we have seen that even in relatively 
+              short-term loans, we quickly arrive at a situation where
+              the final payment has to be adjusted up or down to fully
+              retire the debt. There are ways to adjust for this, but
+              they can be somewhat algebraically and conceptually complex.
+            </p>
+            <p>
+              We can avoid this complexity by using the retrospective
+              (that is, <q>looking backwards</q>) version of outstanding
+              loan balance.
+            </p>
+            <definition xml:id="def-olb-retrospective">
+              <statement>
+                <p> REWRITE THIS TO MATCH INTUITIVE DISCUSSION BELOW.
+                  The outstanding loan balance (retrospective version)
+                  at any stage of the
+                  loan repayment, just after the <m>N</m>th payment,
+                  is defined to be the <m>t=N</m> value of the original
+                  loan amount minus the <m>t=N</m> value of all
+                  the payments made so far, under the effective
+                  per period interest rate of the original loan
+                  agreement.
+                </p>
+              </statement>
+            </definition>
+            <p>
+              This definition may sound complicated, but is not,
+              in fact, so bad. The intuition here is the following:
+              Take the original loan amount, think about how it would
+              have grown, absent any payments, in the time so far.
+              <me>
+                L(1+i)^N
+              </me>
+              This is the amount that would be owed at time <m>t=N</m>
+              if no payments had been made. But they have been made! 
+              So how do we give credit for those payments? We find
+              their present value at <m>t=0</m> using our standard
+              present value formula, 
+              <xref ref="eqn-pv-many-future-payments"/>, and then we
+              subtract that amount from the original loan amount. 
+              this gives us an idea of the <m>t=0</m> view of the 
+              current state of payment of the loan. 
+              <me>
+                PV=
+              </me>
+              
+              
             </p>
 
           </subsection>
