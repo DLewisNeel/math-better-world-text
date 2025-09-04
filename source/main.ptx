@@ -3928,8 +3928,8 @@
               simple one.
             </p>
 
-            <example xml:id="ex-loan-with-two-payments">
-              <title>A Loan with Two Payments</title>
+            <example xml:id="ex-loan-with-four-payments">
+              <title>A Loan with Four Payments</title>
               <statement>
                 <p>
                   Werner needs $2000 to finish his documentary.
@@ -3954,10 +3954,67 @@
               </answer>
               <solution>
                 <p>
-                  ANSWER TO COME.
+                  We must solve for <m>Q</m> in the following
+                  equation:
+                  <me>
+                    2000=\frac{Q}{(1+0.01)^1}+\frac{Q}{(1+0.01)^2}+\frac{Q}{(1+0.01)^3}+\frac{Q}{(1+0.01)^4}
+                  </me>
+                  This may look slightly unpleasant, until one realizes that 
+                  the <m>Q</m> can be factored out of each term on the left:
+                  <me>
+                    2000=Q\left(\frac{1}{(1+0.01)^1}+\frac{1}{(1+0.01)^2}+\frac{1}{(1+0.01)^3}+\frac{1}{(1+0.01)^4}\right)
+                  </me>
+                  Now we compute that number inside the parentheses (and you
+                  will want to keep a lot of digits, generally, in such
+                  cases) as 3.901965552. (This is the default number of digits
+                  that a spreadsheet program and many calculators will return.)
+                  <me>
+                    2000=Q(3.901965552)
+                  </me>
+                  and thus:
+                  <me>
+                    Q=\frac{2000}{3.901965552}=512.5621878
+                  </me>
+                  So the level payment rounds to $512.56.
+                </p>
+                <p>
+                  There is a slight complication here, though. When we 
+                  check the present value of these payments, what happens?
+                  <me>
+                    PV=\frac{512.56}{(1+0.01)^1}+\frac{512.56}{(1+0.01)^2}+\frac{512.56}{(1+0.01)^3}+\frac{512.56}{(1+0.01)^4}=1999.9915
+                  </me>
+                  This rounds to $1999.99. How do we correct for this? By
+                  making an adjustment to the final payment. If we increase it
+                  by a single cent we find:
+                  <me>
+                    PV=\frac{512.56}{(1+0.01)^1}+\frac{512.56}{(1+0.01)^2}+\frac{512.56}{(1+0.01)^3}+\frac{512.57}{(1+0.01)^4}=2000.0011
+                  </me>
+                  Now the loan has been set up in such a way that it matches
+                  the conditions set out at the start. The alternative 
+                  payment scheme suggested above can be similiarly justified,
+                  which is left to the reader.
                 </p>
               </solution>
             </example>
+            <p>
+              The unequal final payment, even on this loan with
+              a limited number of payments, is an important thing to
+              consider. It turns out that because the monetary system
+              has the cent as its lowest denomination, every payment
+              must be rounded to the nearest cent. This rounding,
+              once it has occurred over some number of payments, 
+              has a cumulative effect that must be accounted for.
+              The most usual way to account for this is by making
+              the final payment either larger, which is called
+              a <term>balloon payment</term>, or smaller, which is 
+              called a <term>drop payment</term>. You can probably 
+              when each will occur. If the payments along the way were
+              rounded down, then it is likely that a balloon payment
+              will be needed. On the other hand, if they were
+              rounded up along the way, a drop payment will suffice
+              to fully retire the debt on the original loan amount 
+              (which, remember, is also called the principal).
+            </p>
 
           </subsection>
           <subsection xml:id="subsec-loan-balance">
@@ -4035,6 +4092,7 @@
               original loan amount, or principal, is also always the
               first outstanding loan balance.
             </p>
+
           </subsection>
 
           <subsection xml:id="subsec-loan-refinance">
