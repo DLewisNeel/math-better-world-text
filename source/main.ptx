@@ -3981,14 +3981,22 @@
                   There is a slight complication here, though. When we 
                   check the present value of these payments, what happens?
                   <me>
-                    PV=\frac{512.56}{(1+0.01)^1}+\frac{512.56}{(1+0.01)^2}+\frac{512.56}{(1+0.01)^3}+\frac{512.56}{(1+0.01)^4}=1999.9915
+                    PV=\frac{512.56}{(1+0.01)^1}+\frac{512.56}{(1+0.01)^2}+\frac{512.56}{(1+0.01)^3}+\frac{512.56}{(1+0.01)^4}
                   </me>
+                  <me>
+                    PV=1999.9915
+                  </me>
+                  
                   This rounds to $1999.99. How do we correct for this? By
                   making an adjustment to the final payment. If we increase it
                   by a single cent we find:
                   <me>
-                    PV=\frac{512.56}{(1+0.01)^1}+\frac{512.56}{(1+0.01)^2}+\frac{512.56}{(1+0.01)^3}+\frac{512.57}{(1+0.01)^4}=2000.0011
+                    PV=\frac{512.56}{(1+0.01)^1}+\frac{512.56}{(1+0.01)^2}+\frac{512.56}{(1+0.01)^3}+\frac{512.57}{(1+0.01)^4}
                   </me>
+                  <me>
+                    PV=2000.0011
+                  </me>
+                  
                   Now the loan has been set up in such a way that it matches
                   the conditions set out at the start. The alternative 
                   payment scheme suggested above can be similiarly justified,
