@@ -4107,7 +4107,7 @@
                   the per-period interest rate is <m>i</m>, then the 
                   outstanding loan balance is:
                   <men xml:id="eqn-olb-prospective">
-                    \dfrac{Q \left((1+i)^{(M-N-1)}-1\right)}{i(1+i)^{(M-N-1)}}+\dfrac{R}{(1+i)^{(M-N)}}
+                    OLB_{prosp}=\dfrac{Q \left((1+i)^{(M-N-1)}-1\right)}{i(1+i)^{(M-N-1)}}+\dfrac{R}{(1+i)^{(M-N)}}
                   </men>
                 </p>
               </statement>
