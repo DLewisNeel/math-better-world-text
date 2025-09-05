@@ -4150,7 +4150,13 @@
               </statement>
             </definition>
             <p>
-              EXPLANATION HERE OF AS-WRITTEN DEFINITION OF OLB.
+              
+
+
+              <men xml:id="eqn-olb-retro">
+                OLB_{retro}=(1+i)^N\left(L - \dfrac{Q \left((1+i)^N-1\right)}{i(1+i)^N}\right)
+              </men>
+              
             </p>
             <p>
               One last way of thinking of the retrospective
@@ -4175,7 +4181,7 @@
               the original loan
               amount. 
               <me>
-                OLB=L(1+i)^N - \left(\dfrac{Q \left((1+i)^N-1\right)}{i\left(1+i\right)^N}\right)(1+i)^N
+                OLB_{retro}=L(1+i)^N - \left(\dfrac{Q \left((1+i)^N-1\right)}{i\left(1+i\right)^N}\right)(1+i)^N
               </me>
               
               
