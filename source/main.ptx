@@ -4096,8 +4096,9 @@
               <statement>
                 <p>
                   The outstanding loan balance (prospective version)
-                  at any stage of the
-                  loan repayment is defined to be the present value
+                  just after the <m>N</m>th payment 
+                  is defined to be the <m>t=N</m>
+                  present value
                   of the remaining payments, under the effective
                   per period interest rate of the original loan
                   agreement.
@@ -4133,21 +4134,31 @@
             </p>
             <definition xml:id="def-olb-retrospective">
               <statement>
-                <p> REWRITE THIS TO MATCH INTUITIVE DISCUSSION BELOW.
+                <p>
                   The outstanding loan balance (retrospective version)
-                  at any stage of the
-                  loan repayment, just after the <m>N</m>th payment,
-                  is defined to be the <m>t=N</m> value of the original
-                  loan amount minus the <m>t=N</m> value of all
-                  the payments made so far, under the effective
+                  just after the <m>N</m>th payment,
+                  can be found by computing 
+                  the <m>t=0</m>
+                  present value of all payments made so far,
+                  subtracting this present value 
+                  from the original loan amount,
+                  and then computing the <m>t=N</m> value of 
+                  this difference under the effective
                   per period interest rate of the original loan
                   agreement.
                 </p>
               </statement>
             </definition>
             <p>
-              This definition may sound complicated, but is not,
-              in fact, so bad. The intuition here is the following:
+              EXPLANATION HERE OF AS-WRITTEN DEFINITION OF OLB.
+            </p>
+            <p>
+              One last way of thinking of the retrospective
+              version of the outstanding loan balance is as follows. This
+              way of computing gives an equivalent amount as the one
+              given in <xref ref="def-olb-retrospective"/> but some may
+              find this way of thinking of the computation as more intuitive.
+              The intuition here is the following:
               Take the original loan amount, think about how it would
               have grown, absent any payments, in the time so far.
               <me>
@@ -4159,11 +4170,12 @@
               their present value at <m>t=0</m> using our standard
               present value formula, 
               <xref ref="eqn-pv-many-future-payments"/>, and then we
-              subtract that amount from the original loan amount. 
-              this gives us an idea of the <m>t=0</m> view of the 
-              current state of payment of the loan. 
+              move this forward in time to <m>t=N</m>. This number can 
+              then be subtracted from the moved-forward value of 
+              the original loan
+              amount. 
               <me>
-                PV=
+                OLB=L(1+i)^N - \left(\dfrac{Q \left((1+i)^N-1\right)}{i\left(1+i\right)^N\right)(1+i)^N
               </me>
               
               
