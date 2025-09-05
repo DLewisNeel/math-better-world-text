@@ -4101,7 +4101,14 @@
                   present value
                   of the remaining payments, under the effective
                   per period interest rate of the original loan
-                  agreement.
+                  agreement. Thus if the level payments are <m>Q</m>
+                  dollars, the last payment is <m>R</m>, the total number
+                  of payments is <m>M</m>, and 
+                  the per-period interest rate is <m>i</m>, then the 
+                  outstanding loan balance is:
+                  <men xml:id="eqn-olb-prospective">
+                    \dfrac{Q \left((1+i)^{M-N-1}-1\right)}{i(1+i)^{M-N-1}}+\dfrac{R}{(1+i)^{M-N}}
+                  </men>
                 </p>
               </statement>
             </definition>
@@ -4145,9 +4152,10 @@
                   and then computing the <m>t=N</m> value of 
                   this difference under the effective
                   per period interest rate of the original loan
-                  agreement.
-                </p>
-                <p>
+                  agreement. Thus if the payments are <m>Q</m>
+                  dollars, the per-period interest rate is <m>i</m>,
+                  and the original loan amount is <m>L</m> then the 
+                  outstanding loan balance is:
                   <men xml:id="eqn-olb-retro">
                     OLB_{retro}=(1+i)^N\left(L - \dfrac{Q \left((1+i)^N-1\right)}{i(1+i)^N}\right)
                   </men>
