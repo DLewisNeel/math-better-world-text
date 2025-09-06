@@ -4096,18 +4096,18 @@
               <statement>
                 <p>
                   The outstanding loan balance (prospective version)
-                  just after the <m>N</m>th payment 
-                  is defined to be the <m>t=N</m>
+                  just after the <m>n</m>th payment 
+                  is defined to be the <m>t=n</m>
                   present value
                   of the remaining payments, under the effective
                   per period interest rate of the original loan
                   agreement. Thus if the level payments are <m>Q</m>
                   dollars, the last payment is <m>R</m>, the total number
-                  of payments is <m>M</m>, and 
+                  of payments is <m>N</m>, and 
                   the per-period interest rate is <m>i</m>, then the 
                   outstanding loan balance is:
                   <men xml:id="eqn-olb-prospective">
-                    OLB_{prosp}=\dfrac{Q \left((1+i)^{(M-N-1)}-1\right)}{i(1+i)^{(M-N-1)}}+\dfrac{R}{(1+i)^{(M-N)}}
+                    OLB_{pro}=\dfrac{Q \left((1+i)^{(N-n-1)}-1\right)}{i(1+i)^{(N-n-1)}}+\dfrac{R}{(1+i)^{(N-n)}}
                   </men>
                 </p>
               </statement>
@@ -4143,13 +4143,13 @@
               <statement>
                 <p>
                   The outstanding loan balance (retrospective version)
-                  just after the <m>N</m>th payment,
+                  just after the <m>n</m>th payment,
                   can be found by computing 
                   the <m>t=0</m>
                   present value of all payments made so far,
                   subtracting this present value 
                   from the original loan amount,
-                  and then computing the <m>t=N</m> value of 
+                  and then computing the <m>t=n</m> value of 
                   this difference under the effective
                   per period interest rate of the original loan
                   agreement. Thus if the payments are <m>Q</m>
@@ -4157,7 +4157,7 @@
                   and the original loan amount is <m>L</m> then the 
                   outstanding loan balance is:
                   <men xml:id="eqn-olb-retro">
-                    OLB_{retro}=(1+i)^N\left(L - \dfrac{Q \left((1+i)^N-1\right)}{i(1+i)^N}\right)
+                    OLB_{retro}=(1+i)^n\left(L - \dfrac{Q \left((1+i)^n-1\right)}{i(1+i)^n}\right)
                   </men>
                 </p>
               </statement>
@@ -4179,7 +4179,7 @@
               Take the original loan amount, think about how it would
               have grown, absent any payments, in the time so far.
               <me>
-                L(1+i)^N
+                L(1+i)^n
               </me>
               This is the amount that would be owed at time <m>t=N</m>
               if no payments had been made. But they have been made! 
@@ -4192,17 +4192,111 @@
               the original loan
               amount. 
               <me>
-                OLB_{retro}=L(1+i)^N - \left(\dfrac{Q \left((1+i)^N-1\right)}{i\left(1+i\right)^N}\right)(1+i)^N
-              </me>
-              
-              
+                OLB_{retro}=L(1+i)^n - \left(\dfrac{Q \left((1+i)^n-1\right)}{i\left(1+i\right)^n}\right)(1+i)^n
+              </me>  
             </p>
-
+            <p>
+              Once this perspective has been unlocked, this ability
+              to say, coherently, in touch with all the particulars
+              of the financial agreement, how much is owed at
+              any point in the process, we can answer
+              all sorts of other questions. We can, for example, 
+              determine just how much of each payment is going
+              towards interest and how much towards the principal.
+              This can be interesting from a bookkeeping perspective
+              and does, in the USA, sometimes have tax implications.
+              But our primary interest in being able to find the 
+              outstanding loan balance was to be able to asnwer
+              questions about how to adjudicate questions of who
+              owns how much of the asset in the in-between time
+              when the loan is not fully paid off.
+            </p>
+            <p>
+              We will explore these questions in the next section.
+            </p>
           </subsection>
 
           <subsection xml:id="subsec-loan-refinance">
             <title>How and Why to Refinance a Loan</title>
-            
+            <p>
+              We will approach the final question around 
+              loans with a two-stage approach. First, we will
+              establish how to make sense of a situation where
+              the underlying asset (usually a house) is sold while
+              the loan is still being paid off. The reason, again,
+              why this can be a somewhat complicated situation is
+              that at this moment part of the house belongs to the
+              person paying off the loan and part of the house 
+              belongs to the bank. (We are leaving aside a detailed
+              analysis of the underlying legal framework to keep
+              the discussion of the financial aspect as clear as
+              possible.) 
+            </p>
+            <p>
+              The good news is that understanding this situation 
+              only relies upon careful deployment of the ideas we 
+              have already developed. So let us begin with an
+              example:
+            </p>
+            <example xml:id="ex-sell-house">
+              <title>Selling a House During the Loan Term</title>
+              <statement>
+                <p>
+                  Amanda and Naomi bought their home over nine years ago
+                  using a 30-year $400,000 loan from Fedal Credit Union.
+                  The APR for their loan is 5% compounded monthly. They are 
+                  making monthly payments of $2,147.29. Their final
+                  payment will be $2,144.37.
+                  If they sell the house for $500,000 just after their 111th
+                  payment, how much of that money must they pay to the bank
+                  to pay off their loan and how much are they left with?
+                  (There are various legal and processing fees usually
+                  called <q>closing costs</q> but we will ignore them for
+                  now.)
+                </p>
+              </statement>
+              <answer>
+                <p>
+                 They must pay $332,345.85 to the bank and have $167,654.15
+                 remaining afterwards.
+                </p>
+              </answer>
+              <solution>
+                <p>
+                  The whole question hinges on how much of the loan
+                  remains to be paid, that is, on the outstanding 
+                  loan balance just after the 111th payment. We can 
+                  compute that using either 
+                  <xref ref="eqn-olb-prospective"/> or
+                  <xref ref="eqn-olb-retro"/>. From the description
+                  of the loan in the problem we know that there will
+                  be <m>N=12(30)=360</m> total payments. The payment
+                  amounts will usually be <m>Q=2147.29</m> and the last
+                  payment will be <m>R=2144.37</m>. The original loan
+                  amount is <m>L=400{,}000</m>. Finally, the per-interval
+                  effective interest rate is <m>i=\frac{0.05}{12}</m> and
+                  we know we are looking for the outstanding loan balance
+                  just after the 111th payment, so <m>n=111</m>.
+                </p>
+                <p>
+                  Once those values are provided to either of the 
+                  outstanding loan balance formulas we find that that 
+                  balance is $332,345.85.
+                </p>
+                <p>
+                  From here, the last step is simple. They have just received
+                  $500,000 and they owe $332,345.85. To find what is left over
+                  we need only subtract:
+                  <me>
+                    500000-332345.85=167654.15
+                  </me>
+                  So Amanda and Naomi have $167,654.15 available to them,
+                  either to put towards their next home or to use for other
+                  purposes.
+                </p>
+              </solution>
+            </example>
+
           </subsection>
 
         </section>
