@@ -4036,6 +4036,9 @@
               <exercise>
                 
               </exercise>
+              <exercise>
+                
+              </exercise>
             </exercises>
           </subsection>
 
@@ -4163,10 +4166,6 @@
               </statement>
             </definition>
             <p>
-              
-
-
-
               
             </p>
             <p>
@@ -4296,7 +4295,22 @@
                 </p>
               </solution>
             </example>
-
+            <p>
+              Now that we have a rationale for how to understand
+              a current state of affairs partway through a loan
+              payment process, we are prepared to understand one
+              last key process. Once more, we will discuss this 
+              in the specific context of a home loan, but the 
+              principles would apply without adjustment to
+              other loans.
+            </p>
+            <p>
+              We have restricted our exploration of financial
+              matters using the somewhat artificial assumption
+              of a relatively static financial reality. In fact,
+              there are many financial institutions, offereing many
+              different sorts of loans or lines of credit. 
+            </p>
           </subsection>
 
         </section>
