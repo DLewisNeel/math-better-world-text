@@ -4308,9 +4308,89 @@
               We have restricted our exploration of financial
               matters using the somewhat artificial assumption
               of a relatively static financial reality. In fact,
-              there are many financial institutions, offereing many
-              different sorts of loans or lines of credit. 
+              there are many financial institutions, offering many
+              different sorts of loans or lines of credit. Conditions
+              change over time as well, each economic forecast 
+              altering the financial landscape, nudging interest
+              rates up or down.
             </p>
+            <p>
+              And when interest rates decrease? That may provide
+              an opportunity for someone currently paying off a loan.
+              If you are paying off a loan with an APR of 5% monthly
+              and find yourself with a chance to borrow money for 
+              4% monthly, there is a chance you can reduce your payments
+              or decrease the number of future payments and pay 
+              off your loan early. How? By taking out a new loan at the
+              lower rate. (Because of the previously mentioned closing
+              costs for a loan, it will not be quite so simple as merely
+              comparing the rates. This is why we say there is a chance
+              rather than a certainty of a benefit.)
+            </p>
+            <p>
+              This all relies upon the work we did in developing 
+              our understanding of the outstanding loan balance
+              partway through the process of paying off an 
+              amortized loan. Because we can say how much debt 
+              remains at any intermediate point along the way
+              of the repayment process, the debtor can be looking
+              around for other loans that might be used to pay
+              off that debt in an advantageous way.
+            </p>
+            <p>
+              But let us explore this by way of a couple examples.
+            </p>
+            <example>
+              <title>Refinancing with a Lower Interest Rate: Lowering Payments</title>
+              <statement>
+                <p>
+                  Carlos, Jan, and Felix bought a house 11
+                  years ago, and their 40-year loan with
+                  monthly payments was for $500,000. They 
+                  found a rate of 6% compounded monthly. The
+                  level payments are $2751.07 with a final 
+                  drop payment of $2747.49. The Rosethorn
+                  Credit Union is offering a monthly APR
+                  of 4.5% on montly-payment loans with term 
+                  length 30 years or less. The friends wish
+                  to refinance their loan by paying off their 
+                  current loan balance with a new loan at Rosethorn.
+                  The new loan will be a 29-year loan to cover the exact
+                  outstanding loan balance just after the 132nd payment.
+                  What is the loan amount (that is, the outstanding loan
+                  balance) for the new loan and what will the new
+                  monthly payments be? (Challenge: what would be the
+                  drop or balloon payment at the end of the new loan?)
+                </p>
+              </statement>
+              <answer>
+                <p>
+                  The outstanding loan balance is $453,219.98, which is also
+                  the principal for the new loan. 
+                </p>
+              </answer>
+              <solution>
+                <p>
+                </p>
+              </solution>
+            </example>
+            <example>
+              <title>Refinancing with a Lower Interest Rate: End Debt Sooner</title>
+              <statement>
+                <p>
+                </p>
+              </statement>
+              <answer>
+                <p>
+                </p>
+              </answer>
+              <solution>
+                <p>
+                </p>
+              </solution>
+            </example>
+
+
           </subsection>
 
         </section>
