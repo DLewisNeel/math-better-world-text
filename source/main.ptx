@@ -4066,7 +4066,7 @@
               fraction which leaves the level payment alone (once we also
               swap the sides of the equation for easier reading):
               <me>
-                Q=\dfrac{L}{\frac{\left((1+i)^N-1\right)}{i\left(1+i\right)^N}}
+                Q=\dfrac{L}{\frac{(1+i)^N-1}{i(1+i)^N}}
               </me>
               This can be simplified if one recalls algebraic rules about dividing
               by a fraction:
