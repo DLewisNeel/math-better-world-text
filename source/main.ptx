@@ -4070,9 +4070,9 @@
               </me>
               This can be simplified if one recalls algebraic rules about dividing
               by a fraction:
-              <me>
-                Q=\dfrac{L(i\left(1+i\right)^N)}{\left((1+i)^N-1\right)}
-              </me>
+              <men xml:id="eqn-loan-level-payment">
+                Q=\dfrac{L(i\left(1+i\right)^N)}{(1+i)^N-1}
+              </men>
               
 
             </p>
