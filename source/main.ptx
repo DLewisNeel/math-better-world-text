@@ -4320,7 +4320,7 @@
                   be <m>N=12(30)=360</m> total payments. The payment
                   amounts will usually be <m>Q=2147.29</m> and the last
                   payment will be <m>R=2144.37</m>. The original loan
-                  amount is <m>L=400{,}000</m>. Finally, the per-interval
+                  amount is <m>L=400000</m>. Finally, the per-interval
                   effective interest rate is <m>i=\frac{0.05}{12}</m> and
                   we know we are looking for the outstanding loan balance
                   just after the 111th payment, so <m>n=111</m>.
@@ -4455,6 +4455,11 @@
                   is:
                   <me>
                     \dfrac{R}{(1+i)^N}=\dfrac{R}{(1+\frac{0.045}{12})^{348}}
+                  </me>
+                  One can then solve for <m>R</m> in the following 
+                  equation to learn the value of the final payment:
+                  <me>
+                    453219.98=\dfrac{2334.05 \left((1+\frac{0.045}{12})^{347}-1\right)}{\frac{0.045}{12}\left(1+\frac{0.045}{12}\right)^{347}}+\dfrac{R}{(1+\frac{0.045}{12})^{348}}
                   </me>
                 </p>
               </solution>
