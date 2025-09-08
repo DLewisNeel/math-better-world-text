@@ -4428,7 +4428,7 @@
                   told the amount of the final payment. (If we only
                   knew the level payments we would have to use
                   the retrospective approach.) By using the variable
-                  values <m>i=\frac{0.06}{12}, N=12(40)=480, L=500{,}000, Q=2751.07</m>, 
+                  values <m>i=\frac{0.06}{12}, N=12(40)=480, L=500000, Q=2751.07</m>, 
                   and <m>n=132</m> we can compute the balance using 
                   <xref ref="eqn-olb-retro"/>. If we use all of those, plus 
                   <m>R=2747.49</m>, we can compute the balance using 
@@ -4439,7 +4439,7 @@
                   our new level payments, we use 
                   <xref ref="eqn-loan-level-payment"/>
                   with the new rate, term, and loan amount: 
-                  <m>i=\frac{0.045}{12}, N=12(29)=348, L=453,219.98</m>.
+                  <m>i=\frac{0.045}{12}, N=12(29)=348, L=453219.98</m>.
                   This will provide the new monthly payment of $2334.05.
                   The final payment can be found as the amount
                   that will make the present value of it and all the
@@ -4459,8 +4459,37 @@
                 </p>
               </solution>
             </example>
+            <p>
+              The previous example shows the most common use of 
+              refinancing a loan. But there are other reasons one 
+              might wish to refinance: gaining more money in the
+              present, for example to have money to make home 
+              improvements, or to shorten the term for paying off
+              all of the debt.
+            </p>
             <example>
-              <title>Refinancing with a Lower Interest Rate: End Debt Sooner</title>
+              <title>
+                Refinancing with a Lower Interest Rate: Money for Home Improvement
+              </title>
+              <statement>
+                <p>
+
+                </p>
+              </statement>
+              <answer>
+                <p>
+                </p>
+              </answer>
+              <solution>
+                <p>
+                </p>
+              </solution>
+            </example>
+
+            <example>
+              <title>
+                Refinancing with a Lower Interest Rate: End Debt Sooner
+              </title>
               <statement>
                 <p>
 
