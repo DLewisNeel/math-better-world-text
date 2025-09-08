@@ -4073,8 +4073,11 @@
               <men xml:id="eqn-loan-level-payment">
                 Q=\dfrac{L(i\left(1+i\right)^N)}{(1+i)^N-1}
               </men>
-              
-
+              Once the majority of the level payments have been 
+              computed in this way, the final payment can be computed
+              by making sure that the present value (that is, for 
+              <m>t=0</m>) of all the payments, including the last 
+              one, equals the original loan amount.
             </p>
 
             <exercises xml:id="exercises-level-payment-loans">
@@ -4425,7 +4428,7 @@
                   told the amount of the final payment. (If we only
                   knew the level payments we would have to use
                   the retrospective approach.) By using the variable
-                  values <m>i=0.06/12, N=12(40)=480, L=500{,}000, Q=2751.07</m>, 
+                  values <m>i=\frac{0.06}{12}, N=12(40)=480, L=500{,}000, Q=2751.07</m>, 
                   and <m>n=132</m> we can compute the balance using 
                   <xref ref="eqn-olb-retro"/>. If we use all of those, plus 
                   <m>R=2747.49</m>, we can compute the balance using 
@@ -4434,6 +4437,25 @@
                 <p>
                   This will be our new loan amount. As we begin seeking
                   our new level payments, we use 
+                  <xref ref="eqn-loan-level-payment"/>
+                  with the new rate, term, and loan amount: 
+                  <m>i=\frac{0.045}{12}, N=12(29)=348, L=453,219.98</m>.
+                  This will provide the new monthly payment of $2334.05.
+                  The final payment can be found as the amount
+                  that will make the present value of it and all the
+                  other payments equal to the new loan amount.
+                  We can use <xref ref="eqn-pv-many-future-payments"/>
+                  to find the present value of all but the last 
+                  payment. That final payment, which we can call 
+                  <m>R</m>, must be valued all the way back at the
+                  beginning of this new loan, and for this sort of
+                  backward movement through time remember that we
+                  divide by powers of <m>(1+i)</m>. So for us, in 
+                  this case, the present value of the final payment
+                  is:
+                  <me>
+                    \dfrac{R}{(1+i)^N=\dfrac{R}{(1+\frac{0.045}{12})^{348}}}
+                  </me>
                 </p>
               </solution>
             </example>
