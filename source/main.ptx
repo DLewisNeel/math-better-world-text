@@ -4454,7 +4454,7 @@
                   this case, the present value of the final payment
                   is:
                   <me>
-                    \dfrac{R}{(1+i)^N=\dfrac{R}{(1+\frac{0.045}{12})^{348}}}
+                    \dfrac{R}{(1+i)^N}=\dfrac{R}{(1+\frac{0.045}{12})^{348}}
                   </me>
                 </p>
               </solution>
