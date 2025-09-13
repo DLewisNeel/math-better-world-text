@@ -321,27 +321,53 @@
                 </statement>
               </algorithm>
             </p>
+            <p>
+              
+            </p>
           
 
             <exercises xml:id="exercises-proportions">
               <exercise>
-                
+                <p>
+                  A certain library contains 1,200,000 books. Xerxes 
+                  and Yelena want to each have equal responsibility for 
+                  keeping the book stacks maintained. How many books
+                  should each librarian be responsible for?
+                </p>
               </exercise>
               
               <exercise>
-                
+                <p>
+                  Ian, Ellen, and Pat run a weekly lawn maintenance service
+                  and currently have 99 clients, each with two lawns, front
+                  and back. If they are equally dividing the work and
+                  each do their mowing and related activities alone,
+                  then how many lawns do each of them work on each week?
+                  How many lawn maintenance sessions do they each do 
+                  in a year?
+                </p>
               </exercise>
               
               <exercise>
-                
+                <p>
+                  Ian, Ellen, and Pat are doing quite well with their
+                  lawn care business, they are gaining clients. In fact,
+                  the number of clients
+                  has increased so that their total number of lawns is 270. If 
+                  they would each like to have responsibility for only 45 lawns per
+                  week and are willing to hire new workers each also responsible for
+                  45 lawns per week, how many new workers should they hire?
+                </p>
               </exercise>
               
               <exercise>
-                Suppose we are providing bread to two people. We have five loaves
-                of equal size. How much bread should each person receive? What if we
-                had the additional information that one person weighed 90kg and one
-                person weighed 50kg? How might we adjust our idea of fair distribution
-                of the bread based on this information?
+                <p>
+                  Suppose we are providing bread to two people. We have five loaves
+                  of equal size. How much bread should each person receive? What if we
+                  had the additional information that one person weighed 90kg and one
+                  person weighed 50kg? How might we adjust our idea of fair distribution
+                  of the bread based on this information?
+                </p>
               </exercise>
             </exercises>
         </section>
