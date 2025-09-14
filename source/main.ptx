@@ -715,7 +715,7 @@
               </p>
               <p>
                 You will notice that the Jefferson Method, 
-                unlike the Hamilton Method, has
+                compared to the Hamilton Method, has
                 a more open-ended process. You might have 
                 heard the sort of process required
                 in the latter phase as <q>guess-and-check</q>. 
@@ -793,6 +793,11 @@
                   behaviors that our system exhibit but which offend our sense of
                   how the system ought, based on our intended design, to behave
                 </q>.
+                It may sometimes be the case that a behavior that offends our
+                idea of how the system should behave only becomes visible
+                when it happens. That is, sometimes it takes something going
+                wrong in a certain way for it even to occur to us that it
+                would be <em>possible</em> for it to go wrong in that way.
               </p>
               <p>
                 We will consider three examples from US history,
@@ -802,8 +807,66 @@
             <subsection xml:id="subsec-alabama-paradox">
               <title>The Alabama Paradox</title>
               <p>
-                EXAMPLE HERE
+                This paradox was identified for the Hamilton Method in 1880
+                by the CW Seaton of the US Census. 
+                (You can read details 
+                <url href="https://en.wikipedia.org/wiki/Apportionment_paradox">here</url>
+                .) What he found, that disturbed him, was that for a 
+                possible legislature size of 299 Alabama was apportioned 
+                eight representatives, but if, instead, the
+                legislature were created with 300 total representatives then
+                Alabama would have only seven representatives. The offense
+                to our ideas of fairness, as you can probably see, is that 
+                a state should not have its representation diminished by
+                the overall increase of representation.
               </p>
+              <p>
+                We can see this in a smaller example below.
+              </p>
+              <example>
+                <title>A Small Instance of the Alabama Paradox</title>
+                <statement>
+                  <p> 
+                    The Resident Council for Sunset Years Retirement
+                    Community is made up of representatives from each
+                    of its four wings. North Wing has 55 residents,
+                    East Wing has 54 residents, South Wing has 31
+                    residents, and West Wing has 30 residents. The
+                    Council historically had seven representatives
+                    apportioned using the Hamilton Method, which
+                    gives two representatives each to North, East, 
+                    and South Wings. West Wing has a single 
+                    representative. (You should be able to verify
+                    this apportionment.)
+                  </p>
+                  <p>
+                    The clerical tasks associated with being on the 
+                    Council have grown, though, and so the decision
+                    was made to increase the size to eight total 
+                    representatives. Find the Hamilton Method's 
+                    apportionment with eight representatives and 
+                    explain which wing of the Sunset Years has
+                    fallen victim to the Alabama Paradox. 
+                  </p>
+                </statement>
+                <answer>
+                  <p>
+                    The apportionment with eight representatives
+                    gives three each to North Wing and East Wing, and
+                    one each to South Wing and West Wing. South Wing
+                    lost a representative, even though the total number of
+                    representatives increased by one.
+                  </p>
+                </answer>
+                <solution>
+                  <p>
+                    In the new apportionment, with a council size
+                    of eight and total population of 170, the divisor
+                    is 21.25. This gives the decimal
+                  </p>
+                </solution>
+              </example>
+
             </subsection>
 
             <subsection xml:id="subsec-population-paradox">
@@ -853,7 +916,7 @@
             <subsection xml:id="subsec-webster">
               <title>The Webster Method</title>
               <p>
-                METHOD HERE
+                
               </p>
             </subsection>            
             <subsection xml:id="subsec-huntington-hill">
@@ -952,21 +1015,34 @@
               should give you 4% of the decision-making power.
             </p>
             <p>
-              Before we proceed further, if you were to guess how powerful each state was
-              in the legislature, what would you say? Does it match the percentages
-              described above? Or is the state with 49,000 people twice
-              as powerful as the state with 4000 people? Five times as powerful? (Note: you
-              should not feel bad if you have only a vague sense of this. <q>Power</q> is
-              a concept that we have not carefully defined. Indeed, that is the point of this
-              section, to develop a coherent approach to thinking mathematically about 
-              how power might be quantified in such situations.)
+              Before we proceed further, if you 
+              were to guess how powerful each state was
+              in the legislature, what would you 
+              say? Does it match the percentages
+              described above? Or is the 
+              state with 49,000 people twice
+              as powerful as the state with 4000 people? 
+              Five times as powerful? (Note: you
+              should not feel bad if you have only a 
+              vague sense of this. <q>Power</q> is
+              a concept that we have not carefully 
+              defined. Indeed, that is the point of this
+              section, to develop a coherent approach 
+              to thinking mathematically about 
+              how power might be quantified in such 
+              situations.)
             </p>
             <p>
-              So let us suppose that these states have quite distinct populations and, further,
-              let us suppose that each state delegation is disciplined and loyal and always
-              votes together as a group. (If you think this changes your idea of the power of
-              each state, that seems reasonable to me. Interesting how quickly assumptions
-              and constraints change our ideas about how a system works, no?)
+              So let us suppose that these states have 
+              quite distinct populations and, further,
+              let us suppose that each state delegation 
+              is disciplined and loyal and always
+              votes together as a group. (If you think 
+              this changes your idea of the power of
+              each state, that seems reasonable to me. 
+              Interesting how quickly assumptions
+              and constraints change our ideas about 
+              how a system works, no?)
             </p>
             <p>
               How do things play out? Well let us think it through: Suppose the proposed
