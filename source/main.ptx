@@ -888,7 +888,7 @@
                           <cell halign="left" right="medium">
                             North
                           </cell>
-                          <cell halign="left" right="medium">
+                          <cell right="medium">
                             55
                           </cell>
                           <cell right="medium">
@@ -905,7 +905,7 @@
                           <cell halign="left" right="medium">
                             East
                           </cell>
-                          <cell halign="left" right="medium">
+                          <cell right="medium">
                             54
                           </cell>
                           <cell right="medium">
@@ -922,7 +922,7 @@
                           <cell halign="left" right="medium">
                             South
                           </cell>
-                          <cell halign="left" right="medium">
+                          <cell right="medium">
                             31
                           </cell>
                           <cell right="medium">
@@ -939,7 +939,7 @@
                           <cell halign="left" right="medium">
                             West
                           </cell>
-                          <cell halign="left" right="medium">
+                          <cell right="medium">
                             30
                           </cell>
                           <cell right="medium">
