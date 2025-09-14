@@ -862,7 +862,83 @@
                   <p>
                     In the new apportionment, with a council size
                     of eight and total population of 170, the divisor
-                    is 21.25. This gives the decimal
+                    is 21.25. This gives the decimal quotas as:
+                  </p>
+                  <p>
+                    <table>
+                      <tabular halign="center">
+                        <row bottom="medium">
+                          <cell right="medium">
+                            Population
+                          </cell>
+                          <cell right="medium">
+                            Initial Quota
+                          </cell>
+                          <cell right="medium">
+                            Initial Apportionment
+                          </cell>
+                          <cell halign="left">
+                            Final Apportionment
+                          </cell>
+                        </row>
+                        <row>
+                          <cell halign="left" right="medium">
+                            North
+                          </cell>
+                          <cell right="medium">
+                            2.5882
+                          </cell>
+                          <cell right="medium">
+                            2
+                          </cell>
+                          <cell>
+                            3
+                          </cell>
+                        </row>
+                        <row>
+                          <cell halign="left" right="medium">
+                            East
+                          </cell>
+                          <cell right="medium">
+                            2.5412
+                          </cell>
+                          <cell right="medium">
+                            2
+                          </cell>
+                          <cell>
+                            3
+                          </cell>
+                        </row>
+                        <row>
+                          <cell halign="left" right="medium">
+                            South
+                          </cell>
+                          <cell right="medium">
+                            1.4588
+                          </cell>
+                          <cell right="medium">
+                            1
+                          </cell>
+                          <cell>
+                            1
+                          </cell>
+                        </row>
+                        <row>
+                          <cell halign="left" right="medium">
+                            West
+                          </cell>
+                          <cell right="medium">
+                            1.4118
+                          </cell>
+                          <cell right="medium">
+                            1
+                          </cell>
+                          <cell>
+                            1
+                          </cell>
+                        </row>
+                      </tabular>
+                    </table>
                   </p>
                 </solution>
               </example>
