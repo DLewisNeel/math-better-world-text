@@ -714,22 +714,34 @@
                 </ol>
               </p>
               <p>
-                You will notice that the Jefferson Method, unlike the Hamilton Method, has
-                a more open-ended process. You might have heard the sort of process required
-                in the latter phase as <q>guess-and-check</q>. We have tried to include 
-                enough rationale and intuitive description so that we might at least hope
-                it to be, for you, <q>educated-guess-and-check</q>. If you look at your list
-                of attempted divisors, what you should see is a sequence of numbers that is
-                progressively working its way in towards the final divisor that worked, often
-                from both above and below. Note also that this <q>final divisor</q> isn't 
-                unique. If you and a friend work through the process and check your answer
-                at the end, you should both find the same final quota for each state, but 
-                your final divisor might be different (though probably not all
+                You will notice that the Jefferson Method, 
+                unlike the Hamilton Method, has
+                a more open-ended process. You might have 
+                heard the sort of process required
+                in the latter phase as <q>guess-and-check</q>. 
+                We have tried to include 
+                enough rationale and intuitive description so 
+                that we might at least hope
+                it to be, for you, 
+                <q>educated-guess-and-check</q>. If you look at your list
+                of attempted divisors, what you should 
+                see is a sequence of numbers that is
+                progressively working its way in towards 
+                the final divisor that worked, often
+                from both above and below. Note also that 
+                this <q>final divisor</q> isn't 
+                unique. If you and a friend work through 
+                the process and check your answer
+                at the end, you should both find the 
+                same final quota for each state, but 
+                your final divisor might be different 
+                (though probably not all
                 <em>that</em> different).
               </p>
               <p>
                 <example>
-                  SHOW DIFFERENT OUTCOMES FOR LARGER VS SMALLER STATES. DISCUSS JEFF METHOD.
+                  SHOW DIFFERENT OUTCOMES FOR LARGER VS 
+                  SMALLER STATES. DISCUSS JEFF METHOD.
                 </example>
               </p>
               <p>
@@ -901,12 +913,16 @@
               Suppose there were three states in the 
               nation with populations such that, 
               in the 100-member House
-              of Representatives, one state, Alsaka, had 49 representatives, 
-              one state, Bartleby, had 47 representatives, and a third
+              of Representatives, one state, Alsaka, 
+              had 49 representatives, 
+              one state, Bartleby, had 47 
+              representatives, and a third
               state, Cropland, had four representatives. 
-              Let us further assume that these numbers of representatives are
+              Let us further assume that these 
+              numbers of representatives are
               proportional to population. 
-              (For example, this would be exactly true if the populations were 49,000, 
+              (For example, this would be exactly 
+              true if the populations were 49,000, 
               47,000, and 4000, respectively.) 
               So according to the intuition we have
               been basing our work on up until now, 
