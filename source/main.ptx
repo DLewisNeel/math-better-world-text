@@ -869,6 +869,9 @@
                       <tabular halign="center">
                         <row bottom="medium">
                           <cell right="medium">
+                            Wing
+                          </cell>
+                          <cell halign="left" right="medium">
                             Population
                           </cell>
                           <cell right="medium">
@@ -877,7 +880,7 @@
                           <cell right="medium">
                             Initial Apportionment
                           </cell>
-                          <cell halign="left">
+                          <cell halign="left" right="medium">
                             Final Apportionment
                           </cell>
                         </row>
@@ -885,13 +888,16 @@
                           <cell halign="left" right="medium">
                             North
                           </cell>
+                          <cell halign="left" right="medium">
+                            55
+                          </cell>
                           <cell right="medium">
                             2.5882
                           </cell>
                           <cell right="medium">
                             2
                           </cell>
-                          <cell>
+                          <cell right="medium">
                             3
                           </cell>
                         </row>
@@ -899,13 +905,16 @@
                           <cell halign="left" right="medium">
                             East
                           </cell>
+                          <cell halign="left" right="medium">
+                            54
+                          </cell>
                           <cell right="medium">
                             2.5412
                           </cell>
                           <cell right="medium">
                             2
                           </cell>
-                          <cell>
+                          <cell right="medium">
                             3
                           </cell>
                         </row>
@@ -913,19 +922,25 @@
                           <cell halign="left" right="medium">
                             South
                           </cell>
+                          <cell halign="left" right="medium">
+                            31
+                          </cell>
                           <cell right="medium">
                             1.4588
                           </cell>
                           <cell right="medium">
                             1
                           </cell>
-                          <cell>
+                          <cell right="medium">
                             1
                           </cell>
                         </row>
-                        <row>
+                        <row bottom="medium">
                           <cell halign="left" right="medium">
                             West
+                          </cell>
+                          <cell halign="left" right="medium">
+                            30
                           </cell>
                           <cell right="medium">
                             1.4118
@@ -933,7 +948,7 @@
                           <cell right="medium">
                             1
                           </cell>
-                          <cell>
+                          <cell right="medium">
                             1
                           </cell>
                         </row>
