@@ -810,8 +810,8 @@
                 This paradox was identified for the Hamilton Method in 1880
                 by the CW Seaton of the US Census. 
                 (You can read details 
-                <url href="https://en.wikipedia.org/wiki/Apportionment_paradox">here</url>
-                .) What he found, that disturbed him, was that for a 
+                <url href="https://en.wikipedia.org/wiki/Apportionment_paradox">here</url>.) 
+                What he found, that disturbed him, was that for a 
                 possible legislature size of 299 Alabama was apportioned 
                 eight representatives, but if, instead, the
                 legislature were created with 300 total representatives then
@@ -944,6 +944,99 @@
                           </cell>
                           <cell right="medium">
                             1.4118
+                          </cell>
+                          <cell right="medium">
+                            1
+                          </cell>
+                          <cell right="medium">
+                            1
+                          </cell>
+                        </row>
+                      </tabular>
+                    </table>
+                  </p>
+                  <p>
+                    When we compare with the apportionment with 
+                    seven council-members, we can see what happened:
+                    <table>
+                      <tabular halign="center">
+                        <row bottom="medium">
+                          <cell right="medium">
+                            Wing
+                          </cell>
+                          <cell halign="left" right="medium">
+                            Population
+                          </cell>
+                          <cell right="medium">
+                            Initial Quota
+                          </cell>
+                          <cell right="medium">
+                            Initial Apportionment
+                          </cell>
+                          <cell halign="left" right="medium">
+                            Final Apportionment
+                          </cell>
+                        </row>
+                        <row>
+                          <cell halign="left" right="medium">
+                            North
+                          </cell>
+                          <cell right="medium">
+                            55
+                          </cell>
+                          <cell right="medium">
+                            2.2647
+                          </cell>
+                          <cell right="medium">
+                            2
+                          </cell>
+                          <cell right="medium">
+                            2
+                          </cell>
+                        </row>
+                        <row>
+                          <cell halign="left" right="medium">
+                            East
+                          </cell>
+                          <cell right="medium">
+                            54
+                          </cell>
+                          <cell right="medium">
+                            2.2235
+                          </cell>
+                          <cell right="medium">
+                            2
+                          </cell>
+                          <cell right="medium">
+                            2
+                          </cell>
+                        </row>
+                        <row>
+                          <cell halign="left" right="medium">
+                            South
+                          </cell>
+                          <cell right="medium">
+                            31
+                          </cell>
+                          <cell right="medium">
+                            1.2765
+                          </cell>
+                          <cell right="medium">
+                            1
+                          </cell>
+                          <cell right="medium">
+                            2
+                          </cell>
+                        </row>
+                        <row bottom="medium">
+                          <cell halign="left" right="medium">
+                            West
+                          </cell>
+                          <cell right="medium">
+                            30
+                          </cell>
+                          <cell right="medium">
+                            1.2353
                           </cell>
                           <cell right="medium">
                             1
