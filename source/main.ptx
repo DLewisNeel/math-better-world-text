@@ -683,8 +683,9 @@
                   <li>
                     <p>
                       Compute the divisor and then the initial quota as in the Hamilton Method.
-                      If the initial quota provides the correct number of representatives, then
-                      you are done.
+                      We call this divisor the <term>initial divisor</term>.
+                      If the sum of the initial quotas is equal to the required
+                      number of representatives, then you are done.
                     </p>
                   </li>
                   <li>
@@ -708,7 +709,10 @@
                     <p>
                       The process may need to iterate a few times to conclude. Keeping a list
                       of attempted divisors and whether they resulted in too many or too few 
-                      representatives will help to avoid extra work. (Why?)
+                      representatives will help to avoid extra work.
+                      <aside>
+                        (Why?)
+                      </aside>
                     </p>
                   </li>
                 </ol>
@@ -1113,13 +1117,67 @@
             <subsection xml:id="subsec-webster">
               <title>The Webster Method</title>
               <p>
-                
+                The Webster Method of Apportionment works 
+                in the following way:
+                <ol>
+                  <li>
+                    <p>
+                      Compute the divisor as in the Hamilton Method and
+                      the Jefferson Method, by finding
+                      the total population and dividing by the number of
+                      representatives.
+                      As in the Jefferson Method, this is the 
+                      initial divisor.
+                      Compute the initial quota for each state by dividing
+                      each state<rsq/>s population by the initial divisor and rounding
+                      to the nearest whole number. (Note that this is different
+                      than Hamilton and Jefferson, which, at this stage, ignore
+                      the decimal parts.) 
+                      If the sum of the initial quotas for each state
+                      is equal to the required number
+                      of representatives, then the process is concluded.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      If there are too few representatives, we will try a smaller divisor.
+                      A smaller divisor has the potential to increase one or more of the
+                      states<rsq/> quotas. The quotas are now computed
+                      by dividing each state<rsq/>s population by the current divisor and then 
+                      rounding to the nearest whole number.
+                      If the sum of the resulting quotas is equal to the required number
+                      of representatives, then the process is concluded.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      If there are too many representatives, we will try a larger divisor. 
+                      A larger divisor has the potential to decrease one or more of the 
+                      states<rsq/> quotas. The quotas are now computed
+                      by dividing each state<rsq/>s population by the current divisor and then 
+                      rounding to the nearest whole number. 
+                      If the sum of the resulting quotas is equal to the
+                      required number of representatives then the process is concluded.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      The process may need to iterate a few times to conclude. Keeping a list
+                      of attempted divisors and whether they resulted in too many or too few 
+                      representatives will help to avoid extra work.
+                    </p>
+                  </li>
+                </ol>
+              </p>
+              <p>
+                MORE HERE.
               </p>
             </subsection>            
             <subsection xml:id="subsec-huntington-hill">
               <title>The Huntington-Hill Method</title>
               <p>
-                METHOD HERE
+                The Huntington-Hill Method of Apportionment works 
+                in the following way:
               </p>
             </subsection>
 
