@@ -957,7 +957,8 @@
                   </p>
                   <p>
                     When we compare with the apportionment with 
-                    seven council-members, we can see what happened:
+                    seven council-members, which gives a
+                    divisor of 24.28571429, we can see what happened:
                     <table>
                       <tabular halign="center">
                         <row bottom="medium">
@@ -1050,19 +1051,31 @@
                   </p>
                 </solution>
               </example>
-
+              <p>
+                You can see that the Hamilton Method's attention
+                to rewarding the subdivisions with the 
+                highest fractional parts with the 
+                leftover representatives has, in this case,
+                switched where that highest fractional part occurs
+                with the change in divisor caused by the change in
+                number of representatives. 
+              </p>
+              <p>
+                If only this were the only sort of paradox
+                that these methods can produce.
+              </p>
             </subsection>
 
             <subsection xml:id="subsec-population-paradox">
               <title>The Population Paradox</title>
               <p>
-                ANOTHER EXAMPLE HERE
+                USE ACTUAL HISTORICAL OCCURRENCE.
               </p>
             </subsection>
             <subsection xml:id="subsec-new-state-paradox">
               <title>The New State Paradox</title>
               <p>
-                ANOTHER EXAMPLE HERE
+                USE ACTUAL HISTORICAL OCCURRENCE.
               </p>
             </subsection>
 
