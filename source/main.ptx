@@ -1791,54 +1791,60 @@
             <p>
               But let us think through this more carefully. What if the
               five who wanted cheese had olive and onion as their 
-              second choice? What if the four who wanted pepperoni also
-              had olive and onion as their second choice? Does this
+              second choice (which means pepperoni was their last choice)?
+              What if the four who wanted pepperoni also
+              had olive and onion as their second choice 
+              (which means cheese was their last choice)? Does this
               still seem like a good outcome? We now know that seven of
-              the 12 children will be eating the pizza that is their
+              the 12 children will be eating the pizza (cheese) that is their
               last choice. On the other hand, if olive and onion had
               been ordered, then everyone would be eating either their
               first or second choice of pizza. It seems that, at least
               from certain points of view and with certain distributions
               of the opinions of voters, our decision to focus only on
-              the top choice of ever voter might still lead to outcomes
+              the top choice of every voter might still lead to outcomes
               that are not in alignment with <q>the will of the people.</q>
             </p>
-            <p>
-              If you are tempted to object to this, note that another way 
-              we might have approached the situation: the children should
-              vote on which pizza option should be eliminated first. Clearly
-              cheese pizza would have been eliminated, since seven children,
-              a majority (which term we will explore in detail later) would 
-              have voted to eliminate cheese pizza. (Can you see what pizza
-              would then be chosen if this process was repeated with the two
-              remaining pizza options?)
-            </p>
-            <p>
-              You might also object, here, and say, well, those are two different
-              methods, it should not surprise us, nor even perhaps disturb us,
-              that they result in a different outcome. This is a good point! 
-              All that this example really does is suggest that perhaps there
-              might be some work to be done, mathematically, analytically, to
-              think through how we might evaluate the effectiveness and fairness
-              of voting methods. There seems to be at least some ambiguity about
-              what might best (and thus most fairly?) reflect the will of the 
-              people.
-            </p>
-            <p>
-              Finally, though we will work to discern methods for discerning
-              the will of the people, we should remember that a decision that 
-              accurately reflects the will of the people may not, by that fact, 
-              be affirmed as morally good. You will see this sometimes to be 
-              assumed in discussions of democracy and voting. But we would do
-              well to recall that, at many times in the past, great evil has 
-              been affirmed or assented to by democratic processes. Consider
-              the American South prior to 1865, the United States
-              prior to 1964. Or consider Germany in 1933. At many times, the
-              majority has not only incorrect but morally repugnant beliefs
-              and practices. We may hope that democracy blunts or minimizes the
-              chance of these sorts of outcomes, but we must not be naive.
-            </p>
           </example>
+          <p>
+            If you are tempted to object to the supposed ambiguity in the
+            example above, consider another way 
+            we might have approached the situation: the children could
+            vote on which pizza option should be eliminated first. Clearly
+            cheese pizza would have been eliminated, since seven children,
+            a majority (that is, more than half) would 
+            have voted to eliminate cheese pizza. What would have
+            happened next? Can you see what pizza
+            would then be chosen if this process was repeated with the two
+            remaining pizza options?
+          </p>
+          <p>
+            You might also object, here, and say, well, those are two different
+            methods, it should not surprise us, nor even perhaps disturb us,
+            that they result in a different outcome. This is a good point! 
+            All that the above example really does is suggest that perhaps there
+            might be some work to be done, mathematically, analytically, to
+            better understand how we might evaluate the 
+            effectiveness and fairness
+            of voting methods. There seems to be at least some ambiguity about
+            what might best (and thus most fairly?) reflect the will of the 
+            people.
+          </p>
+          <p>
+            Finally, though we will work to understand various
+            methods for discerning
+            the will of the people, we should remember that a decision that 
+            accurately reflects the will of the people may not, by that fact, 
+            be affirmed as morally good. You will see this sometimes to be 
+            assumed in discussions of democracy and voting. But we would do
+            well to recall that, at many times in the past, great evil has 
+            been affirmed or assented to by democratic processes. Consider
+            the American South prior to 1865, the United States
+            prior to 1964. Or consider Germany in 1933. At many times, the
+            majority has not only incorrect but morally repugnant beliefs
+            and practices. We may hope that democracy blunts or minimizes the
+            chance of these sorts of outcomes, but we must not be naive.
+          </p>
           <p>
             In order to clearly think through this analysis, we need to develop 
             some notation. How are we to capture the preferences of some 
@@ -1921,9 +1927,6 @@
             question is to declare our ideas of fairness in an election. There
             are many such <q>fairness criteria</q> that are suggested and 
             studied. We will focus our attention on four of them.
-          </p>
-          <p>
-            MAJORITY
           </p>
         </section>
         <section xml:id="sec-fairness-criteria">
@@ -2018,6 +2021,8 @@
               We should not assume that we may easily avoid complexity or paradox
               by ruling out, in advance, full participation of all those who would
               like to seek to serve in office.)
+            </p>
+            <p>
               Second, though
               we will consider situations where each ballot provides a complete
               ranking of all the candidates, there are simple ways to adapt the
