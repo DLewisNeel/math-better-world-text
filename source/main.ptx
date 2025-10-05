@@ -2119,13 +2119,19 @@
                 </p>
               </solution>
             </example>
+            <p>
+              So if the Plurality Method, despite all its popularity, is
+              prone to fail in such disturbing ways, what alternatives 
+              might we have?
+            </p>
           </subsection>
           <subsection xml:id="subsec-instant-runoff">
             <title>Instant Runoff Voting Method</title>
             <p>
-              The most commonly used alternative, in political
-              situations, is Instant Runoff Voting, also sometimes 
-              called Ranked Choice Voting. 
+              The most commonly used alternative voting method, in political
+              situations (as of 2025), is Instant Runoff Voting (IRV), also sometimes 
+              called Ranked Choice Voting (RCV). This method can be seen as
+              an attempt to  
             </p>
           </subsection>
 
@@ -4960,19 +4966,64 @@
             In part this is based on their shared intuition that
             each of them are equally likely to be chosen by this
             method. This is an important assumption, and is one that
-            we would do well to keep in mind for future situations 
-            as well.
+            we would do well to keep in mind for future situations.
           </p>
           <example>
             <title>Randomly Selecting One Object From Five</title>
             <statement>
               <p>
-                Five names are placed into an urn, 
+                Five names are placed into an urn and well mixed: 
+                Ali, Ben, Cal, Dani, Eve. A name will be drawn at
+                random and the person named will pick the next book
+                for book club.
+                <ol>
+                  <li>
+                    <p>
+                      How likely is it that Dani gets to pick the first book?
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      How likely is it that someone other than Dani gets to
+                      pick the first book?
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Ben and Eve are known to always want to read horror
+                      novels, while the other three prefer science fiction
+                      or detective fiction. How likely is it that the book
+                      club reads a horror novel next?
+                    </p>
+                  </li>
+                </ol>
               </p>
             </statement>
             <answer>
               <p>
-                MORE HERE SOON
+                <ol>
+                  <li>
+                    <p>
+                      <me>
+                        \frac{1}{5}=0.20=20\%
+                      </me>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <me>
+                        \frac{4}{5}=1-\frac{1}{5}=0.80=80\%
+                      </me>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <me>
+                        \frac{2}{5}=0.40=40\%
+                      </me>
+                    </p>
+                  </li>
+                </ol>
               </p>
             </answer>
             <solution>
