@@ -268,8 +268,8 @@
               intending to share, while the denominator is the number of people we are 
               intending to share the objects amongst.
               <men>
-                \dfrac{\text{# of objects to distribute}}
-                {\text{# of objects that will receive what we distribute}}
+                \dfrac{\text{number of objects to distribute}}
+                {\text{number of objects that will receive what we distribute}}
               </men>
               We will, many times, find ourselves creating a template like this forming
               a simple fraction which will, nevertheless, provide us with powerful tools
