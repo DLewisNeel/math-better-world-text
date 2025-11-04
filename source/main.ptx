@@ -3679,13 +3679,14 @@
                 </p>
               </solution>
             </example>
+            <p>
+              Before we move on to develop the approach to level-payment
+              loan repayment schemes, we need to build up a little more
+              theory around the interaction between money and time
+              under the logic of some fixed interest rate.
+            </p>
           </subsection>
-          <p>
-            Before we move on to develop the approach to level-payment
-            loan repayment schemes, we need to build up a little more
-            theory around the interaction between money and time
-            under the logic of some fixed interest rate.
-          </p>
+
         </section>
 
         <section xml:id="sec-time-value">
