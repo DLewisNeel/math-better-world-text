@@ -3873,7 +3873,7 @@
                 <title>Value of a Cash Flow <m>n</m> Units of Time Later</title>
                 <p>
                   A cash flow <m>C</m> has value 
-                  <m>C(1+i)^n</m> <m>n</m> periods in the future. 
+                  <m>C(1+i)^n</m> when moved <m>n</m> time periods into the future. 
                   Multiplication by factors of <m>(1+i)</m>
                   moves the value forward in time.
                 </p>
@@ -3882,7 +3882,7 @@
                 <title>Value of a Cash Flow <m>n</m> Units of Time Earlier</title>
                 <p>
                   A cash flow <m>C</m> has value 
-                  <m>\dfrac{C}{(1+i)^n}</m> <m>n</m> periods in the 
+                  <m>\dfrac{C}{(1+i)^n}</m> moved <m>n</m> time periods into the 
                   past. Division by factors of <m>(1+i)</m>
                   moves the value backward in time.
                 </p>
@@ -4795,7 +4795,7 @@
             <p>
               But let us explore this by way of a couple examples.
             </p>
-            <example>
+            <example xml:id="ex-refinance-lower-payments">
               <title>Refinancing with a Lower Interest Rate: Lowering Payments</title>
               <statement>
                 <p>
@@ -4806,7 +4806,7 @@
                   level payments are $2751.07 with a final 
                   drop payment of $2747.49. The Rosethorn
                   Credit Union is offering a monthly APR
-                  of 4.5% on montly-payment loans with term 
+                  of 4.5% on monthly-payment loans with term 
                   length 30 years or less. The friends wish
                   to refinance their loan by paying off their 
                   current loan balance with a new loan at Rosethorn.
@@ -4877,7 +4877,7 @@
               might wish to refinance: gaining more money in the
               present, for example to have money to make home 
               improvements, or to shorten the term for paying off
-              all of the debt.
+              the entire debt.
             </p>
             <example>
               <title>
@@ -4885,15 +4885,55 @@
               </title>
               <statement>
                 <p>
-
+                  Carlos, Jan, and Felix have changed their mind 
+                  about what to do as they refinance their loan.
+                  As in
+                  <xref ref="ex-refinance-lower-payments"/> their
+                  current situation is this: 
+                  They bought a house 11
+                  years ago, and their 40-year loan with
+                  monthly payments was for $500,000. They 
+                  found a rate of 6% compounded monthly. The
+                  level payments are $2751.07 with a final 
+                  drop payment of $2747.49. The Rosethorn
+                  Credit Union is offering a monthly APR
+                  of 4.5% on monthly-payment loans with term 
+                  length 30 years or less. The friends wish
+                  to refinance their loan at Rosethorn, 
+                  keeping their
+                  monthly payments the same and also keeping
+                  their remaining number of payments the same.
+                  How much additional money will they receive now
+                  at refinancing, to use to improve their home?                
                 </p>
               </statement>
               <answer>
                 <p>
+                  $80,974.33
                 </p>
               </answer>
               <solution>
                 <p>
+                  As in <xref ref="ex-refinance-lower-payments"/>,
+                  the outstanding loan balance after 132 payments is
+                  $453,219.98. What remains is to determine the present
+                  value of the future payments, 347 of them being
+                  payments of $2751.07 with a final payment of $2747.49.
+                  The last payment arrives <m>(40)(12)-132=348</m> 
+                  months in the future, and is thus worth: 
+                  <me>
+                    \dfrac{2751.07}{(1+\frac{0.045}{12})^{348}}=746.86453
+                  </me>
+                  which is $746.86 at the instant of refinancing.
+                  The value of the rest of the payments, all 347 of them,
+                  can be found using
+                  <xref ref="eqn-pv-many-future-payments"/>. This should
+                  yield $533,447.44 and so when combined the loan amount
+                  at the inception of this new loan is $534,194.31. When
+                  the outstanding loan balance is subtracted from this, 
+                  to reflect paying off the original loan, the friends are 
+                  left with $80,974.33 that can be spent on home 
+                  improvements.  
                 </p>
               </solution>
             </example>
