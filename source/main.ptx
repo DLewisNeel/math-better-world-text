@@ -4964,6 +4964,23 @@
       </chapter>
 
   <!-- ______________________________________________________________ -->
+      <chapter xml:id="ch-sets-logic-intersection">
+        <title>The Intersction of Logic and Sets</title>
+        <introduction>
+          <p>
+            INTRO HERE.
+          </p>
+        </introduction>
+        <section xml:id="sec-historical-introduction">
+          <title>Intersectionality in Context</title>
+          <p>
+            HISTORICAL INTRO, CRENSHAW, ETC.
+          </p>
+        </section>
+      </chapter>
+  <!-- ______________________________________________________________ -->
+
+  <!-- ______________________________________________________________ -->
 
       <chapter xml:id="ch-probability">
         <title>How Likely is Some Occurrence?</title>
